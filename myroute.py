@@ -3,7 +3,7 @@
 
 
 
-
+import subprocess
 import os
 import sys
 from paramiko import SSHClient, AutoAddPolicy
@@ -19,6 +19,15 @@ User = "admin"
 Password = "momenta123"
 
 # 这里我省略了CheckHuawei和checkUsr函数，他们需要你去实现具体的逻辑
+
+def get_default_gateway():
+    try:
+        result = subprocess.check_output("ip r | grep default | awk '{print $3}'", shell=True).decode().strip()
+        return result if result else None
+    except subprocess.CalledProcessError as e:
+        print("无法获取默认网关: " + str(e))
+        return None
+
 
 def run_ssh_cmd(ip_addr, user, password, cmd):
     client = SSHClient()
@@ -119,50 +128,26 @@ class UsrClient:
         return report
 
 if __name__ == "__main__":
-    # if len(sys.argv) < 2:
-    #     print("Usage: ccidGet ip")
-    #     sys.exit(0)
-    #
-    # ip = sys.argv[1]
-    ip= "192.168.30.1"
+    ip = get_default_gateway()
+    if ip is None:
+        sys.exit(1)
+
     router_type = check_router_type(ip)
-    rp = None  # report.RouterReport object
+    rp = None  # Placeholder for RouterReport object
     err = None
 
-    if router_type == ROUTER_HUAWEI:
+    usr_client = UsrClient(ip=ip, user='root', passw='root')
+    try:
+        usr_client.login()
+        router_report = usr_client.get_5g_config()
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        print("{} {}".format(timestamp, "router type: huawei"))
-        sys.stdout.flush()
-        # You need to implement this function
-        # rp, err = CheckHuawei(ip)
-    elif router_type == ROUTER_USR:
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        print("{} {}".format(timestamp, "router type: usr"))
-        sys.stdout.flush()
-        # You need to implement this function
-        # rp, err = checkUsr(ip)
-    else:
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        print("{} {}".format(timestamp, "无法识别的路由器类型"))
-        sys.stdout.flush()
-        print("{} {}".format(timestamp, "请检查路由器IP是否正确，如果输入IP正确，请联系开发人员"))
-        sys.stdout.flush()
+        print("{0} router ip : {1}".format(timestamp, ip))
+        for key, value in router_report.items():
+            print("{0} {1}: {2}".format(timestamp, key, value))
+            sys.stdout.flush()
+    except Exception as e:
+        print(str(e))
         sys.exit(1)
-
-    if err is not None:
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        print("{} {}".format(timestamp, err))
-        sys.stdout.flush()
-        sys.exit(1)
-    usr_client = UsrClient(ip='192.168.30.1', user='root', passw='root')
-    usr_client.login()
-    router_report = usr_client.get_5g_config()
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    
-    for key, value in router_report.items():
-        timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-        print("{} {}: {}".format(timestamp, key, value))
-        sys.stdout.flush()
     # You need to implement the report logic here
     # if rp.ICCID == "":
     #     print("无法获取ICCID")

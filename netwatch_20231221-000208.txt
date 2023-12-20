@@ -1,0 +1,1520 @@
+2023-12-21 00:03:38 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:03:38 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.237 ms
+2023-12-21 00:03:38 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.222 ms
+2023-12-21 00:03:39 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.294 ms
+2023-12-21 00:03:39 
+2023-12-21 00:03:39 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:03:39 3 packets transmitted, 3 received, 0% packet loss, time 1031ms
+2023-12-21 00:03:39 rtt min/avg/max/mdev = 0.222/0.251/0.294/0.031 ms
+2023-12-21 00:03:39 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:03:39 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=11.8 ms
+2023-12-21 00:03:40 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=2.05 ms
+2023-12-21 00:03:40 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=34.7 ms
+2023-12-21 00:03:40 
+2023-12-21 00:03:40 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:03:40 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-21 00:03:40 rtt min/avg/max/mdev = 2.057/16.218/34.781/13.717 ms
+2023-12-21 00:03:40 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:03:40 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.025 ms
+2023-12-21 00:03:41 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.017 ms
+2023-12-21 00:03:41 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.023 ms
+2023-12-21 00:03:41 
+2023-12-21 00:03:41 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:03:41 3 packets transmitted, 3 received, 0% packet loss, time 1025ms
+2023-12-21 00:03:41 rtt min/avg/max/mdev = 0.017/0.021/0.025/0.006 ms
+2023-12-21 00:03:42 lat: 0.548370912605
+2023-12-21 00:03:42 lon: 2.10553859683
+2023-12-21 00:03:45 router ip : 192.168.30.1
+2023-12-21 00:03:45 ICCID: 89860486102070406810
+2023-12-21 00:03:45 RouterType: usr
+2023-12-21 00:03:45 Attachment status: 已附着
+2023-12-21 00:03:45 OperationsInfo: CHINAMOBILE
+2023-12-21 00:03:45 Version: 89100.1000.00.04.07.21
+2023-12-21 00:03:45 IMEI: 864220040463761
+2023-12-21 00:03:45 SimValid: True
+2023-12-21 00:03:45 CIMI: 460080614206810
+2023-12-21 00:03:45 SIM state: READY
+2023-12-21 00:03:45 Cell ID: 6E892C8
+2023-12-21 00:03:45 Location area code: 528A
+2023-12-21 00:03:45 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:03:45 IP address: 10.24.2.240
+2023-12-21 00:03:45 SerialNumber: FD22MU003G
+2023-12-21 00:03:45 Signal strength: 26
+2023-12-21 00:03:45 PING baidu.com (110.242.68.66) 56(84) bytes of data.
+2023-12-21 00:03:45 64 bytes from 110.242.68.66: icmp_seq=1 ttl=43 time=103 ms
+2023-12-21 00:03:45 64 bytes from 110.242.68.66: icmp_seq=2 ttl=43 time=97.6 ms
+2023-12-21 00:03:46 64 bytes from 110.242.68.66: icmp_seq=3 ttl=43 time=98.7 ms
+2023-12-21 00:03:46 
+2023-12-21 00:03:46 --- baidu.com ping statistics ---
+2023-12-21 00:03:46 3 packets transmitted, 3 received, 0% packet loss, time 1002ms
+2023-12-21 00:03:46 rtt min/avg/max/mdev = 97.660/99.849/103.151/2.403 ms
+2023-12-21 00:03:46 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:03:46 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.284 ms
+2023-12-21 00:03:46 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.229 ms
+2023-12-21 00:03:47 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.380 ms
+2023-12-21 00:03:47 
+2023-12-21 00:03:47 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:03:47 3 packets transmitted, 3 received, 0% packet loss, time 1014ms
+2023-12-21 00:03:47 rtt min/avg/max/mdev = 0.229/0.297/0.380/0.065 ms
+2023-12-21 00:03:47 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:03:47 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=62.5 ms
+2023-12-21 00:03:47 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=6.59 ms
+2023-12-21 00:03:48 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=2.55 ms
+2023-12-21 00:03:48 
+2023-12-21 00:03:48 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:03:48 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:03:48 rtt min/avg/max/mdev = 2.554/23.884/62.504/27.358 ms
+2023-12-21 00:03:48 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:03:48 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.018 ms
+2023-12-21 00:03:48 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.016 ms
+2023-12-21 00:03:49 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.022 ms
+2023-12-21 00:03:49 
+2023-12-21 00:03:49 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:03:49 3 packets transmitted, 3 received, 0% packet loss, time 1019ms
+2023-12-21 00:03:49 rtt min/avg/max/mdev = 0.016/0.018/0.022/0.005 ms
+2023-12-21 00:03:50 lat: 0.548371554886
+2023-12-21 00:03:50 lon: 2.10553867537
+2023-12-21 00:03:51 router ip : 192.168.30.1
+2023-12-21 00:03:51 Signal strength: 26
+2023-12-21 00:03:51 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:03:51 SIM state: READY
+2023-12-21 00:03:51 PING baidu.com (110.242.68.66) 56(84) bytes of data.
+2023-12-21 00:03:51 64 bytes from 110.242.68.66: icmp_seq=1 ttl=43 time=104 ms
+2023-12-21 00:03:52 64 bytes from 110.242.68.66: icmp_seq=2 ttl=43 time=90.6 ms
+2023-12-21 00:03:52 64 bytes from 110.242.68.66: icmp_seq=3 ttl=43 time=104 ms
+2023-12-21 00:03:52 
+2023-12-21 00:03:52 --- baidu.com ping statistics ---
+2023-12-21 00:03:52 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:03:52 rtt min/avg/max/mdev = 90.652/99.866/104.910/6.525 ms
+2023-12-21 00:03:52 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:03:52 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.500 ms
+2023-12-21 00:03:53 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.354 ms
+2023-12-21 00:03:53 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.291 ms
+2023-12-21 00:03:53 
+2023-12-21 00:03:53 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:03:53 3 packets transmitted, 3 received, 0% packet loss, time 1020ms
+2023-12-21 00:03:53 rtt min/avg/max/mdev = 0.291/0.381/0.500/0.090 ms
+2023-12-21 00:03:53 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:03:53 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=55.9 ms
+2023-12-21 00:03:54 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=28.5 ms
+2023-12-21 00:03:54 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=77.5 ms
+2023-12-21 00:03:54 
+2023-12-21 00:03:54 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:03:54 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:03:54 rtt min/avg/max/mdev = 28.592/54.035/77.542/20.031 ms
+2023-12-21 00:03:54 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:03:54 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.025 ms
+2023-12-21 00:03:55 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.021 ms
+2023-12-21 00:03:55 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.017 ms
+2023-12-21 00:03:55 
+2023-12-21 00:03:55 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:03:55 3 packets transmitted, 3 received, 0% packet loss, time 1018ms
+2023-12-21 00:03:55 rtt min/avg/max/mdev = 0.017/0.021/0.025/0.003 ms
+2023-12-21 00:03:56 lat: 0.54837213259
+2023-12-21 00:03:56 lon: 2.10553874343
+2023-12-21 00:03:58 router ip : 192.168.30.1
+2023-12-21 00:03:58 SIM state: READY
+2023-12-21 00:03:58 Signal strength: 26
+2023-12-21 00:03:58 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:03:58 PING baidu.com (39.156.66.10) 56(84) bytes of data.
+2023-12-21 00:03:58 64 bytes from 39.156.66.10: icmp_seq=1 ttl=43 time=112 ms
+2023-12-21 00:03:59 64 bytes from 39.156.66.10: icmp_seq=2 ttl=43 time=118 ms
+2023-12-21 00:03:59 64 bytes from 39.156.66.10: icmp_seq=3 ttl=43 time=94.9 ms
+2023-12-21 00:03:59 
+2023-12-21 00:03:59 --- baidu.com ping statistics ---
+2023-12-21 00:03:59 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:03:59 rtt min/avg/max/mdev = 94.962/108.609/118.615/10.001 ms
+2023-12-21 00:03:59 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:03:59 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.287 ms
+2023-12-21 00:04:00 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.236 ms
+2023-12-21 00:04:00 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.390 ms
+2023-12-21 00:04:00 
+2023-12-21 00:04:00 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:04:00 3 packets transmitted, 3 received, 0% packet loss, time 1017ms
+2023-12-21 00:04:00 rtt min/avg/max/mdev = 0.236/0.304/0.390/0.065 ms
+2023-12-21 00:04:00 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:04:00 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=88.6 ms
+2023-12-21 00:04:01 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=2.42 ms
+2023-12-21 00:04:01 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=114 ms
+2023-12-21 00:04:01 
+2023-12-21 00:04:01 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:04:01 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:04:01 rtt min/avg/max/mdev = 2.420/68.566/114.581/47.951 ms
+2023-12-21 00:04:01 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:04:01 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.027 ms
+2023-12-21 00:04:02 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.031 ms
+2023-12-21 00:04:02 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.019 ms
+2023-12-21 00:04:02 
+2023-12-21 00:04:02 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:04:02 3 packets transmitted, 3 received, 0% packet loss, time 1032ms
+2023-12-21 00:04:02 rtt min/avg/max/mdev = 0.019/0.025/0.031/0.007 ms
+2023-12-21 00:04:03 lat: 0.548373462531
+2023-12-21 00:04:03 lon: 2.1055389616
+2023-12-21 00:04:04 router ip : 192.168.30.1
+2023-12-21 00:04:04 SIM state: READY
+2023-12-21 00:04:04 Signal strength: 26
+2023-12-21 00:04:04 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:04:05 PING baidu.com (39.156.66.10) 56(84) bytes of data.
+2023-12-21 00:04:05 64 bytes from 39.156.66.10: icmp_seq=1 ttl=43 time=102 ms
+2023-12-21 00:04:05 64 bytes from 39.156.66.10: icmp_seq=2 ttl=43 time=107 ms
+2023-12-21 00:04:06 64 bytes from 39.156.66.10: icmp_seq=3 ttl=43 time=97.2 ms
+2023-12-21 00:04:06 
+2023-12-21 00:04:06 --- baidu.com ping statistics ---
+2023-12-21 00:04:06 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:04:06 rtt min/avg/max/mdev = 97.234/102.361/107.734/4.305 ms
+2023-12-21 00:04:06 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:04:06 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.278 ms
+2023-12-21 00:04:06 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.238 ms
+2023-12-21 00:04:07 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.245 ms
+2023-12-21 00:04:07 
+2023-12-21 00:04:07 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:04:07 3 packets transmitted, 3 received, 0% packet loss, time 1013ms
+2023-12-21 00:04:07 rtt min/avg/max/mdev = 0.238/0.253/0.278/0.025 ms
+2023-12-21 00:04:07 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:04:07 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=39.3 ms
+2023-12-21 00:04:07 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=49.6 ms
+2023-12-21 00:04:08 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=65.0 ms
+2023-12-21 00:04:08 
+2023-12-21 00:04:08 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:04:08 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:04:08 rtt min/avg/max/mdev = 39.363/51.341/65.003/10.536 ms
+2023-12-21 00:04:08 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:04:08 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.020 ms
+2023-12-21 00:04:08 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.015 ms
+2023-12-21 00:04:09 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.019 ms
+2023-12-21 00:04:09 
+2023-12-21 00:04:09 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:04:09 3 packets transmitted, 3 received, 0% packet loss, time 1002ms
+2023-12-21 00:04:09 rtt min/avg/max/mdev = 0.015/0.018/0.020/0.002 ms
+2023-12-21 00:04:10 lat: 0.548378504787
+2023-12-21 00:04:10 lon: 2.10554001578
+2023-12-21 00:04:11 router ip : 192.168.30.1
+2023-12-21 00:04:11 Signal strength: 26
+2023-12-21 00:04:11 SIM state: READY
+2023-12-21 00:04:11 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:04:11 PING baidu.com (39.156.66.10) 56(84) bytes of data.
+2023-12-21 00:04:11 64 bytes from 39.156.66.10: icmp_seq=1 ttl=43 time=103 ms
+2023-12-21 00:04:12 64 bytes from 39.156.66.10: icmp_seq=2 ttl=43 time=93.4 ms
+2023-12-21 00:04:12 64 bytes from 39.156.66.10: icmp_seq=3 ttl=43 time=116 ms
+2023-12-21 00:04:12 
+2023-12-21 00:04:12 --- baidu.com ping statistics ---
+2023-12-21 00:04:12 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:04:12 rtt min/avg/max/mdev = 93.408/104.439/116.221/9.328 ms
+2023-12-21 00:04:12 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:04:12 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.281 ms
+2023-12-21 00:04:13 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.253 ms
+2023-12-21 00:04:13 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.250 ms
+2023-12-21 00:04:13 
+2023-12-21 00:04:13 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:04:13 3 packets transmitted, 3 received, 0% packet loss, time 1027ms
+2023-12-21 00:04:13 rtt min/avg/max/mdev = 0.250/0.261/0.281/0.019 ms
+2023-12-21 00:04:13 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:04:13 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=36.1 ms
+2023-12-21 00:04:14 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=2.20 ms
+2023-12-21 00:04:14 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=2.49 ms
+2023-12-21 00:04:14 
+2023-12-21 00:04:14 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:04:14 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:04:14 rtt min/avg/max/mdev = 2.207/13.621/36.161/15.938 ms
+2023-12-21 00:04:14 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:04:14 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.017 ms
+2023-12-21 00:04:15 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.013 ms
+2023-12-21 00:04:15 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.025 ms
+2023-12-21 00:04:15 
+2023-12-21 00:04:15 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:04:15 3 packets transmitted, 3 received, 0% packet loss, time 1043ms
+2023-12-21 00:04:15 rtt min/avg/max/mdev = 0.013/0.018/0.025/0.006 ms
+2023-12-21 00:04:16 lat: 0.548377173101
+2023-12-21 00:04:16 lon: 2.10553967369
+2023-12-21 00:04:18 router ip : 192.168.30.1
+2023-12-21 00:04:18 SIM state: READY
+2023-12-21 00:04:18 Signal strength: 26
+2023-12-21 00:04:18 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:04:18 PING baidu.com (39.156.66.10) 56(84) bytes of data.
+2023-12-21 00:04:18 64 bytes from 39.156.66.10: icmp_seq=1 ttl=43 time=103 ms
+2023-12-21 00:04:19 64 bytes from 39.156.66.10: icmp_seq=2 ttl=43 time=96.9 ms
+2023-12-21 00:04:19 64 bytes from 39.156.66.10: icmp_seq=3 ttl=43 time=101 ms
+2023-12-21 00:04:19 
+2023-12-21 00:04:19 --- baidu.com ping statistics ---
+2023-12-21 00:04:19 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-21 00:04:19 rtt min/avg/max/mdev = 96.963/100.726/103.416/2.753 ms
+2023-12-21 00:04:19 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:04:19 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.292 ms
+2023-12-21 00:04:20 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.405 ms
+2023-12-21 00:04:20 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.291 ms
+2023-12-21 00:04:20 
+2023-12-21 00:04:20 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:04:20 3 packets transmitted, 3 received, 0% packet loss, time 1020ms
+2023-12-21 00:04:20 rtt min/avg/max/mdev = 0.291/0.329/0.405/0.055 ms
+2023-12-21 00:04:20 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:04:20 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=99.7 ms
+2023-12-21 00:04:21 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=8.78 ms
+2023-12-21 00:04:21 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=2.64 ms
+2023-12-21 00:04:21 
+2023-12-21 00:04:21 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:04:21 3 packets transmitted, 3 received, 0% packet loss, time 1002ms
+2023-12-21 00:04:21 rtt min/avg/max/mdev = 2.641/37.052/99.733/44.393 ms
+2023-12-21 00:04:21 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:04:21 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.018 ms
+2023-12-21 00:04:22 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.016 ms
+2023-12-21 00:04:22 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.017 ms
+2023-12-21 00:04:22 
+2023-12-21 00:04:22 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:04:22 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-21 00:04:22 rtt min/avg/max/mdev = 0.016/0.017/0.018/0.000 ms
+2023-12-21 00:04:23 lat: 0.548353138172
+2023-12-21 00:04:23 lon: 2.10553322819
+2023-12-21 00:04:24 router ip : 192.168.30.1
+2023-12-21 00:04:24 Signal strength: 26
+2023-12-21 00:04:24 SIM state: READY
+2023-12-21 00:04:24 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:04:24 PING baidu.com (39.156.66.10) 56(84) bytes of data.
+2023-12-21 00:04:24 64 bytes from 39.156.66.10: icmp_seq=1 ttl=43 time=90.1 ms
+2023-12-21 00:04:25 64 bytes from 39.156.66.10: icmp_seq=2 ttl=43 time=103 ms
+2023-12-21 00:04:25 64 bytes from 39.156.66.10: icmp_seq=3 ttl=43 time=92.0 ms
+2023-12-21 00:04:25 
+2023-12-21 00:04:25 --- baidu.com ping statistics ---
+2023-12-21 00:04:25 3 packets transmitted, 3 received, 0% packet loss, time 1002ms
+2023-12-21 00:04:25 rtt min/avg/max/mdev = 90.150/95.305/103.750/6.030 ms
+2023-12-21 00:04:25 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:04:25 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.264 ms
+2023-12-21 00:04:26 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.250 ms
+2023-12-21 00:04:26 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.232 ms
+2023-12-21 00:04:26 
+2023-12-21 00:04:26 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:04:26 3 packets transmitted, 3 received, 0% packet loss, time 1018ms
+2023-12-21 00:04:26 rtt min/avg/max/mdev = 0.232/0.248/0.264/0.022 ms
+2023-12-21 00:04:26 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:04:26 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=7.14 ms
+2023-12-21 00:04:27 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=19.6 ms
+2023-12-21 00:04:27 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=1.90 ms
+2023-12-21 00:04:27 
+2023-12-21 00:04:27 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:04:27 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-21 00:04:27 rtt min/avg/max/mdev = 1.904/9.577/19.686/7.461 ms
+2023-12-21 00:04:27 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:04:27 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.012 ms
+2023-12-21 00:04:28 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.016 ms
+2023-12-21 00:04:28 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.017 ms
+2023-12-21 00:04:28 
+2023-12-21 00:04:28 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:04:28 3 packets transmitted, 3 received, 0% packet loss, time 1002ms
+2023-12-21 00:04:28 rtt min/avg/max/mdev = 0.012/0.015/0.017/0.002 ms
+2023-12-21 00:04:29 lat: 0.548352722783
+2023-12-21 00:04:29 lon: 2.10553291403
+2023-12-21 00:04:31 router ip : 192.168.30.1
+2023-12-21 00:04:31 Signal strength: 26
+2023-12-21 00:04:31 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:04:31 SIM state: READY
+2023-12-21 00:04:31 PING baidu.com (39.156.66.10) 56(84) bytes of data.
+2023-12-21 00:04:31 64 bytes from 39.156.66.10: icmp_seq=1 ttl=43 time=90.6 ms
+2023-12-21 00:04:31 64 bytes from 39.156.66.10: icmp_seq=2 ttl=43 time=193 ms
+2023-12-21 00:04:32 64 bytes from 39.156.66.10: icmp_seq=3 ttl=43 time=172 ms
+2023-12-21 00:04:32 
+2023-12-21 00:04:32 --- baidu.com ping statistics ---
+2023-12-21 00:04:32 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:04:32 rtt min/avg/max/mdev = 90.604/152.055/193.421/44.315 ms
+2023-12-21 00:04:32 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:04:32 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.300 ms
+2023-12-21 00:04:32 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.235 ms
+2023-12-21 00:04:33 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.272 ms
+2023-12-21 00:04:33 
+2023-12-21 00:04:33 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:04:33 3 packets transmitted, 3 received, 0% packet loss, time 1005ms
+2023-12-21 00:04:33 rtt min/avg/max/mdev = 0.235/0.269/0.300/0.026 ms
+2023-12-21 00:04:33 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:04:33 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=9.70 ms
+2023-12-21 00:04:33 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=99.1 ms
+2023-12-21 00:04:34 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=112 ms
+2023-12-21 00:04:34 
+2023-12-21 00:04:34 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:04:34 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-21 00:04:34 rtt min/avg/max/mdev = 9.702/73.647/112.057/45.521 ms
+2023-12-21 00:04:34 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:04:34 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.017 ms
+2023-12-21 00:04:35 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.016 ms
+2023-12-21 00:04:35 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.017 ms
+2023-12-21 00:04:35 
+2023-12-21 00:04:35 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:04:35 3 packets transmitted, 3 received, 0% packet loss, time 1012ms
+2023-12-21 00:04:35 rtt min/avg/max/mdev = 0.016/0.016/0.017/0.004 ms
+2023-12-21 00:04:36 lat: 0.548352349283
+2023-12-21 00:04:36 lon: 2.10553265223
+2023-12-21 00:04:38 router ip : 192.168.30.1
+2023-12-21 00:04:38 Signal strength: 26
+2023-12-21 00:04:38 SIM state: READY
+2023-12-21 00:04:38 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:04:38 PING baidu.com (110.242.68.66) 56(84) bytes of data.
+2023-12-21 00:04:38 64 bytes from 110.242.68.66: icmp_seq=1 ttl=43 time=106 ms
+2023-12-21 00:04:39 64 bytes from 110.242.68.66: icmp_seq=2 ttl=43 time=137 ms
+2023-12-21 00:04:39 64 bytes from 110.242.68.66: icmp_seq=3 ttl=43 time=108 ms
+2023-12-21 00:04:39 
+2023-12-21 00:04:39 --- baidu.com ping statistics ---
+2023-12-21 00:04:39 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-21 00:04:39 rtt min/avg/max/mdev = 106.350/117.404/137.219/14.047 ms
+2023-12-21 00:04:39 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:04:39 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.294 ms
+2023-12-21 00:04:40 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.435 ms
+2023-12-21 00:04:40 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.254 ms
+2023-12-21 00:04:40 
+2023-12-21 00:04:40 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:04:40 3 packets transmitted, 3 received, 0% packet loss, time 1014ms
+2023-12-21 00:04:40 rtt min/avg/max/mdev = 0.254/0.327/0.435/0.080 ms
+2023-12-21 00:04:40 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:04:40 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=4.36 ms
+2023-12-21 00:04:41 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=75.3 ms
+2023-12-21 00:04:41 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=53.9 ms
+2023-12-21 00:04:41 
+2023-12-21 00:04:41 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:04:41 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:04:41 rtt min/avg/max/mdev = 4.368/44.548/75.339/29.725 ms
+2023-12-21 00:04:41 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:04:41 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.028 ms
+2023-12-21 00:04:42 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.028 ms
+2023-12-21 00:04:42 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.049 ms
+2023-12-21 00:04:42 
+2023-12-21 00:04:42 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:04:42 3 packets transmitted, 3 received, 0% packet loss, time 1012ms
+2023-12-21 00:04:42 rtt min/avg/max/mdev = 0.028/0.035/0.049/0.009 ms
+2023-12-21 00:04:43 lat: 0.548352255035
+2023-12-21 00:04:43 lon: 2.10553242185
+2023-12-21 00:04:44 router ip : 192.168.30.1
+2023-12-21 00:04:44 SIM state: READY
+2023-12-21 00:04:44 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:04:44 Signal strength: 26
+2023-12-21 00:04:45 PING baidu.com (110.242.68.66) 56(84) bytes of data.
+2023-12-21 00:04:45 64 bytes from 110.242.68.66: icmp_seq=1 ttl=43 time=120 ms
+2023-12-21 00:04:45 64 bytes from 110.242.68.66: icmp_seq=2 ttl=43 time=136 ms
+2023-12-21 00:04:46 64 bytes from 110.242.68.66: icmp_seq=3 ttl=43 time=104 ms
+2023-12-21 00:04:46 
+2023-12-21 00:04:46 --- baidu.com ping statistics ---
+2023-12-21 00:04:46 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:04:46 rtt min/avg/max/mdev = 104.454/120.329/136.221/12.968 ms
+2023-12-21 00:04:46 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:04:46 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.526 ms
+2023-12-21 00:04:46 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.279 ms
+2023-12-21 00:04:47 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.231 ms
+2023-12-21 00:04:47 
+2023-12-21 00:04:47 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:04:47 3 packets transmitted, 3 received, 0% packet loss, time 1006ms
+2023-12-21 00:04:47 rtt min/avg/max/mdev = 0.231/0.345/0.526/0.130 ms
+2023-12-21 00:04:47 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:04:47 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=6.68 ms
+2023-12-21 00:04:47 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=2.28 ms
+2023-12-21 00:04:48 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=93.7 ms
+2023-12-21 00:04:48 
+2023-12-21 00:04:48 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:04:48 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:04:48 rtt min/avg/max/mdev = 2.280/34.222/93.707/42.100 ms
+2023-12-21 00:04:48 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:04:48 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.023 ms
+2023-12-21 00:04:48 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.042 ms
+2023-12-21 00:04:49 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.030 ms
+2023-12-21 00:04:49 
+2023-12-21 00:04:49 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:04:49 3 packets transmitted, 3 received, 0% packet loss, time 1029ms
+2023-12-21 00:04:49 rtt min/avg/max/mdev = 0.023/0.031/0.042/0.010 ms
+2023-12-21 00:04:50 lat: 0.548351974037
+2023-12-21 00:04:50 lon: 2.1055322351
+2023-12-21 00:04:51 router ip : 192.168.30.1
+2023-12-21 00:04:51 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:04:51 SIM state: READY
+2023-12-21 00:04:51 Signal strength: 26
+2023-12-21 00:04:52 PING baidu.com (110.242.68.66) 56(84) bytes of data.
+2023-12-21 00:04:52 64 bytes from 110.242.68.66: icmp_seq=1 ttl=43 time=92.0 ms
+2023-12-21 00:04:52 64 bytes from 110.242.68.66: icmp_seq=2 ttl=43 time=124 ms
+2023-12-21 00:04:53 64 bytes from 110.242.68.66: icmp_seq=3 ttl=43 time=104 ms
+2023-12-21 00:04:53 
+2023-12-21 00:04:53 --- baidu.com ping statistics ---
+2023-12-21 00:04:53 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:04:53 rtt min/avg/max/mdev = 92.025/106.830/124.285/13.305 ms
+2023-12-21 00:04:53 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:04:53 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.318 ms
+2023-12-21 00:04:53 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.266 ms
+2023-12-21 00:04:54 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.265 ms
+2023-12-21 00:04:54 
+2023-12-21 00:04:54 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:04:54 3 packets transmitted, 3 received, 0% packet loss, time 1003ms
+2023-12-21 00:04:54 rtt min/avg/max/mdev = 0.265/0.283/0.318/0.024 ms
+2023-12-21 00:04:54 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:04:54 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=84.7 ms
+2023-12-21 00:04:54 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=97.3 ms
+2023-12-21 00:04:55 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=106 ms
+2023-12-21 00:04:55 
+2023-12-21 00:04:55 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:04:55 3 packets transmitted, 3 received, 0% packet loss, time 1002ms
+2023-12-21 00:04:55 rtt min/avg/max/mdev = 84.744/96.141/106.328/8.853 ms
+2023-12-21 00:04:55 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:04:55 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.014 ms
+2023-12-21 00:04:55 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.018 ms
+2023-12-21 00:04:56 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.015 ms
+2023-12-21 00:04:56 
+2023-12-21 00:04:56 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:04:56 3 packets transmitted, 3 received, 0% packet loss, time 1024ms
+2023-12-21 00:04:56 rtt min/avg/max/mdev = 0.014/0.015/0.018/0.004 ms
+2023-12-21 00:04:57 lat: 0.548356670718
+2023-12-21 00:04:57 lon: 2.10552855071
+2023-12-21 00:04:58 router ip : 192.168.30.1
+2023-12-21 00:04:58 Signal strength: 26
+2023-12-21 00:04:58 SIM state: READY
+2023-12-21 00:04:58 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:04:58 PING baidu.com (39.156.66.10) 56(84) bytes of data.
+2023-12-21 00:04:58 64 bytes from 39.156.66.10: icmp_seq=1 ttl=43 time=117 ms
+2023-12-21 00:04:59 64 bytes from 39.156.66.10: icmp_seq=2 ttl=43 time=102 ms
+2023-12-21 00:04:59 64 bytes from 39.156.66.10: icmp_seq=3 ttl=43 time=210 ms
+2023-12-21 00:04:59 
+2023-12-21 00:04:59 --- baidu.com ping statistics ---
+2023-12-21 00:04:59 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-21 00:04:59 rtt min/avg/max/mdev = 102.171/143.294/210.579/47.968 ms
+2023-12-21 00:04:59 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:04:59 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.314 ms
+2023-12-21 00:05:00 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.231 ms
+2023-12-21 00:05:00 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.245 ms
+2023-12-21 00:05:00 
+2023-12-21 00:05:00 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:05:00 3 packets transmitted, 3 received, 0% packet loss, time 1007ms
+2023-12-21 00:05:00 rtt min/avg/max/mdev = 0.231/0.263/0.314/0.038 ms
+2023-12-21 00:05:00 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:05:00 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=73.9 ms
+2023-12-21 00:05:01 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=1.85 ms
+2023-12-21 00:05:01 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=2.00 ms
+2023-12-21 00:05:01 
+2023-12-21 00:05:01 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:05:01 3 packets transmitted, 3 received, 0% packet loss, time 1002ms
+2023-12-21 00:05:01 rtt min/avg/max/mdev = 1.853/25.933/73.941/33.946 ms
+2023-12-21 00:05:01 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:05:01 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.022 ms
+2023-12-21 00:05:02 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.019 ms
+2023-12-21 00:05:02 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.018 ms
+2023-12-21 00:05:02 
+2023-12-21 00:05:02 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:05:02 3 packets transmitted, 3 received, 0% packet loss, time 1027ms
+2023-12-21 00:05:02 rtt min/avg/max/mdev = 0.018/0.019/0.022/0.005 ms
+2023-12-21 00:05:03 lat: 0.548357983206
+2023-12-21 00:05:03 lon: 2.10552702704
+2023-12-21 00:05:04 router ip : 192.168.30.1
+2023-12-21 00:05:04 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:05:04 SIM state: READY
+2023-12-21 00:05:04 Signal strength: 26
+2023-12-21 00:05:05 PING baidu.com (110.242.68.66) 56(84) bytes of data.
+2023-12-21 00:05:05 64 bytes from 110.242.68.66: icmp_seq=1 ttl=43 time=104 ms
+2023-12-21 00:05:05 64 bytes from 110.242.68.66: icmp_seq=2 ttl=43 time=139 ms
+2023-12-21 00:05:06 64 bytes from 110.242.68.66: icmp_seq=3 ttl=43 time=108 ms
+2023-12-21 00:05:06 
+2023-12-21 00:05:06 --- baidu.com ping statistics ---
+2023-12-21 00:05:06 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:05:06 rtt min/avg/max/mdev = 104.610/117.487/139.187/15.437 ms
+2023-12-21 00:05:06 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:05:06 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.280 ms
+2023-12-21 00:05:06 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.237 ms
+2023-12-21 00:05:07 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.364 ms
+2023-12-21 00:05:07 
+2023-12-21 00:05:07 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:05:07 3 packets transmitted, 3 received, 0% packet loss, time 1021ms
+2023-12-21 00:05:07 rtt min/avg/max/mdev = 0.237/0.293/0.364/0.056 ms
+2023-12-21 00:05:07 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:05:07 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=32.6 ms
+2023-12-21 00:05:07 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=2.13 ms
+2023-12-21 00:05:08 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=3.19 ms
+2023-12-21 00:05:08 
+2023-12-21 00:05:08 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:05:08 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:05:08 rtt min/avg/max/mdev = 2.137/12.661/32.655/14.144 ms
+2023-12-21 00:05:08 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:05:08 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.036 ms
+2023-12-21 00:05:08 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.018 ms
+2023-12-21 00:05:09 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.022 ms
+2023-12-21 00:05:09 
+2023-12-21 00:05:09 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:05:09 3 packets transmitted, 3 received, 0% packet loss, time 1013ms
+2023-12-21 00:05:09 rtt min/avg/max/mdev = 0.018/0.025/0.036/0.008 ms
+2023-12-21 00:05:10 lat: 0.548359032149
+2023-12-21 00:05:10 lon: 2.10552664132
+2023-12-21 00:05:11 router ip : 192.168.30.1
+2023-12-21 00:05:11 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:05:11 Signal strength: 26
+2023-12-21 00:05:11 SIM state: READY
+2023-12-21 00:05:11 PING baidu.com (39.156.66.10) 56(84) bytes of data.
+2023-12-21 00:05:11 64 bytes from 39.156.66.10: icmp_seq=1 ttl=43 time=95.5 ms
+2023-12-21 00:05:12 64 bytes from 39.156.66.10: icmp_seq=2 ttl=43 time=112 ms
+2023-12-21 00:05:12 64 bytes from 39.156.66.10: icmp_seq=3 ttl=43 time=94.6 ms
+2023-12-21 00:05:12 
+2023-12-21 00:05:12 --- baidu.com ping statistics ---
+2023-12-21 00:05:12 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:05:12 rtt min/avg/max/mdev = 94.662/100.876/112.372/8.145 ms
+2023-12-21 00:05:12 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:05:12 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.282 ms
+2023-12-21 00:05:13 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.250 ms
+2023-12-21 00:05:13 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.254 ms
+2023-12-21 00:05:13 
+2023-12-21 00:05:13 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:05:13 3 packets transmitted, 3 received, 0% packet loss, time 1018ms
+2023-12-21 00:05:13 rtt min/avg/max/mdev = 0.250/0.262/0.282/0.014 ms
+2023-12-21 00:05:13 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:05:13 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=11.3 ms
+2023-12-21 00:05:14 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=2.13 ms
+2023-12-21 00:05:14 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=33.6 ms
+2023-12-21 00:05:14 
+2023-12-21 00:05:14 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:05:14 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:05:14 rtt min/avg/max/mdev = 2.139/15.740/33.686/13.240 ms
+2023-12-21 00:05:14 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:05:14 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.029 ms
+2023-12-21 00:05:15 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.016 ms
+2023-12-21 00:05:15 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.020 ms
+2023-12-21 00:05:15 
+2023-12-21 00:05:15 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:05:15 3 packets transmitted, 3 received, 0% packet loss, time 1012ms
+2023-12-21 00:05:15 rtt min/avg/max/mdev = 0.016/0.021/0.029/0.007 ms
+2023-12-21 00:05:16 lat: 0.548359506878
+2023-12-21 00:05:16 lon: 2.10552662387
+2023-12-21 00:05:18 router ip : 192.168.30.1
+2023-12-21 00:05:18 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:05:18 SIM state: READY
+2023-12-21 00:05:18 Signal strength: 26
+2023-12-21 00:05:18 PING baidu.com (39.156.66.10) 56(84) bytes of data.
+2023-12-21 00:05:18 64 bytes from 39.156.66.10: icmp_seq=1 ttl=43 time=96.2 ms
+2023-12-21 00:05:18 64 bytes from 39.156.66.10: icmp_seq=2 ttl=43 time=100 ms
+2023-12-21 00:05:19 64 bytes from 39.156.66.10: icmp_seq=3 ttl=43 time=94.9 ms
+2023-12-21 00:05:19 
+2023-12-21 00:05:19 --- baidu.com ping statistics ---
+2023-12-21 00:05:19 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:05:19 rtt min/avg/max/mdev = 94.960/97.302/100.736/2.494 ms
+2023-12-21 00:05:19 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:05:19 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.279 ms
+2023-12-21 00:05:19 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.362 ms
+2023-12-21 00:05:20 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.313 ms
+2023-12-21 00:05:20 
+2023-12-21 00:05:20 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:05:20 3 packets transmitted, 3 received, 0% packet loss, time 1030ms
+2023-12-21 00:05:20 rtt min/avg/max/mdev = 0.279/0.318/0.362/0.034 ms
+2023-12-21 00:05:20 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:05:20 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=73.3 ms
+2023-12-21 00:05:21 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=110 ms
+2023-12-21 00:05:21 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=122 ms
+2023-12-21 00:05:21 
+2023-12-21 00:05:21 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:05:21 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-21 00:05:21 rtt min/avg/max/mdev = 73.373/102.293/122.630/21.004 ms
+2023-12-21 00:05:21 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:05:21 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.017 ms
+2023-12-21 00:05:22 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.014 ms
+2023-12-21 00:05:22 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.022 ms
+2023-12-21 00:05:22 
+2023-12-21 00:05:22 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:05:22 3 packets transmitted, 3 received, 0% packet loss, time 1014ms
+2023-12-21 00:05:22 rtt min/avg/max/mdev = 0.014/0.017/0.022/0.005 ms
+2023-12-21 00:05:23 lat: 0.548359773914
+2023-12-21 00:05:23 lon: 2.10552664656
+2023-12-21 00:05:24 router ip : 192.168.30.1
+2023-12-21 00:05:24 SIM state: READY
+2023-12-21 00:05:24 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:05:24 Signal strength: 26
+2023-12-21 00:05:25 PING baidu.com (110.242.68.66) 56(84) bytes of data.
+2023-12-21 00:05:25 64 bytes from 110.242.68.66: icmp_seq=1 ttl=43 time=105 ms
+2023-12-21 00:05:25 64 bytes from 110.242.68.66: icmp_seq=2 ttl=43 time=136 ms
+2023-12-21 00:05:26 64 bytes from 110.242.68.66: icmp_seq=3 ttl=43 time=103 ms
+2023-12-21 00:05:26 
+2023-12-21 00:05:26 --- baidu.com ping statistics ---
+2023-12-21 00:05:26 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:05:26 rtt min/avg/max/mdev = 103.672/115.239/136.992/15.392 ms
+2023-12-21 00:05:26 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:05:26 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.281 ms
+2023-12-21 00:05:26 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.234 ms
+2023-12-21 00:05:27 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.256 ms
+2023-12-21 00:05:27 
+2023-12-21 00:05:27 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:05:27 3 packets transmitted, 3 received, 0% packet loss, time 1020ms
+2023-12-21 00:05:27 rtt min/avg/max/mdev = 0.234/0.257/0.281/0.019 ms
+2023-12-21 00:05:27 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:05:27 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=96.7 ms
+2023-12-21 00:05:27 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=7.00 ms
+2023-12-21 00:05:28 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=4.24 ms
+2023-12-21 00:05:28 
+2023-12-21 00:05:28 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:05:28 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-21 00:05:28 rtt min/avg/max/mdev = 4.248/35.987/96.712/42.953 ms
+2023-12-21 00:05:28 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:05:28 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.022 ms
+2023-12-21 00:05:28 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.033 ms
+2023-12-21 00:05:29 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.051 ms
+2023-12-21 00:05:29 
+2023-12-21 00:05:29 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:05:29 3 packets transmitted, 3 received, 0% packet loss, time 1030ms
+2023-12-21 00:05:29 rtt min/avg/max/mdev = 0.022/0.035/0.051/0.012 ms
+2023-12-21 00:05:30 lat: 0.548359999061
+2023-12-21 00:05:30 lon: 2.10552676
+2023-12-21 00:05:31 router ip : 192.168.30.1
+2023-12-21 00:05:31 SIM state: READY
+2023-12-21 00:05:31 Signal strength: 26
+2023-12-21 00:05:31 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:05:31 PING baidu.com (110.242.68.66) 56(84) bytes of data.
+2023-12-21 00:05:31 64 bytes from 110.242.68.66: icmp_seq=1 ttl=43 time=94.5 ms
+2023-12-21 00:05:32 64 bytes from 110.242.68.66: icmp_seq=2 ttl=43 time=192 ms
+2023-12-21 00:05:32 64 bytes from 110.242.68.66: icmp_seq=3 ttl=43 time=96.7 ms
+2023-12-21 00:05:32 
+2023-12-21 00:05:32 --- baidu.com ping statistics ---
+2023-12-21 00:05:32 3 packets transmitted, 3 received, 0% packet loss, time 1002ms
+2023-12-21 00:05:32 rtt min/avg/max/mdev = 94.551/127.946/192.491/45.650 ms
+2023-12-21 00:05:32 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:05:32 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.311 ms
+2023-12-21 00:05:33 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.364 ms
+2023-12-21 00:05:33 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.250 ms
+2023-12-21 00:05:33 
+2023-12-21 00:05:33 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:05:33 3 packets transmitted, 3 received, 0% packet loss, time 1016ms
+2023-12-21 00:05:33 rtt min/avg/max/mdev = 0.250/0.308/0.364/0.048 ms
+2023-12-21 00:05:33 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:05:33 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=2.48 ms
+2023-12-21 00:05:34 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=11.3 ms
+2023-12-21 00:05:34 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=119 ms
+2023-12-21 00:05:34 
+2023-12-21 00:05:34 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:05:34 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:05:34 rtt min/avg/max/mdev = 2.481/44.505/119.641/53.253 ms
+2023-12-21 00:05:34 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:05:34 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.019 ms
+2023-12-21 00:05:35 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.015 ms
+2023-12-21 00:05:35 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.047 ms
+2023-12-21 00:05:35 
+2023-12-21 00:05:35 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:05:35 3 packets transmitted, 3 received, 0% packet loss, time 1013ms
+2023-12-21 00:05:35 rtt min/avg/max/mdev = 0.015/0.027/0.047/0.014 ms
+2023-12-21 00:05:36 lat: 0.54836039176
+2023-12-21 00:05:36 lon: 2.10552706194
+2023-12-21 00:05:38 router ip : 192.168.30.1
+2023-12-21 00:05:38 Signal strength: 26
+2023-12-21 00:05:38 SIM state: READY
+2023-12-21 00:05:38 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:05:38 PING baidu.com (110.242.68.66) 56(84) bytes of data.
+2023-12-21 00:05:38 64 bytes from 110.242.68.66: icmp_seq=1 ttl=43 time=96.0 ms
+2023-12-21 00:05:38 64 bytes from 110.242.68.66: icmp_seq=2 ttl=43 time=103 ms
+2023-12-21 00:05:39 64 bytes from 110.242.68.66: icmp_seq=3 ttl=43 time=122 ms
+2023-12-21 00:05:39 
+2023-12-21 00:05:39 --- baidu.com ping statistics ---
+2023-12-21 00:05:39 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:05:39 rtt min/avg/max/mdev = 96.099/107.247/122.339/11.075 ms
+2023-12-21 00:05:39 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:05:39 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.262 ms
+2023-12-21 00:05:39 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.266 ms
+2023-12-21 00:05:40 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.235 ms
+2023-12-21 00:05:40 
+2023-12-21 00:05:40 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:05:40 3 packets transmitted, 3 received, 0% packet loss, time 1022ms
+2023-12-21 00:05:40 rtt min/avg/max/mdev = 0.235/0.254/0.266/0.018 ms
+2023-12-21 00:05:40 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:05:40 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=58.9 ms
+2023-12-21 00:05:41 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=214 ms
+2023-12-21 00:05:41 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=21.2 ms
+2023-12-21 00:05:41 
+2023-12-21 00:05:41 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:05:41 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-21 00:05:41 rtt min/avg/max/mdev = 21.274/98.188/214.359/83.571 ms
+2023-12-21 00:05:41 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:05:41 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.028 ms
+2023-12-21 00:05:41 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.020 ms
+2023-12-21 00:05:42 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.020 ms
+2023-12-21 00:05:42 
+2023-12-21 00:05:42 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:05:42 3 packets transmitted, 3 received, 0% packet loss, time 1029ms
+2023-12-21 00:05:42 rtt min/avg/max/mdev = 0.020/0.022/0.028/0.006 ms
+2023-12-21 00:05:43 lat: 0.548360754789
+2023-12-21 00:05:43 lon: 2.10552735167
+2023-12-21 00:05:44 router ip : 192.168.30.1
+2023-12-21 00:05:44 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:05:44 Signal strength: 26
+2023-12-21 00:05:44 SIM state: READY
+2023-12-21 00:05:45 PING baidu.com (39.156.66.10) 56(84) bytes of data.
+2023-12-21 00:05:45 64 bytes from 39.156.66.10: icmp_seq=1 ttl=43 time=101 ms
+2023-12-21 00:05:45 64 bytes from 39.156.66.10: icmp_seq=2 ttl=43 time=137 ms
+2023-12-21 00:05:46 64 bytes from 39.156.66.10: icmp_seq=3 ttl=43 time=101 ms
+2023-12-21 00:05:46 
+2023-12-21 00:05:46 --- baidu.com ping statistics ---
+2023-12-21 00:05:46 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:05:46 rtt min/avg/max/mdev = 101.457/113.457/137.063/16.694 ms
+2023-12-21 00:05:46 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:05:46 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.476 ms
+2023-12-21 00:05:46 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.228 ms
+2023-12-21 00:05:47 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.420 ms
+2023-12-21 00:05:47 
+2023-12-21 00:05:47 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:05:47 3 packets transmitted, 3 received, 0% packet loss, time 1020ms
+2023-12-21 00:05:47 rtt min/avg/max/mdev = 0.228/0.374/0.476/0.108 ms
+2023-12-21 00:05:47 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:05:47 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=3.11 ms
+2023-12-21 00:05:47 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=74.7 ms
+2023-12-21 00:05:48 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=3.01 ms
+2023-12-21 00:05:48 
+2023-12-21 00:05:48 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:05:48 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:05:48 rtt min/avg/max/mdev = 3.019/26.956/74.739/33.787 ms
+2023-12-21 00:05:48 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:05:48 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.030 ms
+2023-12-21 00:05:48 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.020 ms
+2023-12-21 00:05:49 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.020 ms
+2023-12-21 00:05:49 
+2023-12-21 00:05:49 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:05:49 3 packets transmitted, 3 received, 0% packet loss, time 1020ms
+2023-12-21 00:05:49 rtt min/avg/max/mdev = 0.020/0.023/0.030/0.006 ms
+2023-12-21 00:05:50 lat: 0.548361323766
+2023-12-21 00:05:50 lon: 2.10552768852
+2023-12-21 00:05:51 router ip : 192.168.30.1
+2023-12-21 00:05:51 SIM state: READY
+2023-12-21 00:05:51 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:05:51 Signal strength: 26
+2023-12-21 00:05:51 PING baidu.com (110.242.68.66) 56(84) bytes of data.
+2023-12-21 00:05:51 64 bytes from 110.242.68.66: icmp_seq=1 ttl=43 time=94.3 ms
+2023-12-21 00:05:52 64 bytes from 110.242.68.66: icmp_seq=2 ttl=43 time=109 ms
+2023-12-21 00:05:52 64 bytes from 110.242.68.66: icmp_seq=3 ttl=43 time=172 ms
+2023-12-21 00:05:52 
+2023-12-21 00:05:52 --- baidu.com ping statistics ---
+2023-12-21 00:05:52 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:05:52 rtt min/avg/max/mdev = 94.386/125.449/172.117/33.599 ms
+2023-12-21 00:05:52 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:05:52 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.299 ms
+2023-12-21 00:05:53 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.305 ms
+2023-12-21 00:05:53 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.244 ms
+2023-12-21 00:05:53 
+2023-12-21 00:05:53 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:05:53 3 packets transmitted, 3 received, 0% packet loss, time 1006ms
+2023-12-21 00:05:53 rtt min/avg/max/mdev = 0.244/0.282/0.305/0.033 ms
+2023-12-21 00:05:53 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:05:53 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=53.5 ms
+2023-12-21 00:05:54 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=67.3 ms
+2023-12-21 00:05:54 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=78.6 ms
+2023-12-21 00:05:54 
+2023-12-21 00:05:54 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:05:54 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-21 00:05:54 rtt min/avg/max/mdev = 53.581/66.534/78.685/10.268 ms
+2023-12-21 00:05:54 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:05:54 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.024 ms
+2023-12-21 00:05:55 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.021 ms
+2023-12-21 00:05:55 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.016 ms
+2023-12-21 00:05:55 
+2023-12-21 00:05:55 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:05:55 3 packets transmitted, 3 received, 0% packet loss, time 1015ms
+2023-12-21 00:05:55 rtt min/avg/max/mdev = 0.016/0.020/0.024/0.005 ms
+2023-12-21 00:05:56 lat: 0.548361768825
+2023-12-21 00:05:56 lon: 2.10552801838
+2023-12-21 00:05:57 router ip : 192.168.30.1
+2023-12-21 00:05:57 Signal strength: 26
+2023-12-21 00:05:57 SIM state: READY
+2023-12-21 00:05:57 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:05:58 PING baidu.com (39.156.66.10) 56(84) bytes of data.
+2023-12-21 00:05:58 64 bytes from 39.156.66.10: icmp_seq=1 ttl=43 time=92.4 ms
+2023-12-21 00:05:58 64 bytes from 39.156.66.10: icmp_seq=2 ttl=43 time=114 ms
+2023-12-21 00:05:59 64 bytes from 39.156.66.10: icmp_seq=3 ttl=43 time=94.2 ms
+2023-12-21 00:05:59 
+2023-12-21 00:05:59 --- baidu.com ping statistics ---
+2023-12-21 00:05:59 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-21 00:05:59 rtt min/avg/max/mdev = 92.405/100.311/114.265/9.902 ms
+2023-12-21 00:05:59 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:05:59 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.296 ms
+2023-12-21 00:05:59 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.271 ms
+2023-12-21 00:06:00 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.399 ms
+2023-12-21 00:06:00 
+2023-12-21 00:06:00 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:06:00 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:06:00 rtt min/avg/max/mdev = 0.271/0.322/0.399/0.055 ms
+2023-12-21 00:06:00 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:06:00 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=108 ms
+2023-12-21 00:06:00 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=121 ms
+2023-12-21 00:06:01 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=29.7 ms
+2023-12-21 00:06:01 
+2023-12-21 00:06:01 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:06:01 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:06:01 rtt min/avg/max/mdev = 29.709/86.529/121.134/40.494 ms
+2023-12-21 00:06:01 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:06:01 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.019 ms
+2023-12-21 00:06:01 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.013 ms
+2023-12-21 00:06:02 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.030 ms
+2023-12-21 00:06:02 
+2023-12-21 00:06:02 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:06:02 3 packets transmitted, 3 received, 0% packet loss, time 1033ms
+2023-12-21 00:06:02 rtt min/avg/max/mdev = 0.013/0.020/0.030/0.008 ms
+2023-12-21 00:06:03 lat: 0.548362454739
+2023-12-21 00:06:03 lon: 2.10552866241
+2023-12-21 00:06:04 router ip : 192.168.30.1
+2023-12-21 00:06:04 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:06:04 Signal strength: 26
+2023-12-21 00:06:04 SIM state: READY
+2023-12-21 00:06:04 PING baidu.com (110.242.68.66) 56(84) bytes of data.
+2023-12-21 00:06:04 64 bytes from 110.242.68.66: icmp_seq=1 ttl=43 time=91.9 ms
+2023-12-21 00:06:05 64 bytes from 110.242.68.66: icmp_seq=2 ttl=43 time=103 ms
+2023-12-21 00:06:05 64 bytes from 110.242.68.66: icmp_seq=3 ttl=43 time=99.2 ms
+2023-12-21 00:06:05 
+2023-12-21 00:06:05 --- baidu.com ping statistics ---
+2023-12-21 00:06:05 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:06:05 rtt min/avg/max/mdev = 91.915/98.215/103.526/4.791 ms
+2023-12-21 00:06:05 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:06:05 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.297 ms
+2023-12-21 00:06:06 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.247 ms
+2023-12-21 00:06:06 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.259 ms
+2023-12-21 00:06:06 
+2023-12-21 00:06:06 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:06:06 3 packets transmitted, 3 received, 0% packet loss, time 1005ms
+2023-12-21 00:06:06 rtt min/avg/max/mdev = 0.247/0.267/0.297/0.028 ms
+2023-12-21 00:06:06 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:06:06 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=30.5 ms
+2023-12-21 00:06:07 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=30.9 ms
+2023-12-21 00:06:07 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=54.2 ms
+2023-12-21 00:06:07 
+2023-12-21 00:06:07 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:06:07 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:06:07 rtt min/avg/max/mdev = 30.589/38.574/54.230/11.071 ms
+2023-12-21 00:06:07 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:06:07 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.021 ms
+2023-12-21 00:06:08 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.015 ms
+2023-12-21 00:06:08 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.022 ms
+2023-12-21 00:06:08 
+2023-12-21 00:06:08 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:06:08 3 packets transmitted, 3 received, 0% packet loss, time 1015ms
+2023-12-21 00:06:08 rtt min/avg/max/mdev = 0.015/0.019/0.022/0.004 ms
+2023-12-21 00:06:09 lat: 0.548363528117
+2023-12-21 00:06:09 lon: 2.10552936403
+2023-12-21 00:06:11 router ip : 192.168.30.1
+2023-12-21 00:06:11 SIM state: READY
+2023-12-21 00:06:11 Signal strength: 26
+2023-12-21 00:06:11 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:06:11 PING baidu.com (39.156.66.10) 56(84) bytes of data.
+2023-12-21 00:06:11 64 bytes from 39.156.66.10: icmp_seq=1 ttl=43 time=99.8 ms
+2023-12-21 00:06:11 64 bytes from 39.156.66.10: icmp_seq=2 ttl=43 time=98.1 ms
+2023-12-21 00:06:12 64 bytes from 39.156.66.10: icmp_seq=3 ttl=43 time=212 ms
+2023-12-21 00:06:12 
+2023-12-21 00:06:12 --- baidu.com ping statistics ---
+2023-12-21 00:06:12 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:06:12 rtt min/avg/max/mdev = 98.160/136.969/212.882/53.683 ms
+2023-12-21 00:06:12 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:06:12 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.300 ms
+2023-12-21 00:06:12 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.247 ms
+2023-12-21 00:06:13 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.277 ms
+2023-12-21 00:06:13 
+2023-12-21 00:06:13 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:06:13 3 packets transmitted, 3 received, 0% packet loss, time 1026ms
+2023-12-21 00:06:13 rtt min/avg/max/mdev = 0.247/0.274/0.300/0.028 ms
+2023-12-21 00:06:13 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:06:13 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=20.6 ms
+2023-12-21 00:06:13 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=32.3 ms
+2023-12-21 00:06:14 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=2.45 ms
+2023-12-21 00:06:14 
+2023-12-21 00:06:14 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:06:14 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:06:14 rtt min/avg/max/mdev = 2.459/18.482/32.350/12.297 ms
+2023-12-21 00:06:14 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:06:14 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.024 ms
+2023-12-21 00:06:14 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.018 ms
+2023-12-21 00:06:15 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.018 ms
+2023-12-21 00:06:15 
+2023-12-21 00:06:15 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:06:15 3 packets transmitted, 3 received, 0% packet loss, time 1013ms
+2023-12-21 00:06:15 rtt min/avg/max/mdev = 0.018/0.020/0.024/0.003 ms
+2023-12-21 00:06:16 lat: 0.548363924307
+2023-12-21 00:06:16 lon: 2.10552979513
+2023-12-21 00:06:17 router ip : 192.168.30.1
+2023-12-21 00:06:17 Signal strength: 26
+2023-12-21 00:06:17 SIM state: READY
+2023-12-21 00:06:17 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:06:18 PING baidu.com (110.242.68.66) 56(84) bytes of data.
+2023-12-21 00:06:18 64 bytes from 110.242.68.66: icmp_seq=1 ttl=43 time=105 ms
+2023-12-21 00:06:18 64 bytes from 110.242.68.66: icmp_seq=2 ttl=43 time=138 ms
+2023-12-21 00:06:19 64 bytes from 110.242.68.66: icmp_seq=3 ttl=43 time=105 ms
+2023-12-21 00:06:19 
+2023-12-21 00:06:19 --- baidu.com ping statistics ---
+2023-12-21 00:06:19 3 packets transmitted, 3 received, 0% packet loss, time 999ms
+2023-12-21 00:06:19 rtt min/avg/max/mdev = 105.395/116.317/138.114/15.415 ms
+2023-12-21 00:06:19 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:06:19 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.308 ms
+2023-12-21 00:06:19 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.322 ms
+2023-12-21 00:06:20 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.242 ms
+2023-12-21 00:06:20 
+2023-12-21 00:06:20 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:06:20 3 packets transmitted, 3 received, 0% packet loss, time 1017ms
+2023-12-21 00:06:20 rtt min/avg/max/mdev = 0.242/0.290/0.322/0.040 ms
+2023-12-21 00:06:20 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:06:20 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=74.3 ms
+2023-12-21 00:06:20 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=5.91 ms
+2023-12-21 00:06:21 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=95.5 ms
+2023-12-21 00:06:21 
+2023-12-21 00:06:21 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:06:21 3 packets transmitted, 3 received, 0% packet loss, time 1002ms
+2023-12-21 00:06:21 rtt min/avg/max/mdev = 5.915/58.635/95.599/38.272 ms
+2023-12-21 00:06:21 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:06:21 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.026 ms
+2023-12-21 00:06:21 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.018 ms
+2023-12-21 00:06:22 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.021 ms
+2023-12-21 00:06:22 
+2023-12-21 00:06:22 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:06:22 3 packets transmitted, 3 received, 0% packet loss, time 1018ms
+2023-12-21 00:06:22 rtt min/avg/max/mdev = 0.018/0.021/0.026/0.006 ms
+2023-12-21 00:06:23 lat: 0.548363824823
+2023-12-21 00:06:23 lon: 2.1055298632
+2023-12-21 00:06:24 router ip : 192.168.30.1
+2023-12-21 00:06:24 Signal strength: 26
+2023-12-21 00:06:24 SIM state: READY
+2023-12-21 00:06:24 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:06:24 PING baidu.com (39.156.66.10) 56(84) bytes of data.
+2023-12-21 00:06:24 64 bytes from 39.156.66.10: icmp_seq=1 ttl=43 time=93.7 ms
+2023-12-21 00:06:25 64 bytes from 39.156.66.10: icmp_seq=2 ttl=43 time=192 ms
+2023-12-21 00:06:25 64 bytes from 39.156.66.10: icmp_seq=3 ttl=43 time=92.8 ms
+2023-12-21 00:06:25 
+2023-12-21 00:06:25 --- baidu.com ping statistics ---
+2023-12-21 00:06:25 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-21 00:06:25 rtt min/avg/max/mdev = 92.802/126.350/192.540/46.805 ms
+2023-12-21 00:06:25 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:06:25 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.304 ms
+2023-12-21 00:06:26 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.338 ms
+2023-12-21 00:06:26 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.232 ms
+2023-12-21 00:06:26 
+2023-12-21 00:06:26 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:06:26 3 packets transmitted, 3 received, 0% packet loss, time 1019ms
+2023-12-21 00:06:26 rtt min/avg/max/mdev = 0.232/0.291/0.338/0.046 ms
+2023-12-21 00:06:27 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:06:27 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=118 ms
+2023-12-21 00:06:27 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=31.0 ms
+2023-12-21 00:06:27 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=39.0 ms
+2023-12-21 00:06:27 
+2023-12-21 00:06:27 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:06:27 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-21 00:06:27 rtt min/avg/max/mdev = 31.068/62.986/118.859/39.641 ms
+2023-12-21 00:06:27 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:06:27 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.023 ms
+2023-12-21 00:06:28 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.019 ms
+2023-12-21 00:06:28 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.022 ms
+2023-12-21 00:06:28 
+2023-12-21 00:06:28 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:06:28 3 packets transmitted, 3 received, 0% packet loss, time 1028ms
+2023-12-21 00:06:28 rtt min/avg/max/mdev = 0.019/0.021/0.023/0.004 ms
+2023-12-21 00:06:30 lat: 0.548364505501
+2023-12-21 00:06:30 lon: 2.10553046359
+2023-12-21 00:06:31 router ip : 192.168.30.1
+2023-12-21 00:06:31 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:06:31 Signal strength: 26
+2023-12-21 00:06:31 SIM state: READY
+2023-12-21 00:06:32 PING baidu.com (110.242.68.66) 56(84) bytes of data.
+2023-12-21 00:06:32 64 bytes from 110.242.68.66: icmp_seq=1 ttl=43 time=109 ms
+2023-12-21 00:06:32 64 bytes from 110.242.68.66: icmp_seq=2 ttl=43 time=96.8 ms
+2023-12-21 00:06:32 64 bytes from 110.242.68.66: icmp_seq=3 ttl=43 time=106 ms
+2023-12-21 00:06:32 
+2023-12-21 00:06:32 --- baidu.com ping statistics ---
+2023-12-21 00:06:32 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-21 00:06:32 rtt min/avg/max/mdev = 96.830/104.313/109.882/5.510 ms
+2023-12-21 00:06:32 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:06:32 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.252 ms
+2023-12-21 00:06:33 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.281 ms
+2023-12-21 00:06:33 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.280 ms
+2023-12-21 00:06:33 
+2023-12-21 00:06:33 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:06:33 3 packets transmitted, 3 received, 0% packet loss, time 1005ms
+2023-12-21 00:06:33 rtt min/avg/max/mdev = 0.252/0.271/0.281/0.013 ms
+2023-12-21 00:06:33 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:06:33 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=13.3 ms
+2023-12-21 00:06:34 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=27.9 ms
+2023-12-21 00:06:34 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=7.05 ms
+2023-12-21 00:06:34 
+2023-12-21 00:06:34 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:06:34 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:06:34 rtt min/avg/max/mdev = 7.051/16.131/27.989/8.771 ms
+2023-12-21 00:06:34 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:06:35 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.028 ms
+2023-12-21 00:06:35 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.025 ms
+2023-12-21 00:06:36 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.020 ms
+2023-12-21 00:06:36 
+2023-12-21 00:06:36 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:06:36 3 packets transmitted, 3 received, 0% packet loss, time 1021ms
+2023-12-21 00:06:36 rtt min/avg/max/mdev = 0.020/0.024/0.028/0.005 ms
+2023-12-21 00:06:37 lat: 0.548366039646
+2023-12-21 00:06:37 lon: 2.10553194363
+2023-12-21 00:06:38 router ip : 192.168.30.1
+2023-12-21 00:06:38 SIM state: READY
+2023-12-21 00:06:38 Signal strength: 26
+2023-12-21 00:06:38 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:06:38 PING baidu.com (39.156.66.10) 56(84) bytes of data.
+2023-12-21 00:06:38 64 bytes from 39.156.66.10: icmp_seq=1 ttl=43 time=106 ms
+2023-12-21 00:06:39 64 bytes from 39.156.66.10: icmp_seq=2 ttl=43 time=92.7 ms
+2023-12-21 00:06:39 64 bytes from 39.156.66.10: icmp_seq=3 ttl=43 time=116 ms
+2023-12-21 00:06:39 
+2023-12-21 00:06:39 --- baidu.com ping statistics ---
+2023-12-21 00:06:39 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:06:39 rtt min/avg/max/mdev = 92.744/105.093/116.472/9.711 ms
+2023-12-21 00:06:39 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:06:39 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.297 ms
+2023-12-21 00:06:40 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.238 ms
+2023-12-21 00:06:40 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.272 ms
+2023-12-21 00:06:40 
+2023-12-21 00:06:40 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:06:40 3 packets transmitted, 3 received, 0% packet loss, time 1028ms
+2023-12-21 00:06:40 rtt min/avg/max/mdev = 0.238/0.269/0.297/0.024 ms
+2023-12-21 00:06:40 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:06:40 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=53.0 ms
+2023-12-21 00:06:41 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=5.33 ms
+2023-12-21 00:06:41 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=78.3 ms
+2023-12-21 00:06:41 
+2023-12-21 00:06:41 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:06:41 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:06:41 rtt min/avg/max/mdev = 5.335/45.596/78.360/30.280 ms
+2023-12-21 00:06:41 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:06:41 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.025 ms
+2023-12-21 00:06:42 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.027 ms
+2023-12-21 00:06:42 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.017 ms
+2023-12-21 00:06:42 
+2023-12-21 00:06:42 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:06:42 3 packets transmitted, 3 received, 0% packet loss, time 1017ms
+2023-12-21 00:06:42 rtt min/avg/max/mdev = 0.017/0.023/0.027/0.004 ms
+2023-12-21 00:06:43 lat: 0.548369017177
+2023-12-21 00:06:43 lon: 2.1055358776
+2023-12-21 00:06:45 router ip : 192.168.30.1
+2023-12-21 00:06:45 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:06:45 Signal strength: 26
+2023-12-21 00:06:45 SIM state: READY
+2023-12-21 00:06:45 PING baidu.com (110.242.68.66) 56(84) bytes of data.
+2023-12-21 00:06:45 64 bytes from 110.242.68.66: icmp_seq=1 ttl=43 time=99.5 ms
+2023-12-21 00:06:45 64 bytes from 110.242.68.66: icmp_seq=2 ttl=43 time=168 ms
+2023-12-21 00:06:46 64 bytes from 110.242.68.66: icmp_seq=3 ttl=43 time=97.5 ms
+2023-12-21 00:06:46 
+2023-12-21 00:06:46 --- baidu.com ping statistics ---
+2023-12-21 00:06:46 3 packets transmitted, 3 received, 0% packet loss, time 1002ms
+2023-12-21 00:06:46 rtt min/avg/max/mdev = 97.500/121.928/168.745/33.117 ms
+2023-12-21 00:06:46 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:06:46 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.308 ms
+2023-12-21 00:06:46 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.359 ms
+2023-12-21 00:06:47 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.315 ms
+2023-12-21 00:06:47 
+2023-12-21 00:06:47 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:06:47 3 packets transmitted, 3 received, 0% packet loss, time 1026ms
+2023-12-21 00:06:47 rtt min/avg/max/mdev = 0.308/0.327/0.359/0.026 ms
+2023-12-21 00:06:47 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:06:47 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=32.8 ms
+2023-12-21 00:06:47 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=43.4 ms
+2023-12-21 00:06:48 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=54.9 ms
+2023-12-21 00:06:48 
+2023-12-21 00:06:48 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:06:48 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:06:48 rtt min/avg/max/mdev = 32.813/43.723/54.949/9.039 ms
+2023-12-21 00:06:48 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:06:48 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.025 ms
+2023-12-21 00:06:48 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.020 ms
+2023-12-21 00:06:49 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.050 ms
+2023-12-21 00:06:49 
+2023-12-21 00:06:49 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:06:49 3 packets transmitted, 3 received, 0% packet loss, time 1032ms
+2023-12-21 00:06:49 rtt min/avg/max/mdev = 0.020/0.031/0.050/0.014 ms
+2023-12-21 00:06:50 lat: 0.548371256435
+2023-12-21 00:06:50 lon: 2.10553915359
+2023-12-21 00:06:51 router ip : 192.168.30.1
+2023-12-21 00:06:51 Signal strength: 24
+2023-12-21 00:06:51 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:06:51 SIM state: READY
+2023-12-21 00:06:52 PING baidu.com (110.242.68.66) 56(84) bytes of data.
+2023-12-21 00:06:52 64 bytes from 110.242.68.66: icmp_seq=1 ttl=43 time=105 ms
+2023-12-21 00:06:52 64 bytes from 110.242.68.66: icmp_seq=2 ttl=43 time=136 ms
+2023-12-21 00:06:53 64 bytes from 110.242.68.66: icmp_seq=3 ttl=43 time=106 ms
+2023-12-21 00:06:53 
+2023-12-21 00:06:53 --- baidu.com ping statistics ---
+2023-12-21 00:06:53 3 packets transmitted, 3 received, 0% packet loss, time 1002ms
+2023-12-21 00:06:53 rtt min/avg/max/mdev = 105.868/116.385/136.642/14.332 ms
+2023-12-21 00:06:53 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:06:53 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.438 ms
+2023-12-21 00:06:53 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.274 ms
+2023-12-21 00:06:54 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.396 ms
+2023-12-21 00:06:54 
+2023-12-21 00:06:54 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:06:54 3 packets transmitted, 3 received, 0% packet loss, time 1011ms
+2023-12-21 00:06:54 rtt min/avg/max/mdev = 0.274/0.369/0.438/0.071 ms
+2023-12-21 00:06:54 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:06:54 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=93.1 ms
+2023-12-21 00:06:54 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=103 ms
+2023-12-21 00:06:55 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=4.64 ms
+2023-12-21 00:06:55 
+2023-12-21 00:06:55 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:06:55 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:06:55 rtt min/avg/max/mdev = 4.646/67.176/103.768/44.428 ms
+2023-12-21 00:06:55 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:06:55 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.017 ms
+2023-12-21 00:06:55 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.016 ms
+2023-12-21 00:06:56 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.014 ms
+2023-12-21 00:06:56 
+2023-12-21 00:06:56 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:06:56 3 packets transmitted, 3 received, 0% packet loss, time 1029ms
+2023-12-21 00:06:56 rtt min/avg/max/mdev = 0.014/0.015/0.017/0.004 ms
+2023-12-21 00:06:57 lat: 0.548373375265
+2023-12-21 00:06:57 lon: 2.10554220093
+2023-12-21 00:06:58 router ip : 192.168.30.1
+2023-12-21 00:06:58 SIM state: READY
+2023-12-21 00:06:58 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:06:58 Signal strength: 24
+2023-12-21 00:06:59 PING baidu.com (110.242.68.66) 56(84) bytes of data.
+2023-12-21 00:06:59 64 bytes from 110.242.68.66: icmp_seq=1 ttl=43 time=94.9 ms
+2023-12-21 00:06:59 64 bytes from 110.242.68.66: icmp_seq=2 ttl=43 time=103 ms
+2023-12-21 00:07:00 64 bytes from 110.242.68.66: icmp_seq=3 ttl=43 time=212 ms
+2023-12-21 00:07:00 
+2023-12-21 00:07:00 --- baidu.com ping statistics ---
+2023-12-21 00:07:00 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-21 00:07:00 rtt min/avg/max/mdev = 94.993/137.181/212.562/53.428 ms
+2023-12-21 00:07:00 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:07:00 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.291 ms
+2023-12-21 00:07:00 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.236 ms
+2023-12-21 00:07:01 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.248 ms
+2023-12-21 00:07:01 
+2023-12-21 00:07:01 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:07:01 3 packets transmitted, 3 received, 0% packet loss, time 1010ms
+2023-12-21 00:07:01 rtt min/avg/max/mdev = 0.236/0.258/0.291/0.027 ms
+2023-12-21 00:07:01 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:07:01 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=118 ms
+2023-12-21 00:07:01 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=2.11 ms
+2023-12-21 00:07:02 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=110 ms
+2023-12-21 00:07:02 
+2023-12-21 00:07:02 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:07:02 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-21 00:07:02 rtt min/avg/max/mdev = 2.114/77.200/118.522/53.184 ms
+2023-12-21 00:07:02 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:07:02 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.022 ms
+2023-12-21 00:07:02 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.021 ms
+2023-12-21 00:07:03 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.026 ms
+2023-12-21 00:07:03 
+2023-12-21 00:07:03 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:07:03 3 packets transmitted, 3 received, 0% packet loss, time 1018ms
+2023-12-21 00:07:03 rtt min/avg/max/mdev = 0.021/0.023/0.026/0.002 ms
+2023-12-21 00:07:04 lat: 0.548375349232
+2023-12-21 00:07:04 lon: 2.10554490619
+2023-12-21 00:07:05 router ip : 192.168.30.1
+2023-12-21 00:07:05 Signal strength: 26
+2023-12-21 00:07:05 SIM state: READY
+2023-12-21 00:07:05 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:07:05 PING baidu.com (39.156.66.10) 56(84) bytes of data.
+2023-12-21 00:07:05 64 bytes from 39.156.66.10: icmp_seq=1 ttl=43 time=101 ms
+2023-12-21 00:07:06 64 bytes from 39.156.66.10: icmp_seq=2 ttl=43 time=95.2 ms
+2023-12-21 00:07:06 64 bytes from 39.156.66.10: icmp_seq=3 ttl=43 time=100 ms
+2023-12-21 00:07:06 
+2023-12-21 00:07:06 --- baidu.com ping statistics ---
+2023-12-21 00:07:06 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-21 00:07:06 rtt min/avg/max/mdev = 95.280/99.076/101.740/2.756 ms
+2023-12-21 00:07:06 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:07:06 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.270 ms
+2023-12-21 00:07:07 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.257 ms
+2023-12-21 00:07:07 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.247 ms
+2023-12-21 00:07:07 
+2023-12-21 00:07:07 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:07:07 3 packets transmitted, 3 received, 0% packet loss, time 1019ms
+2023-12-21 00:07:07 rtt min/avg/max/mdev = 0.247/0.258/0.270/0.009 ms
+2023-12-21 00:07:07 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:07:07 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=85.2 ms
+2023-12-21 00:07:08 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=2.71 ms
+2023-12-21 00:07:09 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=108 ms
+2023-12-21 00:07:09 
+2023-12-21 00:07:09 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:07:09 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-21 00:07:09 rtt min/avg/max/mdev = 2.713/65.413/108.232/45.315 ms
+2023-12-21 00:07:09 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:07:09 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.018 ms
+2023-12-21 00:07:09 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.017 ms
+2023-12-21 00:07:10 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.021 ms
+2023-12-21 00:07:10 
+2023-12-21 00:07:10 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:07:10 3 packets transmitted, 3 received, 0% packet loss, time 1021ms
+2023-12-21 00:07:10 rtt min/avg/max/mdev = 0.017/0.018/0.021/0.005 ms
+2023-12-21 00:07:11 lat: 0.548375757639
+2023-12-21 00:07:11 lon: 2.10554558861
+2023-12-21 00:07:12 router ip : 192.168.30.1
+2023-12-21 00:07:12 SIM state: READY
+2023-12-21 00:07:12 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:07:12 Signal strength: 26
+2023-12-21 00:07:13 PING baidu.com (110.242.68.66) 56(84) bytes of data.
+2023-12-21 00:07:13 64 bytes from 110.242.68.66: icmp_seq=1 ttl=43 time=105 ms
+2023-12-21 00:07:13 64 bytes from 110.242.68.66: icmp_seq=2 ttl=43 time=136 ms
+2023-12-21 00:07:14 64 bytes from 110.242.68.66: icmp_seq=3 ttl=43 time=104 ms
+2023-12-21 00:07:14 
+2023-12-21 00:07:14 --- baidu.com ping statistics ---
+2023-12-21 00:07:14 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:07:14 rtt min/avg/max/mdev = 104.574/115.720/136.817/14.928 ms
+2023-12-21 00:07:14 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:07:14 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.422 ms
+2023-12-21 00:07:14 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.252 ms
+2023-12-21 00:07:15 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.357 ms
+2023-12-21 00:07:15 
+2023-12-21 00:07:15 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:07:15 3 packets transmitted, 3 received, 0% packet loss, time 1023ms
+2023-12-21 00:07:15 rtt min/avg/max/mdev = 0.252/0.343/0.422/0.073 ms
+2023-12-21 00:07:15 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:07:15 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=125 ms
+2023-12-21 00:07:15 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=34.2 ms
+2023-12-21 00:07:16 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=42.2 ms
+2023-12-21 00:07:16 
+2023-12-21 00:07:16 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:07:16 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:07:16 rtt min/avg/max/mdev = 34.263/67.202/125.122/41.084 ms
+2023-12-21 00:07:16 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:07:16 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.023 ms
+2023-12-21 00:07:16 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.017 ms
+2023-12-21 00:07:17 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.019 ms
+2023-12-21 00:07:17 
+2023-12-21 00:07:17 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:07:17 3 packets transmitted, 3 received, 0% packet loss, time 1006ms
+2023-12-21 00:07:17 rtt min/avg/max/mdev = 0.017/0.019/0.023/0.005 ms
+2023-12-21 00:07:18 lat: 0.548375570889
+2023-12-21 00:07:18 lon: 2.10554542804
+2023-12-21 00:07:19 router ip : 192.168.30.1
+2023-12-21 00:07:19 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:07:19 Signal strength: 24
+2023-12-21 00:07:19 SIM state: READY
+2023-12-21 00:07:19 PING baidu.com (110.242.68.66) 56(84) bytes of data.
+2023-12-21 00:07:19 64 bytes from 110.242.68.66: icmp_seq=1 ttl=43 time=107 ms
+2023-12-21 00:07:20 64 bytes from 110.242.68.66: icmp_seq=2 ttl=43 time=136 ms
+2023-12-21 00:07:20 64 bytes from 110.242.68.66: icmp_seq=3 ttl=43 time=105 ms
+2023-12-21 00:07:20 
+2023-12-21 00:07:20 --- baidu.com ping statistics ---
+2023-12-21 00:07:20 3 packets transmitted, 3 received, 0% packet loss, time 1002ms
+2023-12-21 00:07:20 rtt min/avg/max/mdev = 105.717/116.456/136.506/14.194 ms
+2023-12-21 00:07:20 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:07:20 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.306 ms
+2023-12-21 00:07:21 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.362 ms
+2023-12-21 00:07:21 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.424 ms
+2023-12-21 00:07:21 
+2023-12-21 00:07:21 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:07:21 3 packets transmitted, 3 received, 0% packet loss, time 1012ms
+2023-12-21 00:07:21 rtt min/avg/max/mdev = 0.306/0.364/0.424/0.048 ms
+2023-12-21 00:07:21 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:07:21 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=59.0 ms
+2023-12-21 00:07:22 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=71.3 ms
+2023-12-21 00:07:22 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=81.8 ms
+2023-12-21 00:07:22 
+2023-12-21 00:07:22 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:07:22 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-21 00:07:22 rtt min/avg/max/mdev = 59.090/70.775/81.871/9.309 ms
+2023-12-21 00:07:22 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:07:22 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.038 ms
+2023-12-21 00:07:23 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.027 ms
+2023-12-21 00:07:23 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.040 ms
+2023-12-21 00:07:23 
+2023-12-21 00:07:23 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:07:23 3 packets transmitted, 3 received, 0% packet loss, time 1010ms
+2023-12-21 00:07:23 rtt min/avg/max/mdev = 0.027/0.035/0.040/0.005 ms
+2023-12-21 00:07:24 lat: 0.548376792619
+2023-12-21 00:07:24 lon: 2.10554659916
+2023-12-21 00:07:26 router ip : 192.168.30.1
+2023-12-21 00:07:26 SIM state: READY
+2023-12-21 00:07:26 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:07:26 Signal strength: 24
+2023-12-21 00:07:26 PING baidu.com (110.242.68.66) 56(84) bytes of data.
+2023-12-21 00:07:26 64 bytes from 110.242.68.66: icmp_seq=1 ttl=43 time=90.4 ms
+2023-12-21 00:07:26 64 bytes from 110.242.68.66: icmp_seq=2 ttl=43 time=103 ms
+2023-12-21 00:07:27 64 bytes from 110.242.68.66: icmp_seq=3 ttl=43 time=174 ms
+2023-12-21 00:07:27 
+2023-12-21 00:07:27 --- baidu.com ping statistics ---
+2023-12-21 00:07:27 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:07:27 rtt min/avg/max/mdev = 90.423/122.718/174.334/36.880 ms
+2023-12-21 00:07:27 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:07:27 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.281 ms
+2023-12-21 00:07:27 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.362 ms
+2023-12-21 00:07:28 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.423 ms
+2023-12-21 00:07:28 
+2023-12-21 00:07:28 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:07:28 3 packets transmitted, 3 received, 0% packet loss, time 1006ms
+2023-12-21 00:07:28 rtt min/avg/max/mdev = 0.281/0.355/0.423/0.060 ms
+2023-12-21 00:07:28 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:07:28 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=54.6 ms
+2023-12-21 00:07:28 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=65.1 ms
+2023-12-21 00:07:29 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=2.60 ms
+2023-12-21 00:07:29 
+2023-12-21 00:07:29 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:07:29 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:07:29 rtt min/avg/max/mdev = 2.607/40.812/65.170/27.355 ms
+2023-12-21 00:07:29 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:07:29 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.022 ms
+2023-12-21 00:07:29 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.017 ms
+2023-12-21 00:07:30 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.041 ms
+2023-12-21 00:07:30 
+2023-12-21 00:07:30 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:07:30 3 packets transmitted, 3 received, 0% packet loss, time 1032ms
+2023-12-21 00:07:30 rtt min/avg/max/mdev = 0.017/0.026/0.041/0.011 ms
+2023-12-21 00:07:31 lat: 0.548377017767
+2023-12-21 00:07:31 lon: 2.10554693601
+2023-12-21 00:07:32 router ip : 192.168.30.1
+2023-12-21 00:07:32 Signal strength: 26
+2023-12-21 00:07:32 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:07:32 SIM state: READY
+2023-12-21 00:07:33 PING baidu.com (39.156.66.10) 56(84) bytes of data.
+2023-12-21 00:07:33 64 bytes from 39.156.66.10: icmp_seq=1 ttl=43 time=90.6 ms
+2023-12-21 00:07:33 64 bytes from 39.156.66.10: icmp_seq=2 ttl=43 time=99.9 ms
+2023-12-21 00:07:33 64 bytes from 39.156.66.10: icmp_seq=3 ttl=43 time=94.2 ms
+2023-12-21 00:07:33 
+2023-12-21 00:07:33 --- baidu.com ping statistics ---
+2023-12-21 00:07:33 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:07:33 rtt min/avg/max/mdev = 90.610/94.949/99.938/3.835 ms
+2023-12-21 00:07:33 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:07:33 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.331 ms
+2023-12-21 00:07:34 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.363 ms
+2023-12-21 00:07:34 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.355 ms
+2023-12-21 00:07:34 
+2023-12-21 00:07:34 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:07:34 3 packets transmitted, 3 received, 0% packet loss, time 1004ms
+2023-12-21 00:07:34 rtt min/avg/max/mdev = 0.331/0.349/0.363/0.025 ms
+2023-12-21 00:07:34 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:07:34 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=15.1 ms
+2023-12-21 00:07:35 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=2.72 ms
+2023-12-21 00:07:36 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=70.9 ms
+2023-12-21 00:07:36 
+2023-12-21 00:07:36 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:07:36 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:07:36 rtt min/avg/max/mdev = 2.727/29.609/70.979/29.687 ms
+2023-12-21 00:07:36 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:07:36 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.020 ms
+2023-12-21 00:07:36 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.017 ms
+2023-12-21 00:07:37 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.018 ms
+2023-12-21 00:07:37 
+2023-12-21 00:07:37 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:07:37 3 packets transmitted, 3 received, 0% packet loss, time 1027ms
+2023-12-21 00:07:37 rtt min/avg/max/mdev = 0.017/0.018/0.020/0.003 ms
+2023-12-21 00:07:38 lat: 0.548376939227
+2023-12-21 00:07:38 lon: 2.10554672482
+2023-12-21 00:07:39 router ip : 192.168.30.1
+2023-12-21 00:07:39 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:07:39 Signal strength: 26
+2023-12-21 00:07:39 SIM state: READY
+2023-12-21 00:07:39 PING baidu.com (110.242.68.66) 56(84) bytes of data.
+2023-12-21 00:07:39 64 bytes from 110.242.68.66: icmp_seq=1 ttl=43 time=116 ms
+2023-12-21 00:07:40 64 bytes from 110.242.68.66: icmp_seq=2 ttl=43 time=103 ms
+2023-12-21 00:07:40 64 bytes from 110.242.68.66: icmp_seq=3 ttl=43 time=165 ms
+2023-12-21 00:07:40 
+2023-12-21 00:07:40 --- baidu.com ping statistics ---
+2023-12-21 00:07:40 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:07:40 rtt min/avg/max/mdev = 103.277/128.220/165.020/26.565 ms
+2023-12-21 00:07:40 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:07:40 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.473 ms
+2023-12-21 00:07:41 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.356 ms
+2023-12-21 00:07:41 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.271 ms
+2023-12-21 00:07:41 
+2023-12-21 00:07:41 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:07:41 3 packets transmitted, 3 received, 0% packet loss, time 1027ms
+2023-12-21 00:07:41 rtt min/avg/max/mdev = 0.271/0.366/0.473/0.085 ms
+2023-12-21 00:07:41 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:07:41 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=48.5 ms
+2023-12-21 00:07:42 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=71.5 ms
+2023-12-21 00:07:42 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=82.5 ms
+2023-12-21 00:07:42 
+2023-12-21 00:07:42 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:07:42 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:07:42 rtt min/avg/max/mdev = 48.559/67.568/82.584/14.174 ms
+2023-12-21 00:07:42 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:07:42 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.022 ms
+2023-12-21 00:07:43 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.021 ms
+2023-12-21 00:07:43 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.021 ms
+2023-12-21 00:07:43 
+2023-12-21 00:07:43 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:07:43 3 packets transmitted, 3 received, 0% packet loss, time 1009ms
+2023-12-21 00:07:43 rtt min/avg/max/mdev = 0.021/0.021/0.022/0.003 ms
+2023-12-21 00:07:44 lat: 0.548376628558
+2023-12-21 00:07:44 lon: 2.10554618552
+2023-12-21 00:07:46 router ip : 192.168.30.1
+2023-12-21 00:07:46 SIM state: READY
+2023-12-21 00:07:46 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:07:46 Signal strength: 26
+2023-12-21 00:07:46 PING baidu.com (39.156.66.10) 56(84) bytes of data.
+2023-12-21 00:07:46 64 bytes from 39.156.66.10: icmp_seq=1 ttl=43 time=94.6 ms
+2023-12-21 00:07:46 64 bytes from 39.156.66.10: icmp_seq=2 ttl=43 time=104 ms
+2023-12-21 00:07:47 64 bytes from 39.156.66.10: icmp_seq=3 ttl=43 time=132 ms
+2023-12-21 00:07:47 
+2023-12-21 00:07:47 --- baidu.com ping statistics ---
+2023-12-21 00:07:47 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:07:47 rtt min/avg/max/mdev = 94.673/110.765/132.963/16.217 ms
+2023-12-21 00:07:47 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:07:47 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.293 ms
+2023-12-21 00:07:47 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.242 ms
+2023-12-21 00:07:48 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.258 ms
+2023-12-21 00:07:48 
+2023-12-21 00:07:48 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:07:48 3 packets transmitted, 3 received, 0% packet loss, time 1024ms
+2023-12-21 00:07:48 rtt min/avg/max/mdev = 0.242/0.264/0.293/0.025 ms
+2023-12-21 00:07:48 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:07:48 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=96.6 ms
+2023-12-21 00:07:49 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=109 ms
+2023-12-21 00:07:49 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=119 ms
+2023-12-21 00:07:49 
+2023-12-21 00:07:49 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:07:49 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:07:49 rtt min/avg/max/mdev = 96.648/108.566/119.266/9.273 ms
+2023-12-21 00:07:49 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:07:49 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.029 ms
+2023-12-21 00:07:50 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.051 ms
+2023-12-21 00:07:50 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.018 ms
+2023-12-21 00:07:50 
+2023-12-21 00:07:50 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:07:50 3 packets transmitted, 3 received, 0% packet loss, time 1024ms
+2023-12-21 00:07:50 rtt min/avg/max/mdev = 0.018/0.032/0.051/0.015 ms
+2023-12-21 00:07:51 lat: 0.548376138121
+2023-12-21 00:07:51 lon: 2.10554541408
+2023-12-21 00:07:53 router ip : 192.168.30.1
+2023-12-21 00:07:53 SIM state: READY
+2023-12-21 00:07:53 Signal strength: 26
+2023-12-21 00:07:53 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:07:53 PING baidu.com (110.242.68.66) 56(84) bytes of data.
+2023-12-21 00:07:53 64 bytes from 110.242.68.66: icmp_seq=1 ttl=43 time=105 ms
+2023-12-21 00:07:53 64 bytes from 110.242.68.66: icmp_seq=2 ttl=43 time=133 ms
+2023-12-21 00:07:54 64 bytes from 110.242.68.66: icmp_seq=3 ttl=43 time=115 ms
+2023-12-21 00:07:54 
+2023-12-21 00:07:54 --- baidu.com ping statistics ---
+2023-12-21 00:07:54 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:07:54 rtt min/avg/max/mdev = 105.408/118.258/133.891/11.800 ms
+2023-12-21 00:07:54 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:07:54 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.298 ms
+2023-12-21 00:07:54 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.258 ms
+2023-12-21 00:07:55 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.293 ms
+2023-12-21 00:07:55 
+2023-12-21 00:07:55 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:07:55 3 packets transmitted, 3 received, 0% packet loss, time 1010ms
+2023-12-21 00:07:55 rtt min/avg/max/mdev = 0.258/0.283/0.298/0.017 ms
+2023-12-21 00:07:55 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:07:55 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=47.9 ms
+2023-12-21 00:07:56 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=63.4 ms
+2023-12-21 00:07:56 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=72.9 ms
+2023-12-21 00:07:56 
+2023-12-21 00:07:56 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:07:56 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-21 00:07:56 rtt min/avg/max/mdev = 47.994/61.448/72.936/10.281 ms
+2023-12-21 00:07:56 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:07:56 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.028 ms
+2023-12-21 00:07:57 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.017 ms
+2023-12-21 00:07:57 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.038 ms
+2023-12-21 00:07:57 
+2023-12-21 00:07:57 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:07:57 3 packets transmitted, 3 received, 0% packet loss, time 1023ms
+2023-12-21 00:07:57 rtt min/avg/max/mdev = 0.017/0.027/0.038/0.010 ms
+2023-12-21 00:07:58 lat: 0.548376365014
+2023-12-21 00:07:58 lon: 2.10554617505
+2023-12-21 00:07:59 router ip : 192.168.30.1
+2023-12-21 00:07:59 SIM state: READY
+2023-12-21 00:07:59 Signal strength: 26
+2023-12-21 00:07:59 Network type: E-UTRA-NR dual(5G)
+2023-12-21 00:08:00 PING baidu.com (110.242.68.66) 56(84) bytes of data.
+2023-12-21 00:08:00 64 bytes from 110.242.68.66: icmp_seq=1 ttl=43 time=94.8 ms
+2023-12-21 00:08:00 64 bytes from 110.242.68.66: icmp_seq=2 ttl=43 time=114 ms
+2023-12-21 00:08:01 64 bytes from 110.242.68.66: icmp_seq=3 ttl=43 time=98.5 ms
+2023-12-21 00:08:01 
+2023-12-21 00:08:01 --- baidu.com ping statistics ---
+2023-12-21 00:08:01 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:08:01 rtt min/avg/max/mdev = 94.849/102.727/114.747/8.638 ms
+2023-12-21 00:08:01 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-21 00:08:01 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.298 ms
+2023-12-21 00:08:01 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.226 ms
+2023-12-21 00:08:02 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.242 ms
+2023-12-21 00:08:02 
+2023-12-21 00:08:02 --- 192.168.30.1 ping statistics ---
+2023-12-21 00:08:02 3 packets transmitted, 3 received, 0% packet loss, time 1003ms
+2023-12-21 00:08:02 rtt min/avg/max/mdev = 0.226/0.255/0.298/0.033 ms
+2023-12-21 00:08:02 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-21 00:08:02 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=15.6 ms
+2023-12-21 00:08:02 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=1.84 ms
+2023-12-21 00:08:03 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=4.99 ms
+2023-12-21 00:08:03 
+2023-12-21 00:08:03 --- 192.168.30.198 ping statistics ---
+2023-12-21 00:08:03 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-21 00:08:03 rtt min/avg/max/mdev = 1.848/7.481/15.602/5.884 ms
+2023-12-21 00:08:03 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-21 00:08:03 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.020 ms
+2023-12-21 00:08:03 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.015 ms
+2023-12-21 00:08:04 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.029 ms
+2023-12-21 00:08:04 
+2023-12-21 00:08:04 --- 192.168.30.200 ping statistics ---
+2023-12-21 00:08:04 3 packets transmitted, 3 received, 0% packet loss, time 1032ms
+2023-12-21 00:08:04 rtt min/avg/max/mdev = 0.015/0.021/0.029/0.006 ms
+2023-12-21 00:08:05 lat: 0.548375651174
+2023-12-21 00:08:05 lon: 2.10554628675
