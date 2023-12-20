@@ -1,0 +1,3514 @@
+2023-12-20 22:59:46 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-20 22:59:46 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.299 ms
+2023-12-20 22:59:47 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.237 ms
+2023-12-20 22:59:47 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.284 ms
+2023-12-20 22:59:47 
+2023-12-20 22:59:47 --- 192.168.30.1 ping statistics ---
+2023-12-20 22:59:47 3 packets transmitted, 3 received, 0% packet loss, time 1011ms
+2023-12-20 22:59:47 rtt min/avg/max/mdev = 0.237/0.273/0.299/0.029 ms
+2023-12-20 22:59:48 PING 192.168.30.159 (192.168.30.159) 56(84) bytes of data.
+2023-12-20 22:59:48 64 bytes from 192.168.30.159: icmp_seq=1 ttl=64 time=217 ms
+2023-12-20 22:59:48 64 bytes from 192.168.30.159: icmp_seq=2 ttl=64 time=308 ms
+2023-12-20 22:59:48 64 bytes from 192.168.30.159: icmp_seq=3 ttl=64 time=5.92 ms
+2023-12-20 22:59:48 
+2023-12-20 22:59:48 --- 192.168.30.159 ping statistics ---
+2023-12-20 22:59:48 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-20 22:59:48 rtt min/avg/max/mdev = 5.922/177.164/308.457/126.698 ms
+2023-12-20 22:59:48 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-20 22:59:48 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=2.79 ms
+2023-12-20 22:59:49 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=4.64 ms
+2023-12-20 22:59:49 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=3.80 ms
+2023-12-20 22:59:49 
+2023-12-20 22:59:49 --- 192.168.30.198 ping statistics ---
+2023-12-20 22:59:49 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-20 22:59:49 rtt min/avg/max/mdev = 2.792/3.747/4.642/0.756 ms
+2023-12-20 22:59:49 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-20 22:59:49 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.027 ms
+2023-12-20 22:59:50 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.019 ms
+2023-12-20 22:59:50 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.029 ms
+2023-12-20 22:59:50 
+2023-12-20 22:59:50 --- 192.168.30.200 ping statistics ---
+2023-12-20 22:59:50 3 packets transmitted, 3 received, 0% packet loss, time 1005ms
+2023-12-20 22:59:50 rtt min/avg/max/mdev = 0.019/0.025/0.029/0.004 ms
+before docker
+after docker
+header: 
+  seq: 63898
+  stamp: 
+    secs: 1703084391
+    nsecs: 705439345
+  frame_id: "WvyTIuWL4T+bAdBdQNgAQAAAAAAAAAAAukkMAiuHpj8bL90kBoGlP/yp8dJNYmC/mMU1hHXg6T8IrBxaZDuvPwEgDgAAAAAACtejcD0KT0AAAAAAAAAAAAAAAIDvHRNB9QgAAAAAAAAAAHhawGDZQQ=="
+meta: 
+  timestamp_us: 1703084391639520
+  seq: 63898
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548364004592
+    lon: 2.10551809444
+    alt: 221.65
+    vel_e: 0.044
+    vel_n: 0.042
+    vel_u: -0.002
+    azi_track: 0.808649786208
+    speed: 0.061
+    status: 1
+    msg_type: 32
+    sat_num: 14
+    hdop: 62.08
+    rtk_age: 0.0
+    sec_in_gps_week: 313211.875
+    gps_week: 2293
+    utc_time: 1703084393.88
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [25, 16, 49, 18, 24, 3, 38, 66, 62, 12, 58, 35, 45, 53, 9, 19, 40, 12, 29, 20, 61, 57, 46, 35, 52, 35, 14, 86, 55, 71, 43, 45, 28, 22, 50, 29, 12, 16, 45, 72, 48, 53]
+    sv_az: [41, 92, 291, 129, 264, 325, 179, 57, 350, 217, 201, 236, 139, 168, 56, 265, 280, 150, 311, 55, 246, 11, 139, 234, 199, 121, 253, 283, 225, 305, 314, 225, 54, 178, 120, 252, 306, 202, 165, 51, 142, 168]
+    sv_cno: [15, 0, 22, 19, 0, 0, 36, 0, 0, 0, 32, 0, 0, 27, 0, 0, 14, 0, 14, 8, 28, 0, 0, 0, 0, 0, 0, 20, 24, 14, 0, 20, 22, 29, 0, 30, 0, 29, 13, 0, 29, 25]
+    std_pe: 9.948
+    std_pn: 9.948
+    std_pu: 6.379
+    std_ve: 0.222
+    std_vn: 0.222
+    std_vu: 0.222
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 22:59:51 output: header: 
+  seq: 63898
+  stamp: 
+    secs: 1703084391
+    nsecs: 705439345
+  frame_id: "WvyTIuWL4T+bAdBdQNgAQAAAAAAAAAAAukkMAiuHpj8bL90kBoGlP/yp8dJNYmC/mMU1hHXg6T8IrBxaZDuvPwEgDgAAAAAACtejcD0KT0AAAAAAAAAAAAAAAIDvHRNB9QgAAAAAAAAAAHhawGDZQQ=="
+meta: 
+  timestamp_us: 1703084391639520
+  seq: 63898
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548364004592
+    lon: 2.10551809444
+    alt: 221.65
+    vel_e: 0.044
+    vel_n: 0.042
+    vel_u: -0.002
+    azi_track: 0.808649786208
+    speed: 0.061
+    status: 1
+    msg_type: 32
+    sat_num: 14
+    hdop: 62.08
+    rtk_age: 0.0
+    sec_in_gps_week: 313211.875
+    gps_week: 2293
+    utc_time: 1703084393.88
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [25, 16, 49, 18, 24, 3, 38, 66, 62, 12, 58, 35, 45, 53, 9, 19, 40, 12, 29, 20, 61, 57, 46, 35, 52, 35, 14, 86, 55, 71, 43, 45, 28, 22, 50, 29, 12, 16, 45, 72, 48, 53]
+    sv_az: [41, 92, 291, 129, 264, 325, 179, 57, 350, 217, 201, 236, 139, 168, 56, 265, 280, 150, 311, 55, 246, 11, 139, 234, 199, 121, 253, 283, 225, 305, 314, 225, 54, 178, 120, 252, 306, 202, 165, 51, 142, 168]
+    sv_cno: [15, 0, 22, 19, 0, 0, 36, 0, 0, 0, 32, 0, 0, 27, 0, 0, 14, 0, 14, 8, 28, 0, 0, 0, 0, 0, 0, 20, 24, 14, 0, 20, 22, 29, 0, 30, 0, 29, 13, 0, 29, 25]
+    std_pe: 9.948
+    std_pn: 9.948
+    std_pu: 6.379
+    std_ve: 0.222
+    std_vn: 0.222
+    std_vu: 0.222
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 22:59:51 lat: 0.548364004592
+2023-12-20 22:59:51 lon: 2.10551809444
+2023-12-20 22:59:52 router type: usr
+2023-12-20 22:59:53 SerialNumber: FD22MU003G
+2023-12-20 22:59:53 IMEI: 864220040463761
+2023-12-20 22:59:53 IP address: 10.24.2.240
+2023-12-20 22:59:53 ICCID: 89860486102070406810
+2023-12-20 22:59:53 SIM state: READY
+2023-12-20 22:59:53 Attachment status: 已附着
+2023-12-20 22:59:53 Network type: E-UTRA-NR dual(5G)
+2023-12-20 22:59:53 Signal strength: 26
+2023-12-20 22:59:53 Cell ID: 6E892C8
+2023-12-20 22:59:53 CIMI: 460080614206810
+2023-12-20 22:59:53 RouterType: usr
+2023-12-20 22:59:53 OperationsInfo: CHINAMOBILE
+2023-12-20 22:59:53 Version: 89100.1000.00.04.07.21
+2023-12-20 22:59:53 SimValid: True
+2023-12-20 22:59:53 Location area code: 528A
+2023-12-20 22:59:53 PING www.a.shifen.com (180.101.50.188) 56(84) bytes of data.
+2023-12-20 22:59:53 64 bytes from 180.101.50.188: icmp_seq=1 ttl=42 time=90.0 ms
+2023-12-20 22:59:53 64 bytes from 180.101.50.188: icmp_seq=2 ttl=42 time=135 ms
+2023-12-20 22:59:54 64 bytes from 180.101.50.188: icmp_seq=3 ttl=42 time=89.8 ms
+2023-12-20 22:59:54 
+2023-12-20 22:59:54 --- www.a.shifen.com ping statistics ---
+2023-12-20 22:59:54 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-20 22:59:54 rtt min/avg/max/mdev = 89.828/105.245/135.883/21.667 ms
+2023-12-20 22:59:54 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-20 22:59:54 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.271 ms
+2023-12-20 22:59:54 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.252 ms
+2023-12-20 22:59:55 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.269 ms
+2023-12-20 22:59:55 
+2023-12-20 22:59:55 --- 192.168.30.1 ping statistics ---
+2023-12-20 22:59:55 3 packets transmitted, 3 received, 0% packet loss, time 1006ms
+2023-12-20 22:59:55 rtt min/avg/max/mdev = 0.252/0.264/0.271/0.008 ms
+2023-12-20 22:59:55 PING 192.168.30.159 (192.168.30.159) 56(84) bytes of data.
+2023-12-20 22:59:55 64 bytes from 192.168.30.159: icmp_seq=1 ttl=64 time=127 ms
+2023-12-20 22:59:56 64 bytes from 192.168.30.159: icmp_seq=2 ttl=64 time=239 ms
+2023-12-20 22:59:56 64 bytes from 192.168.30.159: icmp_seq=3 ttl=64 time=355 ms
+2023-12-20 22:59:56 
+2023-12-20 22:59:56 --- 192.168.30.159 ping statistics ---
+2023-12-20 22:59:56 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-20 22:59:56 rtt min/avg/max/mdev = 127.353/240.978/355.594/93.182 ms
+2023-12-20 22:59:56 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-20 22:59:56 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=2.91 ms
+2023-12-20 22:59:57 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=2.89 ms
+2023-12-20 22:59:57 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=4.64 ms
+2023-12-20 22:59:57 
+2023-12-20 22:59:57 --- 192.168.30.198 ping statistics ---
+2023-12-20 22:59:57 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 22:59:57 rtt min/avg/max/mdev = 2.896/3.484/4.644/0.822 ms
+2023-12-20 22:59:57 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-20 22:59:57 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.037 ms
+2023-12-20 22:59:58 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.021 ms
+2023-12-20 22:59:58 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.025 ms
+2023-12-20 22:59:58 
+2023-12-20 22:59:58 --- 192.168.30.200 ping statistics ---
+2023-12-20 22:59:58 3 packets transmitted, 3 received, 0% packet loss, time 1011ms
+2023-12-20 22:59:58 rtt min/avg/max/mdev = 0.021/0.027/0.037/0.009 ms
+before docker
+after docker
+header: 
+  seq: 63962
+  stamp: 
+    secs: 1703084399
+    nsecs: 705168393
+  frame_id: "MMCJPuWL4T9L+lOyQNgAQAAAAAAAAAAAuB6F61G4jr9aZDvfT42XvwAAAAAAAAAAMI9AYYbBDUB56SYxCKycPwEgDQAAAAAACtejcD0qTkAAAAAAAAAAAAAAAIAPHhNB9QgAAAAAAAAAAHhcwGDZQQ=="
+meta: 
+  timestamp_us: 1703084399698871
+  seq: 63962
+info: 
+  available: 0
+  gnss_data_basic: 
+    lat: 0.548364056952
+    lon: 2.10551872276
+    alt: 228.116
+    vel_e: -0.015
+    vel_n: -0.023
+    vel_u: 0.0
+    azi_track: 3.71949459055
+    speed: 0.028
+    status: 1
+    msg_type: 32
+    sat_num: 13
+    hdop: 60.33
+    rtk_age: 0.0
+    sec_in_gps_week: 313219.875
+    gps_week: 2293
+    utc_time: 1703084401.88
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [25, 16, 49, 18, 24, 3, 38, 66, 62, 12, 58, 35, 45, 53, 9, 19, 40, 12, 29, 20, 61, 57, 46, 35, 52, 35, 14, 86, 55, 71, 43, 45, 27, 23, 50, 29, 12, 16, 45, 72, 49, 53]
+    sv_az: [41, 92, 291, 129, 264, 325, 179, 57, 350, 217, 201, 236, 139, 168, 56, 265, 280, 150, 311, 55, 246, 11, 139, 234, 199, 121, 253, 283, 225, 305, 315, 225, 53, 178, 119, 252, 306, 202, 165, 51, 142, 168]
+    sv_cno: [0, 0, 24, 19, 13, 0, 36, 0, 0, 0, 32, 0, 0, 28, 0, 0, 14, 0, 0, 13, 29, 0, 0, 0, 0, 0, 0, 19, 25, 13, 0, 26, 23, 27, 0, 19, 0, 29, 16, 0, 30, 25]
+    std_pe: 10.248
+    std_pn: 10.248
+    std_pu: 6.762
+    std_ve: 0.244
+    std_vn: 0.244
+    std_vu: 0.244
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:00:00 output: header: 
+  seq: 63962
+  stamp: 
+    secs: 1703084399
+    nsecs: 705168393
+  frame_id: "MMCJPuWL4T9L+lOyQNgAQAAAAAAAAAAAuB6F61G4jr9aZDvfT42XvwAAAAAAAAAAMI9AYYbBDUB56SYxCKycPwEgDQAAAAAACtejcD0qTkAAAAAAAAAAAAAAAIAPHhNB9QgAAAAAAAAAAHhcwGDZQQ=="
+meta: 
+  timestamp_us: 1703084399698871
+  seq: 63962
+info: 
+  available: 0
+  gnss_data_basic: 
+    lat: 0.548364056952
+    lon: 2.10551872276
+    alt: 228.116
+    vel_e: -0.015
+    vel_n: -0.023
+    vel_u: 0.0
+    azi_track: 3.71949459055
+    speed: 0.028
+    status: 1
+    msg_type: 32
+    sat_num: 13
+    hdop: 60.33
+    rtk_age: 0.0
+    sec_in_gps_week: 313219.875
+    gps_week: 2293
+    utc_time: 1703084401.88
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [25, 16, 49, 18, 24, 3, 38, 66, 62, 12, 58, 35, 45, 53, 9, 19, 40, 12, 29, 20, 61, 57, 46, 35, 52, 35, 14, 86, 55, 71, 43, 45, 27, 23, 50, 29, 12, 16, 45, 72, 49, 53]
+    sv_az: [41, 92, 291, 129, 264, 325, 179, 57, 350, 217, 201, 236, 139, 168, 56, 265, 280, 150, 311, 55, 246, 11, 139, 234, 199, 121, 253, 283, 225, 305, 315, 225, 53, 178, 119, 252, 306, 202, 165, 51, 142, 168]
+    sv_cno: [0, 0, 24, 19, 13, 0, 36, 0, 0, 0, 32, 0, 0, 28, 0, 0, 14, 0, 0, 13, 29, 0, 0, 0, 0, 0, 0, 19, 25, 13, 0, 26, 23, 27, 0, 19, 0, 29, 16, 0, 30, 25]
+    std_pe: 10.248
+    std_pn: 10.248
+    std_pu: 6.762
+    std_ve: 0.244
+    std_vn: 0.244
+    std_vu: 0.244
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:00:00 lat: 0.548364056952
+2023-12-20 23:00:00 lon: 2.10551872276
+2023-12-20 23:00:01 Signal strength: 26
+2023-12-20 23:00:01 Network type: E-UTRA-NR dual(5G)
+2023-12-20 23:00:01 SIM state: READY
+2023-12-20 23:00:01 PING www.a.shifen.com (180.101.50.188) 56(84) bytes of data.
+2023-12-20 23:00:01 64 bytes from 180.101.50.188: icmp_seq=1 ttl=42 time=129 ms
+2023-12-20 23:00:01 64 bytes from 180.101.50.188: icmp_seq=2 ttl=42 time=108 ms
+2023-12-20 23:00:02 64 bytes from 180.101.50.188: icmp_seq=3 ttl=42 time=130 ms
+2023-12-20 23:00:02 
+2023-12-20 23:00:02 --- www.a.shifen.com ping statistics ---
+2023-12-20 23:00:02 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:00:02 rtt min/avg/max/mdev = 108.369/122.796/130.631/10.214 ms
+2023-12-20 23:00:02 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-20 23:00:02 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.288 ms
+2023-12-20 23:00:02 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.236 ms
+2023-12-20 23:00:03 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.424 ms
+2023-12-20 23:00:03 
+2023-12-20 23:00:03 --- 192.168.30.1 ping statistics ---
+2023-12-20 23:00:03 3 packets transmitted, 3 received, 0% packet loss, time 1013ms
+2023-12-20 23:00:03 rtt min/avg/max/mdev = 0.236/0.316/0.424/0.079 ms
+2023-12-20 23:00:03 PING 192.168.30.159 (192.168.30.159) 56(84) bytes of data.
+2023-12-20 23:00:03 64 bytes from 192.168.30.159: icmp_seq=1 ttl=64 time=293 ms
+2023-12-20 23:00:04 64 bytes from 192.168.30.159: icmp_seq=2 ttl=64 time=5.94 ms
+2023-12-20 23:00:04 64 bytes from 192.168.30.159: icmp_seq=3 ttl=64 time=109 ms
+2023-12-20 23:00:04 
+2023-12-20 23:00:04 --- 192.168.30.159 ping statistics ---
+2023-12-20 23:00:04 3 packets transmitted, 3 received, 0% packet loss, time 1002ms
+2023-12-20 23:00:04 rtt min/avg/max/mdev = 5.947/136.110/293.287/118.851 ms
+2023-12-20 23:00:04 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-20 23:00:04 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=6.64 ms
+2023-12-20 23:00:05 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=4.20 ms
+2023-12-20 23:00:05 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=13.9 ms
+2023-12-20 23:00:05 
+2023-12-20 23:00:05 --- 192.168.30.198 ping statistics ---
+2023-12-20 23:00:05 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:00:05 rtt min/avg/max/mdev = 4.206/8.262/13.938/4.134 ms
+2023-12-20 23:00:05 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-20 23:00:05 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.017 ms
+2023-12-20 23:00:06 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.025 ms
+2023-12-20 23:00:06 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.034 ms
+2023-12-20 23:00:06 
+2023-12-20 23:00:06 --- 192.168.30.200 ping statistics ---
+2023-12-20 23:00:06 3 packets transmitted, 3 received, 0% packet loss, time 1023ms
+2023-12-20 23:00:06 rtt min/avg/max/mdev = 0.017/0.025/0.034/0.008 ms
+before docker
+after docker
+header: 
+  seq: 64025
+  stamp: 
+    secs: 1703084407
+    nsecs: 580599982
+  frame_id: "Jgp3NeOL4T808l3YP9gAQAAAAAAAAAAA2/l+arx0kz+cxCCwcmiRP/yp8dJNYlC/ZGhkIaDo6j+amZmZmZmZPwEgDgAAAAAA7FG4HoVrTUAAAAAAAAAAAAAAAAAvHhNB9QgAAAAAAAAAAHBewGDZQQ=="
+meta: 
+  timestamp_us: 1703084407514280
+  seq: 64025
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548363084803
+    lon: 2.10551709786
+    alt: 219.861
+    vel_e: 0.019
+    vel_n: 0.017
+    vel_u: -0.001
+    azi_track: 0.840896668643
+    speed: 0.025
+    status: 1
+    msg_type: 32
+    sat_num: 14
+    hdop: 58.84
+    rtk_age: 0.0
+    sec_in_gps_week: 313227.75
+    gps_week: 2293
+    utc_time: 1703084409.75
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [25, 16, 49, 18, 24, 3, 38, 66, 62, 12, 58, 35, 45, 53, 9, 19, 40, 12, 29, 20, 61, 57, 46, 35, 52, 35, 14, 86, 55, 71, 43, 45, 27, 23, 50, 29, 12, 16, 45, 72, 49, 53]
+    sv_az: [41, 92, 291, 129, 264, 325, 179, 57, 350, 217, 201, 236, 139, 168, 56, 265, 280, 150, 311, 55, 246, 11, 139, 234, 199, 121, 253, 283, 225, 305, 315, 225, 53, 178, 119, 252, 306, 201, 165, 51, 142, 168]
+    sv_cno: [16, 0, 30, 19, 22, 0, 36, 0, 0, 0, 31, 0, 0, 27, 0, 0, 23, 0, 0, 14, 29, 0, 0, 0, 0, 0, 0, 20, 23, 14, 0, 21, 17, 28, 0, 27, 0, 29, 11, 0, 30, 26]
+    std_pe: 9.05
+    std_pn: 9.05
+    std_pu: 6.004
+    std_ve: 0.221
+    std_vn: 0.221
+    std_vu: 0.221
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:00:07 output: header: 
+  seq: 64025
+  stamp: 
+    secs: 1703084407
+    nsecs: 580599982
+  frame_id: "Jgp3NeOL4T808l3YP9gAQAAAAAAAAAAA2/l+arx0kz+cxCCwcmiRP/yp8dJNYlC/ZGhkIaDo6j+amZmZmZmZPwEgDgAAAAAA7FG4HoVrTUAAAAAAAAAAAAAAAAAvHhNB9QgAAAAAAAAAAHBewGDZQQ=="
+meta: 
+  timestamp_us: 1703084407514280
+  seq: 64025
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548363084803
+    lon: 2.10551709786
+    alt: 219.861
+    vel_e: 0.019
+    vel_n: 0.017
+    vel_u: -0.001
+    azi_track: 0.840896668643
+    speed: 0.025
+    status: 1
+    msg_type: 32
+    sat_num: 14
+    hdop: 58.84
+    rtk_age: 0.0
+    sec_in_gps_week: 313227.75
+    gps_week: 2293
+    utc_time: 1703084409.75
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [25, 16, 49, 18, 24, 3, 38, 66, 62, 12, 58, 35, 45, 53, 9, 19, 40, 12, 29, 20, 61, 57, 46, 35, 52, 35, 14, 86, 55, 71, 43, 45, 27, 23, 50, 29, 12, 16, 45, 72, 49, 53]
+    sv_az: [41, 92, 291, 129, 264, 325, 179, 57, 350, 217, 201, 236, 139, 168, 56, 265, 280, 150, 311, 55, 246, 11, 139, 234, 199, 121, 253, 283, 225, 305, 315, 225, 53, 178, 119, 252, 306, 201, 165, 51, 142, 168]
+    sv_cno: [16, 0, 30, 19, 22, 0, 36, 0, 0, 0, 31, 0, 0, 27, 0, 0, 23, 0, 0, 14, 29, 0, 0, 0, 0, 0, 0, 20, 23, 14, 0, 21, 17, 28, 0, 27, 0, 29, 11, 0, 30, 26]
+    std_pe: 9.05
+    std_pn: 9.05
+    std_pu: 6.004
+    std_ve: 0.221
+    std_vn: 0.221
+    std_vu: 0.221
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:00:07 lat: 0.548363084803
+2023-12-20 23:00:07 lon: 2.10551709786
+2023-12-20 23:00:09 Network type: E-UTRA-NR dual(5G)
+2023-12-20 23:00:09 Signal strength: 26
+2023-12-20 23:00:09 SIM state: READY
+2023-12-20 23:00:09 PING www.a.shifen.com (180.101.50.242) 56(84) bytes of data.
+2023-12-20 23:00:09 64 bytes from 180.101.50.242: icmp_seq=1 ttl=43 time=131 ms
+2023-12-20 23:00:09 64 bytes from 180.101.50.242: icmp_seq=2 ttl=43 time=137 ms
+2023-12-20 23:00:10 64 bytes from 180.101.50.242: icmp_seq=3 ttl=43 time=124 ms
+2023-12-20 23:00:10 
+2023-12-20 23:00:10 --- www.a.shifen.com ping statistics ---
+2023-12-20 23:00:10 3 packets transmitted, 3 received, 0% packet loss, time 1002ms
+2023-12-20 23:00:10 rtt min/avg/max/mdev = 124.612/131.296/137.716/5.361 ms
+2023-12-20 23:00:10 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-20 23:00:10 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.468 ms
+2023-12-20 23:00:10 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.262 ms
+2023-12-20 23:00:11 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.259 ms
+2023-12-20 23:00:11 
+2023-12-20 23:00:11 --- 192.168.30.1 ping statistics ---
+2023-12-20 23:00:11 3 packets transmitted, 3 received, 0% packet loss, time 1012ms
+2023-12-20 23:00:11 rtt min/avg/max/mdev = 0.259/0.329/0.468/0.100 ms
+2023-12-20 23:00:11 PING 192.168.30.159 (192.168.30.159) 56(84) bytes of data.
+2023-12-20 23:00:11 64 bytes from 192.168.30.159: icmp_seq=1 ttl=64 time=86.4 ms
+2023-12-20 23:00:12 64 bytes from 192.168.30.159: icmp_seq=2 ttl=64 time=202 ms
+2023-12-20 23:00:12 64 bytes from 192.168.30.159: icmp_seq=3 ttl=64 time=316 ms
+2023-12-20 23:00:12 
+2023-12-20 23:00:12 --- 192.168.30.159 ping statistics ---
+2023-12-20 23:00:12 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-20 23:00:12 rtt min/avg/max/mdev = 86.404/201.737/316.615/93.984 ms
+2023-12-20 23:00:12 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-20 23:00:12 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=3.96 ms
+2023-12-20 23:00:13 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=6.53 ms
+2023-12-20 23:00:13 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=2.41 ms
+2023-12-20 23:00:13 
+2023-12-20 23:00:13 --- 192.168.30.198 ping statistics ---
+2023-12-20 23:00:13 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:00:13 rtt min/avg/max/mdev = 2.410/4.304/6.536/1.702 ms
+2023-12-20 23:00:13 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-20 23:00:13 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.027 ms
+2023-12-20 23:00:14 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.020 ms
+2023-12-20 23:00:14 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.016 ms
+2023-12-20 23:00:14 
+2023-12-20 23:00:14 --- 192.168.30.200 ping statistics ---
+2023-12-20 23:00:14 3 packets transmitted, 3 received, 0% packet loss, time 1022ms
+2023-12-20 23:00:14 rtt min/avg/max/mdev = 0.016/0.021/0.027/0.004 ms
+before docker
+after docker
+header: 
+  seq: 64088
+  stamp: 
+    secs: 1703084415
+    nsecs: 458317191
+  frame_id: "ikQhZuCL4T91cpc5QNgAQAAAAAAAAAAA/Knx0k1iYD/ZzvdT46WbP/p+arx0k2i/E3mjNKvtsj/ZzvdT46WbPwEgDwAAAAAA16NwPQqXMEAAAAAAAAAAAAAAAIBOHhNB9QgAAAAAAAAAAGhgwGDZQQ=="
+meta: 
+  timestamp_us: 1703084415389120
+  seq: 64088
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548361746136
+    lon: 2.10551782217
+    alt: 218.435
+    vel_e: 0.002
+    vel_n: 0.027
+    vel_u: -0.003
+    azi_track: 0.0739390376579
+    speed: 0.027
+    status: 1
+    msg_type: 32
+    sat_num: 15
+    hdop: 16.59
+    rtk_age: 0.0
+    sec_in_gps_week: 313235.625
+    gps_week: 2293
+    utc_time: 1703084417.62
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 16, 49, 18, 24, 3, 38, 66, 62, 12, 58, 35, 45, 53, 9, 19, 40, 12, 29, 20, 61, 57, 46, 35, 52, 35, 14, 86, 55, 71, 43, 45, 27, 23, 50, 29, 12, 15, 45, 72, 49, 53]
+    sv_az: [41, 92, 291, 129, 264, 325, 179, 57, 350, 217, 201, 236, 139, 168, 56, 265, 280, 150, 311, 55, 246, 11, 139, 234, 199, 121, 253, 283, 225, 305, 315, 225, 53, 178, 119, 252, 306, 201, 165, 51, 142, 168]
+    sv_cno: [13, 0, 17, 19, 24, 0, 35, 0, 0, 0, 30, 0, 0, 27, 0, 0, 11, 0, 0, 12, 26, 0, 0, 0, 0, 0, 0, 20, 24, 12, 0, 24, 20, 29, 0, 22, 0, 28, 0, 0, 29, 25]
+    std_pe: 10.369
+    std_pn: 10.369
+    std_pu: 6.963
+    std_ve: 0.225
+    std_vn: 0.225
+    std_vu: 0.225
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:00:15 output: header: 
+  seq: 64088
+  stamp: 
+    secs: 1703084415
+    nsecs: 458317191
+  frame_id: "ikQhZuCL4T91cpc5QNgAQAAAAAAAAAAA/Knx0k1iYD/ZzvdT46WbP/p+arx0k2i/E3mjNKvtsj/ZzvdT46WbPwEgDwAAAAAA16NwPQqXMEAAAAAAAAAAAAAAAIBOHhNB9QgAAAAAAAAAAGhgwGDZQQ=="
+meta: 
+  timestamp_us: 1703084415389120
+  seq: 64088
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548361746136
+    lon: 2.10551782217
+    alt: 218.435
+    vel_e: 0.002
+    vel_n: 0.027
+    vel_u: -0.003
+    azi_track: 0.0739390376579
+    speed: 0.027
+    status: 1
+    msg_type: 32
+    sat_num: 15
+    hdop: 16.59
+    rtk_age: 0.0
+    sec_in_gps_week: 313235.625
+    gps_week: 2293
+    utc_time: 1703084417.62
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 16, 49, 18, 24, 3, 38, 66, 62, 12, 58, 35, 45, 53, 9, 19, 40, 12, 29, 20, 61, 57, 46, 35, 52, 35, 14, 86, 55, 71, 43, 45, 27, 23, 50, 29, 12, 15, 45, 72, 49, 53]
+    sv_az: [41, 92, 291, 129, 264, 325, 179, 57, 350, 217, 201, 236, 139, 168, 56, 265, 280, 150, 311, 55, 246, 11, 139, 234, 199, 121, 253, 283, 225, 305, 315, 225, 53, 178, 119, 252, 306, 201, 165, 51, 142, 168]
+    sv_cno: [13, 0, 17, 19, 24, 0, 35, 0, 0, 0, 30, 0, 0, 27, 0, 0, 11, 0, 0, 12, 26, 0, 0, 0, 0, 0, 0, 20, 24, 12, 0, 24, 20, 29, 0, 22, 0, 28, 0, 0, 29, 25]
+    std_pe: 10.369
+    std_pn: 10.369
+    std_pu: 6.963
+    std_ve: 0.225
+    std_vn: 0.225
+    std_vu: 0.225
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:00:15 lat: 0.548361746136
+2023-12-20 23:00:15 lon: 2.10551782217
+2023-12-20 23:00:17 SIM state: READY
+2023-12-20 23:00:17 Network type: E-UTRA-NR dual(5G)
+2023-12-20 23:00:17 Signal strength: 26
+2023-12-20 23:00:17 PING www.a.shifen.com (180.101.50.242) 56(84) bytes of data.
+2023-12-20 23:00:17 64 bytes from 180.101.50.242: icmp_seq=1 ttl=43 time=129 ms
+2023-12-20 23:00:17 64 bytes from 180.101.50.242: icmp_seq=2 ttl=43 time=124 ms
+2023-12-20 23:00:18 64 bytes from 180.101.50.242: icmp_seq=3 ttl=43 time=127 ms
+2023-12-20 23:00:18 
+2023-12-20 23:00:18 --- www.a.shifen.com ping statistics ---
+2023-12-20 23:00:18 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:00:18 rtt min/avg/max/mdev = 124.754/127.284/129.594/2.024 ms
+2023-12-20 23:00:18 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-20 23:00:18 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.294 ms
+2023-12-20 23:00:18 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.354 ms
+2023-12-20 23:00:19 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.241 ms
+2023-12-20 23:00:19 
+2023-12-20 23:00:19 --- 192.168.30.1 ping statistics ---
+2023-12-20 23:00:19 3 packets transmitted, 3 received, 0% packet loss, time 1021ms
+2023-12-20 23:00:19 rtt min/avg/max/mdev = 0.241/0.296/0.354/0.048 ms
+2023-12-20 23:00:19 PING 192.168.30.159 (192.168.30.159) 56(84) bytes of data.
+2023-12-20 23:00:19 64 bytes from 192.168.30.159: icmp_seq=1 ttl=64 time=67.0 ms
+2023-12-20 23:00:20 64 bytes from 192.168.30.159: icmp_seq=2 ttl=64 time=182 ms
+2023-12-20 23:00:20 64 bytes from 192.168.30.159: icmp_seq=3 ttl=64 time=297 ms
+2023-12-20 23:00:20 
+2023-12-20 23:00:20 --- 192.168.30.159 ping statistics ---
+2023-12-20 23:00:20 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-20 23:00:20 rtt min/avg/max/mdev = 67.039/182.255/297.206/93.965 ms
+2023-12-20 23:00:20 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-20 23:00:20 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=4.05 ms
+2023-12-20 23:00:21 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=3.16 ms
+2023-12-20 23:00:21 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=2.52 ms
+2023-12-20 23:00:21 
+2023-12-20 23:00:21 --- 192.168.30.198 ping statistics ---
+2023-12-20 23:00:21 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:00:21 rtt min/avg/max/mdev = 2.520/3.244/4.051/0.631 ms
+2023-12-20 23:00:21 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-20 23:00:21 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.023 ms
+2023-12-20 23:00:22 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.022 ms
+2023-12-20 23:00:22 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.019 ms
+2023-12-20 23:00:22 
+2023-12-20 23:00:22 --- 192.168.30.200 ping statistics ---
+2023-12-20 23:00:22 3 packets transmitted, 3 received, 0% packet loss, time 1027ms
+2023-12-20 23:00:22 rtt min/avg/max/mdev = 0.019/0.021/0.023/0.004 ms
+before docker
+after docker
+header: 
+  seq: 64152
+  stamp: 
+    secs: 1703084423
+    nsecs: 457080470
+  frame_id: "evgxOt+L4T+BTAjEP9gAQAAAAAAAAAAAMzMzMzMzsz/6fmq8dJN4PwAAAAAAAAAAWDCmhf/a9z8zMzMzMzOzPwEgDAAAAAAASOF6FK5HH0AAAAAAAAAAAAAAAIBuHhNB9QgAAAAAAAAAAGhiwGDZQQ=="
+meta: 
+  timestamp_us: 1703084423388940
+  seq: 64152
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548361185885
+    lon: 2.10551694776
+    alt: 213.189
+    vel_e: 0.075
+    vel_n: 0.006
+    vel_u: 0.0
+    azi_track: 1.49096634108
+    speed: 0.075
+    status: 1
+    msg_type: 32
+    sat_num: 12
+    hdop: 7.82
+    rtk_age: 0.0
+    sec_in_gps_week: 313243.625
+    gps_week: 2293
+    utc_time: 1703084425.62
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 18, 24, 3, 38, 66, 62, 12, 58, 35, 45, 53, 9, 19, 40, 12, 29, 20, 61, 57, 46, 35, 52, 35, 14, 86, 55, 71, 43, 45, 27, 23, 50, 29, 12, 15, 45, 72, 49, 53]
+    sv_az: [41, 91, 292, 129, 265, 325, 179, 57, 350, 217, 201, 236, 139, 168, 56, 265, 280, 150, 311, 55, 246, 11, 139, 234, 199, 121, 253, 283, 225, 305, 315, 225, 53, 178, 119, 252, 306, 201, 165, 51, 142, 168]
+    sv_cno: [15, 11, 25, 17, 23, 0, 34, 0, 0, 0, 31, 0, 0, 0, 0, 0, 11, 0, 0, 6, 27, 0, 0, 0, 0, 0, 0, 20, 22, 15, 0, 22, 22, 30, 0, 15, 0, 28, 0, 0, 29, 25]
+    std_pe: 9.064
+    std_pn: 9.064
+    std_pu: 5.974
+    std_ve: 0.236
+    std_vn: 0.236
+    std_vu: 0.236
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:00:23 output: header: 
+  seq: 64152
+  stamp: 
+    secs: 1703084423
+    nsecs: 457080470
+  frame_id: "evgxOt+L4T+BTAjEP9gAQAAAAAAAAAAAMzMzMzMzsz/6fmq8dJN4PwAAAAAAAAAAWDCmhf/a9z8zMzMzMzOzPwEgDAAAAAAASOF6FK5HH0AAAAAAAAAAAAAAAIBuHhNB9QgAAAAAAAAAAGhiwGDZQQ=="
+meta: 
+  timestamp_us: 1703084423388940
+  seq: 64152
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548361185885
+    lon: 2.10551694776
+    alt: 213.189
+    vel_e: 0.075
+    vel_n: 0.006
+    vel_u: 0.0
+    azi_track: 1.49096634108
+    speed: 0.075
+    status: 1
+    msg_type: 32
+    sat_num: 12
+    hdop: 7.82
+    rtk_age: 0.0
+    sec_in_gps_week: 313243.625
+    gps_week: 2293
+    utc_time: 1703084425.62
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 18, 24, 3, 38, 66, 62, 12, 58, 35, 45, 53, 9, 19, 40, 12, 29, 20, 61, 57, 46, 35, 52, 35, 14, 86, 55, 71, 43, 45, 27, 23, 50, 29, 12, 15, 45, 72, 49, 53]
+    sv_az: [41, 91, 292, 129, 265, 325, 179, 57, 350, 217, 201, 236, 139, 168, 56, 265, 280, 150, 311, 55, 246, 11, 139, 234, 199, 121, 253, 283, 225, 305, 315, 225, 53, 178, 119, 252, 306, 201, 165, 51, 142, 168]
+    sv_cno: [15, 11, 25, 17, 23, 0, 34, 0, 0, 0, 31, 0, 0, 0, 0, 0, 11, 0, 0, 6, 27, 0, 0, 0, 0, 0, 0, 20, 22, 15, 0, 22, 22, 30, 0, 15, 0, 28, 0, 0, 29, 25]
+    std_pe: 9.064
+    std_pn: 9.064
+    std_pu: 5.974
+    std_ve: 0.236
+    std_vn: 0.236
+    std_vu: 0.236
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:00:23 lat: 0.548361185885
+2023-12-20 23:00:23 lon: 2.10551694776
+2023-12-20 23:00:25 Network type: E-UTRA-NR dual(5G)
+2023-12-20 23:00:25 SIM state: READY
+2023-12-20 23:00:25 Signal strength: 26
+2023-12-20 23:00:25 PING www.a.shifen.com (180.101.50.188) 56(84) bytes of data.
+2023-12-20 23:00:25 64 bytes from 180.101.50.188: icmp_seq=1 ttl=42 time=117 ms
+2023-12-20 23:00:25 64 bytes from 180.101.50.188: icmp_seq=2 ttl=42 time=142 ms
+2023-12-20 23:00:26 64 bytes from 180.101.50.188: icmp_seq=3 ttl=42 time=122 ms
+2023-12-20 23:00:26 
+2023-12-20 23:00:26 --- www.a.shifen.com ping statistics ---
+2023-12-20 23:00:26 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:00:26 rtt min/avg/max/mdev = 117.776/127.515/142.052/10.479 ms
+2023-12-20 23:00:26 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-20 23:00:26 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.299 ms
+2023-12-20 23:00:26 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.288 ms
+2023-12-20 23:00:27 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.435 ms
+2023-12-20 23:00:27 
+2023-12-20 23:00:27 --- 192.168.30.1 ping statistics ---
+2023-12-20 23:00:27 3 packets transmitted, 3 received, 0% packet loss, time 1017ms
+2023-12-20 23:00:27 rtt min/avg/max/mdev = 0.288/0.340/0.435/0.070 ms
+2023-12-20 23:00:27 PING 192.168.30.159 (192.168.30.159) 56(84) bytes of data.
+2023-12-20 23:00:27 64 bytes from 192.168.30.159: icmp_seq=1 ttl=64 time=49.7 ms
+2023-12-20 23:00:28 64 bytes from 192.168.30.159: icmp_seq=2 ttl=64 time=164 ms
+2023-12-20 23:00:28 64 bytes from 192.168.30.159: icmp_seq=3 ttl=64 time=279 ms
+2023-12-20 23:00:28 
+2023-12-20 23:00:28 --- 192.168.30.159 ping statistics ---
+2023-12-20 23:00:28 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-20 23:00:28 rtt min/avg/max/mdev = 49.750/164.775/279.727/93.888 ms
+2023-12-20 23:00:28 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-20 23:00:28 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=2.50 ms
+2023-12-20 23:00:29 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=3.96 ms
+2023-12-20 23:00:29 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=5.35 ms
+2023-12-20 23:00:29 
+2023-12-20 23:00:29 --- 192.168.30.198 ping statistics ---
+2023-12-20 23:00:29 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:00:29 rtt min/avg/max/mdev = 2.502/3.940/5.356/1.167 ms
+2023-12-20 23:00:29 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-20 23:00:29 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.021 ms
+2023-12-20 23:00:30 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.027 ms
+2023-12-20 23:00:30 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.065 ms
+2023-12-20 23:00:30 
+2023-12-20 23:00:30 --- 192.168.30.200 ping statistics ---
+2023-12-20 23:00:30 3 packets transmitted, 3 received, 0% packet loss, time 1004ms
+2023-12-20 23:00:30 rtt min/avg/max/mdev = 0.021/0.037/0.065/0.020 ms
+before docker
+after docker
+header: 
+  seq: 64214
+  stamp: 
+    secs: 1703084431
+    nsecs: 331815872
+  frame_id: "8I7mCd+L4T+SW9jHP9gAQAAAAAAAAAAAexSuR+F6dD/b+X5qvHSTv/yp8dJNYlA/Q+Phl/sSB0Db+X5qvHSTPwEgDQAAAAAACtejcD1KS0AAAAAAAAAAAAAAAACOHhNB9QgAAAAAAAAAAGBkwGDZQQ=="
+meta: 
+  timestamp_us: 1703084431263820
+  seq: 64214
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548361095128
+    lon: 2.10551697743
+    alt: 212.423
+    vel_e: 0.005
+    vel_n: -0.019
+    vel_u: 0.001
+    azi_track: 2.88426893862
+    speed: 0.019
+    status: 1
+    msg_type: 32
+    sat_num: 13
+    hdop: 54.58
+    rtk_age: 0.0
+    sec_in_gps_week: 313251.5
+    gps_week: 2293
+    utc_time: 1703084433.5
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 18, 24, 3, 37, 66, 62, 12, 58, 35, 45, 53, 9, 19, 40, 12, 29, 20, 61, 57, 46, 35, 52, 35, 14, 86, 55, 71, 43, 45, 27, 23, 50, 29, 12, 15, 45, 72, 49, 53]
+    sv_az: [41, 91, 292, 129, 265, 324, 179, 59, 351, 217, 201, 236, 139, 168, 56, 265, 280, 150, 311, 55, 246, 11, 139, 234, 199, 121, 253, 283, 225, 305, 315, 225, 53, 178, 119, 252, 306, 201, 165, 51, 142, 168]
+    sv_cno: [18, 0, 25, 18, 25, 0, 34, 12, 0, 0, 30, 0, 0, 29, 0, 0, 8, 0, 0, 0, 27, 0, 0, 0, 0, 0, 0, 21, 22, 13, 0, 18, 18, 31, 0, 27, 0, 29, 0, 0, 28, 25]
+    std_pe: 9.739
+    std_pn: 9.739
+    std_pu: 6.463
+    std_ve: 0.216
+    std_vn: 0.216
+    std_vu: 0.216
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:00:31 output: header: 
+  seq: 64214
+  stamp: 
+    secs: 1703084431
+    nsecs: 331815872
+  frame_id: "8I7mCd+L4T+SW9jHP9gAQAAAAAAAAAAAexSuR+F6dD/b+X5qvHSTv/yp8dJNYlA/Q+Phl/sSB0Db+X5qvHSTPwEgDQAAAAAACtejcD1KS0AAAAAAAAAAAAAAAACOHhNB9QgAAAAAAAAAAGBkwGDZQQ=="
+meta: 
+  timestamp_us: 1703084431263820
+  seq: 64214
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548361095128
+    lon: 2.10551697743
+    alt: 212.423
+    vel_e: 0.005
+    vel_n: -0.019
+    vel_u: 0.001
+    azi_track: 2.88426893862
+    speed: 0.019
+    status: 1
+    msg_type: 32
+    sat_num: 13
+    hdop: 54.58
+    rtk_age: 0.0
+    sec_in_gps_week: 313251.5
+    gps_week: 2293
+    utc_time: 1703084433.5
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 18, 24, 3, 37, 66, 62, 12, 58, 35, 45, 53, 9, 19, 40, 12, 29, 20, 61, 57, 46, 35, 52, 35, 14, 86, 55, 71, 43, 45, 27, 23, 50, 29, 12, 15, 45, 72, 49, 53]
+    sv_az: [41, 91, 292, 129, 265, 324, 179, 59, 351, 217, 201, 236, 139, 168, 56, 265, 280, 150, 311, 55, 246, 11, 139, 234, 199, 121, 253, 283, 225, 305, 315, 225, 53, 178, 119, 252, 306, 201, 165, 51, 142, 168]
+    sv_cno: [18, 0, 25, 18, 25, 0, 34, 12, 0, 0, 30, 0, 0, 29, 0, 0, 8, 0, 0, 0, 27, 0, 0, 0, 0, 0, 0, 21, 22, 13, 0, 18, 18, 31, 0, 27, 0, 29, 0, 0, 28, 25]
+    std_pe: 9.739
+    std_pn: 9.739
+    std_pu: 6.463
+    std_ve: 0.216
+    std_vn: 0.216
+    std_vu: 0.216
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:00:31 lat: 0.548361095128
+2023-12-20 23:00:31 lon: 2.10551697743
+2023-12-20 23:00:33 Network type: E-UTRA-NR dual(5G)
+2023-12-20 23:00:33 Signal strength: 26
+2023-12-20 23:00:33 SIM state: READY
+2023-12-20 23:00:33 PING www.a.shifen.com (180.101.50.242) 56(84) bytes of data.
+2023-12-20 23:00:33 64 bytes from 180.101.50.242: icmp_seq=1 ttl=43 time=118 ms
+2023-12-20 23:00:33 64 bytes from 180.101.50.242: icmp_seq=2 ttl=43 time=156 ms
+2023-12-20 23:00:34 64 bytes from 180.101.50.242: icmp_seq=3 ttl=43 time=118 ms
+2023-12-20 23:00:34 
+2023-12-20 23:00:34 --- www.a.shifen.com ping statistics ---
+2023-12-20 23:00:34 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:00:34 rtt min/avg/max/mdev = 118.153/131.049/156.484/17.988 ms
+2023-12-20 23:00:34 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-20 23:00:34 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.278 ms
+2023-12-20 23:00:34 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.472 ms
+2023-12-20 23:00:35 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.254 ms
+2023-12-20 23:00:35 
+2023-12-20 23:00:35 --- 192.168.30.1 ping statistics ---
+2023-12-20 23:00:35 3 packets transmitted, 3 received, 0% packet loss, time 1031ms
+2023-12-20 23:00:35 rtt min/avg/max/mdev = 0.254/0.334/0.472/0.099 ms
+2023-12-20 23:00:35 PING 192.168.30.159 (192.168.30.159) 56(84) bytes of data.
+2023-12-20 23:00:35 64 bytes from 192.168.30.159: icmp_seq=1 ttl=64 time=73.3 ms
+2023-12-20 23:00:36 64 bytes from 192.168.30.159: icmp_seq=2 ttl=64 time=189 ms
+2023-12-20 23:00:36 64 bytes from 192.168.30.159: icmp_seq=3 ttl=64 time=303 ms
+2023-12-20 23:00:36 
+2023-12-20 23:00:36 --- 192.168.30.159 ping statistics ---
+2023-12-20 23:00:36 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-20 23:00:36 rtt min/avg/max/mdev = 73.387/188.830/303.275/93.854 ms
+2023-12-20 23:00:36 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-20 23:00:36 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=2.58 ms
+2023-12-20 23:00:37 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=3.24 ms
+2023-12-20 23:00:37 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=5.62 ms
+2023-12-20 23:00:37 
+2023-12-20 23:00:37 --- 192.168.30.198 ping statistics ---
+2023-12-20 23:00:37 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:00:37 rtt min/avg/max/mdev = 2.580/3.816/5.625/1.307 ms
+2023-12-20 23:00:37 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-20 23:00:37 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.024 ms
+2023-12-20 23:00:38 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.028 ms
+2023-12-20 23:00:38 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.017 ms
+2023-12-20 23:00:38 
+2023-12-20 23:00:38 --- 192.168.30.200 ping statistics ---
+2023-12-20 23:00:38 3 packets transmitted, 3 received, 0% packet loss, time 1012ms
+2023-12-20 23:00:38 rtt min/avg/max/mdev = 0.017/0.023/0.028/0.004 ms
+before docker
+after docker
+header: 
+  seq: 64277
+  stamp: 
+    secs: 1703084439
+    nsecs: 208490941
+  frame_id: "5NqfCuCL4T+66hDsP9gAQAAAAAAAAAAAeekmMQisjL+6SQwCK4eWv/yp8dJNYlA/Ask7qKSqDUA5tMh2vp+aPwEgDQAAAAAASOF6FK5HH0AAAAAAAAAAAAAAAICtHhNB9QgAAAAAAAAAAFhmwGDZQQ=="
+meta: 
+  timestamp_us: 1703084439138680
+  seq: 64277
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548361573348
+    lon: 2.10551724447
+    alt: 211.905
+    vel_e: -0.014
+    vel_n: -0.022
+    vel_u: 0.001
+    azi_track: 3.70832187111
+    speed: 0.026
+    status: 1
+    msg_type: 32
+    sat_num: 13
+    hdop: 7.82
+    rtk_age: 0.0
+    sec_in_gps_week: 313259.375
+    gps_week: 2293
+    utc_time: 1703084441.38
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 18, 24, 3, 37, 66, 62, 13, 57, 35, 45, 53, 9, 19, 40, 12, 29, 20, 61, 57, 46, 35, 52, 35, 14, 86, 55, 71, 43, 45, 27, 23, 50, 29, 12, 15, 45, 72, 49, 53]
+    sv_az: [41, 91, 292, 129, 265, 324, 179, 59, 351, 217, 200, 236, 139, 168, 56, 265, 280, 150, 311, 55, 246, 11, 139, 234, 199, 121, 253, 283, 225, 305, 315, 225, 53, 178, 119, 252, 306, 201, 165, 51, 142, 168]
+    sv_cno: [15, 0, 18, 19, 16, 0, 34, 15, 13, 0, 30, 0, 0, 29, 0, 0, 10, 0, 0, 11, 23, 0, 0, 0, 0, 0, 0, 20, 20, 0, 0, 19, 16, 31, 0, 25, 0, 28, 17, 0, 29, 25]
+    std_pe: 9.159
+    std_pn: 9.159
+    std_pu: 5.95
+    std_ve: 0.241
+    std_vn: 0.241
+    std_vu: 0.241
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:00:39 output: header: 
+  seq: 64277
+  stamp: 
+    secs: 1703084439
+    nsecs: 208490941
+  frame_id: "5NqfCuCL4T+66hDsP9gAQAAAAAAAAAAAeekmMQisjL+6SQwCK4eWv/yp8dJNYlA/Ask7qKSqDUA5tMh2vp+aPwEgDQAAAAAASOF6FK5HH0AAAAAAAAAAAAAAAICtHhNB9QgAAAAAAAAAAFhmwGDZQQ=="
+meta: 
+  timestamp_us: 1703084439138680
+  seq: 64277
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548361573348
+    lon: 2.10551724447
+    alt: 211.905
+    vel_e: -0.014
+    vel_n: -0.022
+    vel_u: 0.001
+    azi_track: 3.70832187111
+    speed: 0.026
+    status: 1
+    msg_type: 32
+    sat_num: 13
+    hdop: 7.82
+    rtk_age: 0.0
+    sec_in_gps_week: 313259.375
+    gps_week: 2293
+    utc_time: 1703084441.38
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 18, 24, 3, 37, 66, 62, 13, 57, 35, 45, 53, 9, 19, 40, 12, 29, 20, 61, 57, 46, 35, 52, 35, 14, 86, 55, 71, 43, 45, 27, 23, 50, 29, 12, 15, 45, 72, 49, 53]
+    sv_az: [41, 91, 292, 129, 265, 324, 179, 59, 351, 217, 200, 236, 139, 168, 56, 265, 280, 150, 311, 55, 246, 11, 139, 234, 199, 121, 253, 283, 225, 305, 315, 225, 53, 178, 119, 252, 306, 201, 165, 51, 142, 168]
+    sv_cno: [15, 0, 18, 19, 16, 0, 34, 15, 13, 0, 30, 0, 0, 29, 0, 0, 10, 0, 0, 11, 23, 0, 0, 0, 0, 0, 0, 20, 20, 0, 0, 19, 16, 31, 0, 25, 0, 28, 17, 0, 29, 25]
+    std_pe: 9.159
+    std_pn: 9.159
+    std_pu: 5.95
+    std_ve: 0.241
+    std_vn: 0.241
+    std_vu: 0.241
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:00:39 lat: 0.548361573348
+2023-12-20 23:00:39 lon: 2.10551724447
+2023-12-20 23:00:41 Network type: E-UTRA-NR dual(5G)
+2023-12-20 23:00:41 SIM state: READY
+2023-12-20 23:00:41 Signal strength: 26
+2023-12-20 23:00:41 PING www.a.shifen.com (180.101.50.242) 56(84) bytes of data.
+2023-12-20 23:00:41 64 bytes from 180.101.50.242: icmp_seq=1 ttl=43 time=122 ms
+2023-12-20 23:00:41 64 bytes from 180.101.50.242: icmp_seq=2 ttl=43 time=112 ms
+2023-12-20 23:00:42 64 bytes from 180.101.50.242: icmp_seq=3 ttl=43 time=80.9 ms
+2023-12-20 23:00:42 
+2023-12-20 23:00:42 --- www.a.shifen.com ping statistics ---
+2023-12-20 23:00:42 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:00:42 rtt min/avg/max/mdev = 80.968/105.303/122.759/17.743 ms
+2023-12-20 23:00:42 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-20 23:00:42 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.276 ms
+2023-12-20 23:00:42 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.266 ms
+2023-12-20 23:00:43 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.250 ms
+2023-12-20 23:00:43 
+2023-12-20 23:00:43 --- 192.168.30.1 ping statistics ---
+2023-12-20 23:00:43 3 packets transmitted, 3 received, 0% packet loss, time 1027ms
+2023-12-20 23:00:43 rtt min/avg/max/mdev = 0.250/0.264/0.276/0.010 ms
+2023-12-20 23:00:43 PING 192.168.30.159 (192.168.30.159) 56(84) bytes of data.
+2023-12-20 23:00:43 64 bytes from 192.168.30.159: icmp_seq=1 ttl=64 time=48.1 ms
+2023-12-20 23:00:44 64 bytes from 192.168.30.159: icmp_seq=2 ttl=64 time=161 ms
+2023-12-20 23:00:44 64 bytes from 192.168.30.159: icmp_seq=3 ttl=64 time=275 ms
+2023-12-20 23:00:44 
+2023-12-20 23:00:44 --- 192.168.30.159 ping statistics ---
+2023-12-20 23:00:44 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-20 23:00:44 rtt min/avg/max/mdev = 48.148/161.955/275.736/92.912 ms
+2023-12-20 23:00:44 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-20 23:00:44 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=3.80 ms
+2023-12-20 23:00:45 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=3.42 ms
+2023-12-20 23:00:45 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=7.59 ms
+2023-12-20 23:00:45 
+2023-12-20 23:00:45 --- 192.168.30.198 ping statistics ---
+2023-12-20 23:00:45 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:00:45 rtt min/avg/max/mdev = 3.426/4.942/7.598/1.885 ms
+2023-12-20 23:00:45 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-20 23:00:45 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.042 ms
+2023-12-20 23:00:46 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.020 ms
+2023-12-20 23:00:46 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.015 ms
+2023-12-20 23:00:46 
+2023-12-20 23:00:46 --- 192.168.30.200 ping statistics ---
+2023-12-20 23:00:46 3 packets transmitted, 3 received, 0% packet loss, time 1025ms
+2023-12-20 23:00:46 rtt min/avg/max/mdev = 0.015/0.025/0.042/0.013 ms
+before docker
+after docker
+header: 
+  seq: 64344
+  stamp: 
+    secs: 1703084447
+    nsecs: 581154212
+  frame_id: "1p7LUeCL4T/o+RYbQNgAQAAAAAAAAAAA/Knx0k1ioL85tMh2vp+Kv/p+arx0k2g/IICeq1dOEUDsUbgeheuhPwEgDQAAAAAAPgrXo3A9H0AAAAAAAAAAAAAAAADPHhNB9QgAAAAAAAAAAHBowGDZQQ=="
+meta: 
+  timestamp_us: 1703084447513540
+  seq: 64344
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548361707738
+    lon: 2.10551759877
+    alt: 212.544
+    vel_e: -0.032
+    vel_n: -0.013
+    vel_u: 0.003
+    azi_track: 4.32650631099
+    speed: 0.035
+    status: 1
+    msg_type: 32
+    sat_num: 13
+    hdop: 7.81
+    rtk_age: 0.0
+    sec_in_gps_week: 313267.75
+    gps_week: 2293
+    utc_time: 1703084449.75
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 18, 24, 3, 37, 66, 62, 13, 57, 35, 45, 53, 9, 19, 40, 12, 29, 20, 61, 57, 46, 35, 52, 35, 14, 86, 55, 71, 43, 45, 27, 23, 50, 29, 12, 15, 45, 72, 49, 53]
+    sv_az: [41, 91, 292, 129, 265, 324, 179, 59, 351, 217, 200, 236, 139, 168, 56, 265, 280, 150, 311, 55, 246, 11, 139, 234, 199, 121, 253, 283, 225, 305, 315, 225, 53, 178, 119, 252, 306, 201, 165, 51, 142, 168]
+    sv_cno: [14, 0, 21, 16, 22, 0, 33, 16, 12, 0, 29, 0, 0, 29, 0, 0, 17, 0, 0, 13, 23, 0, 0, 0, 0, 0, 0, 20, 20, 12, 0, 17, 0, 30, 0, 26, 29, 28, 16, 0, 28, 25]
+    std_pe: 8.801
+    std_pn: 8.801
+    std_pu: 5.815
+    std_ve: 0.249
+    std_vn: 0.249
+    std_vu: 0.249
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:00:47 output: header: 
+  seq: 64344
+  stamp: 
+    secs: 1703084447
+    nsecs: 581154212
+  frame_id: "1p7LUeCL4T/o+RYbQNgAQAAAAAAAAAAA/Knx0k1ioL85tMh2vp+Kv/p+arx0k2g/IICeq1dOEUDsUbgeheuhPwEgDQAAAAAAPgrXo3A9H0AAAAAAAAAAAAAAAADPHhNB9QgAAAAAAAAAAHBowGDZQQ=="
+meta: 
+  timestamp_us: 1703084447513540
+  seq: 64344
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548361707738
+    lon: 2.10551759877
+    alt: 212.544
+    vel_e: -0.032
+    vel_n: -0.013
+    vel_u: 0.003
+    azi_track: 4.32650631099
+    speed: 0.035
+    status: 1
+    msg_type: 32
+    sat_num: 13
+    hdop: 7.81
+    rtk_age: 0.0
+    sec_in_gps_week: 313267.75
+    gps_week: 2293
+    utc_time: 1703084449.75
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 18, 24, 3, 37, 66, 62, 13, 57, 35, 45, 53, 9, 19, 40, 12, 29, 20, 61, 57, 46, 35, 52, 35, 14, 86, 55, 71, 43, 45, 27, 23, 50, 29, 12, 15, 45, 72, 49, 53]
+    sv_az: [41, 91, 292, 129, 265, 324, 179, 59, 351, 217, 200, 236, 139, 168, 56, 265, 280, 150, 311, 55, 246, 11, 139, 234, 199, 121, 253, 283, 225, 305, 315, 225, 53, 178, 119, 252, 306, 201, 165, 51, 142, 168]
+    sv_cno: [14, 0, 21, 16, 22, 0, 33, 16, 12, 0, 29, 0, 0, 29, 0, 0, 17, 0, 0, 13, 23, 0, 0, 0, 0, 0, 0, 20, 20, 12, 0, 17, 0, 30, 0, 26, 29, 28, 16, 0, 28, 25]
+    std_pe: 8.801
+    std_pn: 8.801
+    std_pu: 5.815
+    std_ve: 0.249
+    std_vn: 0.249
+    std_vu: 0.249
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:00:47 lat: 0.548361707738
+2023-12-20 23:00:47 lon: 2.10551759877
+2023-12-20 23:00:49 Network type: E-UTRA-NR dual(5G)
+2023-12-20 23:00:49 SIM state: READY
+2023-12-20 23:00:49 Signal strength: 26
+2023-12-20 23:00:49 PING www.a.shifen.com (180.101.50.188) 56(84) bytes of data.
+2023-12-20 23:00:49 64 bytes from 180.101.50.188: icmp_seq=1 ttl=42 time=122 ms
+2023-12-20 23:00:50 64 bytes from 180.101.50.188: icmp_seq=2 ttl=42 time=135 ms
+2023-12-20 23:00:50 64 bytes from 180.101.50.188: icmp_seq=3 ttl=42 time=117 ms
+2023-12-20 23:00:50 
+2023-12-20 23:00:50 --- www.a.shifen.com ping statistics ---
+2023-12-20 23:00:50 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-20 23:00:50 rtt min/avg/max/mdev = 117.237/125.183/135.770/7.793 ms
+2023-12-20 23:00:50 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-20 23:00:50 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.308 ms
+2023-12-20 23:00:51 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.234 ms
+2023-12-20 23:00:51 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.382 ms
+2023-12-20 23:00:51 
+2023-12-20 23:00:51 --- 192.168.30.1 ping statistics ---
+2023-12-20 23:00:51 3 packets transmitted, 3 received, 0% packet loss, time 1030ms
+2023-12-20 23:00:51 rtt min/avg/max/mdev = 0.234/0.308/0.382/0.060 ms
+2023-12-20 23:00:51 PING 192.168.30.159 (192.168.30.159) 56(84) bytes of data.
+2023-12-20 23:00:51 64 bytes from 192.168.30.159: icmp_seq=1 ttl=64 time=323 ms
+2023-12-20 23:00:52 64 bytes from 192.168.30.159: icmp_seq=2 ttl=64 time=7.34 ms
+2023-12-20 23:00:52 64 bytes from 192.168.30.159: icmp_seq=3 ttl=64 time=39.7 ms
+2023-12-20 23:00:52 
+2023-12-20 23:00:52 --- 192.168.30.159 ping statistics ---
+2023-12-20 23:00:52 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-20 23:00:52 rtt min/avg/max/mdev = 7.344/123.553/323.584/142.060 ms
+2023-12-20 23:00:52 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-20 23:00:52 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=3.62 ms
+2023-12-20 23:00:53 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=6.15 ms
+2023-12-20 23:00:53 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=10.8 ms
+2023-12-20 23:00:53 
+2023-12-20 23:00:53 --- 192.168.30.198 ping statistics ---
+2023-12-20 23:00:53 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-20 23:00:53 rtt min/avg/max/mdev = 3.623/6.861/10.805/2.975 ms
+2023-12-20 23:00:53 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-20 23:00:53 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.035 ms
+2023-12-20 23:00:54 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.024 ms
+2023-12-20 23:00:54 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.034 ms
+2023-12-20 23:00:54 
+2023-12-20 23:00:54 --- 192.168.30.200 ping statistics ---
+2023-12-20 23:00:54 3 packets transmitted, 3 received, 0% packet loss, time 1008ms
+2023-12-20 23:00:54 rtt min/avg/max/mdev = 0.024/0.031/0.035/0.005 ms
+before docker
+after docker
+header: 
+  seq: 64407
+  stamp: 
+    secs: 1703084455
+    nsecs: 455940236
+  frame_id: "zXEsh+CL4T/FPdpBQNgAQAAAAAAAAAAAeekmMQisjD8IrBxaZDuvv/yp8dJNYnA/mXniTfNTB0BU46WbxCCwPwEgDAAAAAAAPgrXo3A9H0AAAAAAAAAAAAAAAIDuHhNB9QgAAAAAAAAAAGhqwGDZQQ=="
+meta: 
+  timestamp_us: 1703084455388400
+  seq: 64407
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548361805477
+    lon: 2.105517885
+    alt: 213.438
+    vel_e: 0.014
+    vel_n: -0.061
+    vel_u: 0.004
+    azi_track: 2.91599140975
+    speed: 0.063
+    status: 1
+    msg_type: 32
+    sat_num: 12
+    hdop: 7.81
+    rtk_age: 0.0
+    sec_in_gps_week: 313275.625
+    gps_week: 2293
+    utc_time: 1703084457.62
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 18, 24, 3, 37, 66, 62, 13, 57, 35, 45, 53, 9, 19, 40, 12, 29, 20, 61, 57, 46, 35, 52, 35, 14, 86, 55, 71, 43, 45, 27, 23, 50, 29, 12, 15, 45, 72, 49, 53]
+    sv_az: [41, 91, 292, 129, 265, 324, 179, 59, 351, 217, 200, 236, 139, 168, 56, 265, 280, 150, 311, 55, 246, 11, 139, 234, 199, 121, 253, 283, 225, 305, 315, 225, 53, 178, 119, 252, 306, 201, 165, 51, 142, 168]
+    sv_cno: [17, 0, 19, 15, 13, 0, 32, 0, 0, 0, 29, 0, 0, 29, 0, 0, 16, 0, 0, 10, 26, 0, 0, 0, 0, 0, 0, 20, 20, 12, 0, 15, 0, 31, 0, 25, 29, 28, 13, 0, 28, 25]
+    std_pe: 8.583
+    std_pn: 8.583
+    std_pu: 5.772
+    std_ve: 0.262
+    std_vn: 0.262
+    std_vu: 0.262
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:00:55 output: header: 
+  seq: 64407
+  stamp: 
+    secs: 1703084455
+    nsecs: 455940236
+  frame_id: "zXEsh+CL4T/FPdpBQNgAQAAAAAAAAAAAeekmMQisjD8IrBxaZDuvv/yp8dJNYnA/mXniTfNTB0BU46WbxCCwPwEgDAAAAAAAPgrXo3A9H0AAAAAAAAAAAAAAAIDuHhNB9QgAAAAAAAAAAGhqwGDZQQ=="
+meta: 
+  timestamp_us: 1703084455388400
+  seq: 64407
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548361805477
+    lon: 2.105517885
+    alt: 213.438
+    vel_e: 0.014
+    vel_n: -0.061
+    vel_u: 0.004
+    azi_track: 2.91599140975
+    speed: 0.063
+    status: 1
+    msg_type: 32
+    sat_num: 12
+    hdop: 7.81
+    rtk_age: 0.0
+    sec_in_gps_week: 313275.625
+    gps_week: 2293
+    utc_time: 1703084457.62
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 18, 24, 3, 37, 66, 62, 13, 57, 35, 45, 53, 9, 19, 40, 12, 29, 20, 61, 57, 46, 35, 52, 35, 14, 86, 55, 71, 43, 45, 27, 23, 50, 29, 12, 15, 45, 72, 49, 53]
+    sv_az: [41, 91, 292, 129, 265, 324, 179, 59, 351, 217, 200, 236, 139, 168, 56, 265, 280, 150, 311, 55, 246, 11, 139, 234, 199, 121, 253, 283, 225, 305, 315, 225, 53, 178, 119, 252, 306, 201, 165, 51, 142, 168]
+    sv_cno: [17, 0, 19, 15, 13, 0, 32, 0, 0, 0, 29, 0, 0, 29, 0, 0, 16, 0, 0, 10, 26, 0, 0, 0, 0, 0, 0, 20, 20, 12, 0, 15, 0, 31, 0, 25, 29, 28, 13, 0, 28, 25]
+    std_pe: 8.583
+    std_pn: 8.583
+    std_pu: 5.772
+    std_ve: 0.262
+    std_vn: 0.262
+    std_vu: 0.262
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:00:55 lat: 0.548361805477
+2023-12-20 23:00:55 lon: 2.105517885
+2023-12-20 23:00:57 SIM state: READY
+2023-12-20 23:00:57 Signal strength: 26
+2023-12-20 23:00:57 Network type: E-UTRA-NR dual(5G)
+2023-12-20 23:00:57 PING www.a.shifen.com (180.101.50.188) 56(84) bytes of data.
+2023-12-20 23:00:57 64 bytes from 180.101.50.188: icmp_seq=1 ttl=42 time=129 ms
+2023-12-20 23:00:57 64 bytes from 180.101.50.188: icmp_seq=2 ttl=42 time=108 ms
+2023-12-20 23:00:58 64 bytes from 180.101.50.188: icmp_seq=3 ttl=42 time=93.0 ms
+2023-12-20 23:00:58 
+2023-12-20 23:00:58 --- www.a.shifen.com ping statistics ---
+2023-12-20 23:00:58 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-20 23:00:58 rtt min/avg/max/mdev = 93.029/110.127/129.064/14.771 ms
+2023-12-20 23:00:58 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-20 23:00:58 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.286 ms
+2023-12-20 23:00:58 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.412 ms
+2023-12-20 23:00:59 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.239 ms
+2023-12-20 23:00:59 
+2023-12-20 23:00:59 --- 192.168.30.1 ping statistics ---
+2023-12-20 23:00:59 3 packets transmitted, 3 received, 0% packet loss, time 1019ms
+2023-12-20 23:00:59 rtt min/avg/max/mdev = 0.239/0.312/0.412/0.074 ms
+2023-12-20 23:00:59 PING 192.168.30.159 (192.168.30.159) 56(84) bytes of data.
+2023-12-20 23:00:59 64 bytes from 192.168.30.159: icmp_seq=1 ttl=64 time=104 ms
+2023-12-20 23:01:00 64 bytes from 192.168.30.159: icmp_seq=2 ttl=64 time=219 ms
+2023-12-20 23:01:00 64 bytes from 192.168.30.159: icmp_seq=3 ttl=64 time=332 ms
+2023-12-20 23:01:00 
+2023-12-20 23:01:00 --- 192.168.30.159 ping statistics ---
+2023-12-20 23:01:00 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:01:00 rtt min/avg/max/mdev = 104.953/219.241/332.811/93.025 ms
+2023-12-20 23:01:00 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-20 23:01:00 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=3.32 ms
+2023-12-20 23:01:01 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=4.18 ms
+2023-12-20 23:01:01 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=12.9 ms
+2023-12-20 23:01:01 
+2023-12-20 23:01:01 --- 192.168.30.198 ping statistics ---
+2023-12-20 23:01:01 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-20 23:01:01 rtt min/avg/max/mdev = 3.321/6.814/12.938/4.344 ms
+2023-12-20 23:01:01 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-20 23:01:01 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.033 ms
+2023-12-20 23:01:02 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.024 ms
+2023-12-20 23:01:02 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.081 ms
+2023-12-20 23:01:02 
+2023-12-20 23:01:02 --- 192.168.30.200 ping statistics ---
+2023-12-20 23:01:02 3 packets transmitted, 3 received, 0% packet loss, time 1020ms
+2023-12-20 23:01:02 rtt min/avg/max/mdev = 0.024/0.046/0.081/0.025 ms
+before docker
+after docker
+header: 
+  seq: 64471
+  stamp: 
+    secs: 1703084463
+    nsecs: 581749019
+  frame_id: "VFTQguGL4T+an2wvQNgAQAAAAAAAAAAAexSuR+F6lL9aZDvfT42nv/p+arx0k3i/074aLOxpDECamZmZmZmpPwEgDgAAAAAAPgrXo3A9H0AAAAAAAAAAAAAAAAAPHxNB9QgAAAAAAAAAAHBswGDZQQ=="
+meta: 
+  timestamp_us: 1703084463513300
+  seq: 64471
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548362273225
+    lon: 2.10551774712
+    alt: 214.46
+    vel_e: -0.02
+    vel_n: -0.046
+    vel_u: -0.006
+    azi_track: 3.55171999413
+    speed: 0.05
+    status: 1
+    msg_type: 32
+    sat_num: 14
+    hdop: 7.81
+    rtk_age: 0.0
+    sec_in_gps_week: 313283.75
+    gps_week: 2293
+    utc_time: 1703084465.75
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 18, 24, 3, 37, 66, 62, 13, 57, 35, 45, 53, 9, 20, 40, 12, 29, 20, 61, 57, 46, 35, 52, 35, 14, 86, 55, 71, 43, 45, 27, 23, 50, 29, 12, 15, 45, 72, 49, 53]
+    sv_az: [41, 91, 292, 129, 265, 324, 179, 59, 351, 217, 200, 236, 139, 168, 55, 265, 280, 150, 311, 55, 246, 11, 139, 234, 199, 121, 253, 283, 225, 305, 315, 225, 53, 178, 119, 252, 306, 201, 165, 51, 142, 168]
+    sv_cno: [15, 0, 21, 17, 0, 0, 32, 0, 0, 0, 29, 0, 0, 28, 0, 0, 16, 0, 0, 11, 24, 9, 0, 0, 0, 0, 0, 19, 17, 14, 0, 15, 0, 32, 0, 15, 29, 27, 0, 0, 27, 25]
+    std_pe: 8.454
+    std_pn: 8.454
+    std_pu: 5.808
+    std_ve: 0.252
+    std_vn: 0.252
+    std_vu: 0.252
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:01:04 output: header: 
+  seq: 64471
+  stamp: 
+    secs: 1703084463
+    nsecs: 581749019
+  frame_id: "VFTQguGL4T+an2wvQNgAQAAAAAAAAAAAexSuR+F6lL9aZDvfT42nv/p+arx0k3i/074aLOxpDECamZmZmZmpPwEgDgAAAAAAPgrXo3A9H0AAAAAAAAAAAAAAAAAPHxNB9QgAAAAAAAAAAHBswGDZQQ=="
+meta: 
+  timestamp_us: 1703084463513300
+  seq: 64471
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548362273225
+    lon: 2.10551774712
+    alt: 214.46
+    vel_e: -0.02
+    vel_n: -0.046
+    vel_u: -0.006
+    azi_track: 3.55171999413
+    speed: 0.05
+    status: 1
+    msg_type: 32
+    sat_num: 14
+    hdop: 7.81
+    rtk_age: 0.0
+    sec_in_gps_week: 313283.75
+    gps_week: 2293
+    utc_time: 1703084465.75
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 18, 24, 3, 37, 66, 62, 13, 57, 35, 45, 53, 9, 20, 40, 12, 29, 20, 61, 57, 46, 35, 52, 35, 14, 86, 55, 71, 43, 45, 27, 23, 50, 29, 12, 15, 45, 72, 49, 53]
+    sv_az: [41, 91, 292, 129, 265, 324, 179, 59, 351, 217, 200, 236, 139, 168, 55, 265, 280, 150, 311, 55, 246, 11, 139, 234, 199, 121, 253, 283, 225, 305, 315, 225, 53, 178, 119, 252, 306, 201, 165, 51, 142, 168]
+    sv_cno: [15, 0, 21, 17, 0, 0, 32, 0, 0, 0, 29, 0, 0, 28, 0, 0, 16, 0, 0, 11, 24, 9, 0, 0, 0, 0, 0, 19, 17, 14, 0, 15, 0, 32, 0, 15, 29, 27, 0, 0, 27, 25]
+    std_pe: 8.454
+    std_pn: 8.454
+    std_pu: 5.808
+    std_ve: 0.252
+    std_vn: 0.252
+    std_vu: 0.252
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:01:04 lat: 0.548362273225
+2023-12-20 23:01:04 lon: 2.10551774712
+2023-12-20 23:01:05 Signal strength: 25
+2023-12-20 23:01:05 Network type: E-UTRA-NR dual(5G)
+2023-12-20 23:01:05 SIM state: READY
+2023-12-20 23:01:05 PING www.a.shifen.com (180.101.50.242) 56(84) bytes of data.
+2023-12-20 23:01:05 64 bytes from 180.101.50.242: icmp_seq=1 ttl=43 time=89.0 ms
+2023-12-20 23:01:06 64 bytes from 180.101.50.242: icmp_seq=2 ttl=43 time=137 ms
+2023-12-20 23:01:06 64 bytes from 180.101.50.242: icmp_seq=3 ttl=43 time=212 ms
+2023-12-20 23:01:06 
+2023-12-20 23:01:06 --- www.a.shifen.com ping statistics ---
+2023-12-20 23:01:06 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:01:06 rtt min/avg/max/mdev = 89.011/146.569/212.854/50.933 ms
+2023-12-20 23:01:06 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-20 23:01:06 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.321 ms
+2023-12-20 23:01:07 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.250 ms
+2023-12-20 23:01:07 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.241 ms
+2023-12-20 23:01:07 
+2023-12-20 23:01:07 --- 192.168.30.1 ping statistics ---
+2023-12-20 23:01:07 3 packets transmitted, 3 received, 0% packet loss, time 1009ms
+2023-12-20 23:01:07 rtt min/avg/max/mdev = 0.241/0.270/0.321/0.040 ms
+2023-12-20 23:01:08 PING 192.168.30.159 (192.168.30.159) 56(84) bytes of data.
+2023-12-20 23:01:08 64 bytes from 192.168.30.159: icmp_seq=1 ttl=64 time=414 ms
+2023-12-20 23:01:08 64 bytes from 192.168.30.159: icmp_seq=2 ttl=64 time=6.54 ms
+2023-12-20 23:01:09 64 bytes from 192.168.30.159: icmp_seq=3 ttl=64 time=130 ms
+2023-12-20 23:01:09 
+2023-12-20 23:01:09 --- 192.168.30.159 ping statistics ---
+2023-12-20 23:01:09 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-20 23:01:09 rtt min/avg/max/mdev = 6.542/184.082/414.755/170.834 ms
+2023-12-20 23:01:09 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-20 23:01:09 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=10.4 ms
+2023-12-20 23:01:09 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=4.45 ms
+2023-12-20 23:01:10 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=3.48 ms
+2023-12-20 23:01:10 
+2023-12-20 23:01:10 --- 192.168.30.198 ping statistics ---
+2023-12-20 23:01:10 3 packets transmitted, 3 received, 0% packet loss, time 1002ms
+2023-12-20 23:01:10 rtt min/avg/max/mdev = 3.487/6.122/10.428/3.070 ms
+2023-12-20 23:01:10 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-20 23:01:10 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.025 ms
+2023-12-20 23:01:10 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.021 ms
+2023-12-20 23:01:11 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.017 ms
+2023-12-20 23:01:11 
+2023-12-20 23:01:11 --- 192.168.30.200 ping statistics ---
+2023-12-20 23:01:11 3 packets transmitted, 3 received, 0% packet loss, time 1003ms
+2023-12-20 23:01:11 rtt min/avg/max/mdev = 0.017/0.021/0.025/0.003 ms
+before docker
+after docker
+header: 
+  seq: 64537
+  stamp: 
+    secs: 1703084471
+    nsecs: 832311140
+  frame_id: "oTYIKOKL4T/T2xEpQNgAQAAAAAAAAAAAyXa+nxovrb+cxCCwcmiRPwAAAAAAAAAAXEHfA0oCFEC4HoXrUbiuPwEgDAAAAAAAmpmZmZk5SkAAAAAAAAAAAAAAAAAwHxNB9QgAAAAAAAAAAIBuwGDZQQ=="
+meta: 
+  timestamp_us: 1703084471827042
+  seq: 64537
+info: 
+  available: 0
+  gnss_data_basic: 
+    lat: 0.548362583894
+    lon: 2.10551770174
+    alt: 216.526
+    vel_e: -0.057
+    vel_n: 0.017
+    vel_u: 0.0
+    azi_track: 5.0022354703
+    speed: 0.06
+    status: 1
+    msg_type: 32
+    sat_num: 12
+    hdop: 52.45
+    rtk_age: 0.0
+    sec_in_gps_week: 313292.0
+    gps_week: 2293
+    utc_time: 1703084474.0
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 18, 24, 3, 37, 66, 62, 13, 57, 35, 45, 53, 9, 20, 41, 12, 30, 20, 61, 57, 46, 35, 52, 35, 14, 86, 55, 71, 43, 45, 27, 23, 50, 29, 12, 15, 45, 72, 49, 53]
+    sv_az: [41, 91, 292, 129, 265, 324, 179, 59, 351, 217, 200, 236, 139, 168, 55, 265, 280, 150, 311, 55, 246, 11, 139, 234, 199, 121, 253, 283, 225, 305, 315, 225, 53, 178, 119, 252, 306, 201, 165, 51, 142, 168]
+    sv_cno: [17, 0, 8, 14, 13, 0, 30, 13, 0, 0, 28, 0, 0, 29, 0, 0, 20, 0, 0, 0, 22, 11, 0, 0, 0, 0, 0, 17, 19, 15, 0, 19, 0, 31, 0, 18, 29, 27, 0, 0, 27, 25]
+    std_pe: 8.079
+    std_pn: 8.079
+    std_pu: 5.359
+    std_ve: 0.271
+    std_vn: 0.271
+    std_vu: 0.271
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:01:12 output: header: 
+  seq: 64537
+  stamp: 
+    secs: 1703084471
+    nsecs: 832311140
+  frame_id: "oTYIKOKL4T/T2xEpQNgAQAAAAAAAAAAAyXa+nxovrb+cxCCwcmiRPwAAAAAAAAAAXEHfA0oCFEC4HoXrUbiuPwEgDAAAAAAAmpmZmZk5SkAAAAAAAAAAAAAAAAAwHxNB9QgAAAAAAAAAAIBuwGDZQQ=="
+meta: 
+  timestamp_us: 1703084471827042
+  seq: 64537
+info: 
+  available: 0
+  gnss_data_basic: 
+    lat: 0.548362583894
+    lon: 2.10551770174
+    alt: 216.526
+    vel_e: -0.057
+    vel_n: 0.017
+    vel_u: 0.0
+    azi_track: 5.0022354703
+    speed: 0.06
+    status: 1
+    msg_type: 32
+    sat_num: 12
+    hdop: 52.45
+    rtk_age: 0.0
+    sec_in_gps_week: 313292.0
+    gps_week: 2293
+    utc_time: 1703084474.0
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 18, 24, 3, 37, 66, 62, 13, 57, 35, 45, 53, 9, 20, 41, 12, 30, 20, 61, 57, 46, 35, 52, 35, 14, 86, 55, 71, 43, 45, 27, 23, 50, 29, 12, 15, 45, 72, 49, 53]
+    sv_az: [41, 91, 292, 129, 265, 324, 179, 59, 351, 217, 200, 236, 139, 168, 55, 265, 280, 150, 311, 55, 246, 11, 139, 234, 199, 121, 253, 283, 225, 305, 315, 225, 53, 178, 119, 252, 306, 201, 165, 51, 142, 168]
+    sv_cno: [17, 0, 8, 14, 13, 0, 30, 13, 0, 0, 28, 0, 0, 29, 0, 0, 20, 0, 0, 0, 22, 11, 0, 0, 0, 0, 0, 17, 19, 15, 0, 19, 0, 31, 0, 18, 29, 27, 0, 0, 27, 25]
+    std_pe: 8.079
+    std_pn: 8.079
+    std_pu: 5.359
+    std_ve: 0.271
+    std_vn: 0.271
+    std_vu: 0.271
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:01:12 lat: 0.548362583894
+2023-12-20 23:01:12 lon: 2.10551770174
+2023-12-20 23:01:13 SIM state: READY
+2023-12-20 23:01:13 Network type: E-UTRA-NR dual(5G)
+2023-12-20 23:01:13 Signal strength: 25
+2023-12-20 23:01:14 PING www.a.shifen.com (180.101.50.242) 56(84) bytes of data.
+2023-12-20 23:01:14 64 bytes from 180.101.50.242: icmp_seq=1 ttl=43 time=127 ms
+2023-12-20 23:01:14 64 bytes from 180.101.50.242: icmp_seq=2 ttl=43 time=152 ms
+2023-12-20 23:01:14 64 bytes from 180.101.50.242: icmp_seq=3 ttl=43 time=131 ms
+2023-12-20 23:01:14 
+2023-12-20 23:01:14 --- www.a.shifen.com ping statistics ---
+2023-12-20 23:01:14 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:01:14 rtt min/avg/max/mdev = 127.246/137.305/152.865/11.158 ms
+2023-12-20 23:01:14 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-20 23:01:14 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.462 ms
+2023-12-20 23:01:15 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.247 ms
+2023-12-20 23:01:15 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.288 ms
+2023-12-20 23:01:15 
+2023-12-20 23:01:16 --- 192.168.30.1 ping statistics ---
+2023-12-20 23:01:16 3 packets transmitted, 3 received, 0% packet loss, time 1015ms
+2023-12-20 23:01:16 rtt min/avg/max/mdev = 0.247/0.332/0.462/0.094 ms
+2023-12-20 23:01:16 PING 192.168.30.159 (192.168.30.159) 56(84) bytes of data.
+2023-12-20 23:01:16 64 bytes from 192.168.30.159: icmp_seq=1 ttl=64 time=282 ms
+2023-12-20 23:01:16 64 bytes from 192.168.30.159: icmp_seq=2 ttl=64 time=396 ms
+2023-12-20 23:01:17 64 bytes from 192.168.30.159: icmp_seq=3 ttl=64 time=4.08 ms
+2023-12-20 23:01:17 
+2023-12-20 23:01:17 --- 192.168.30.159 ping statistics ---
+2023-12-20 23:01:17 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:01:17 rtt min/avg/max/mdev = 4.084/227.580/396.130/164.700 ms
+2023-12-20 23:01:17 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-20 23:01:17 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=4.32 ms
+2023-12-20 23:01:17 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=4.29 ms
+2023-12-20 23:01:18 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=6.82 ms
+2023-12-20 23:01:18 
+2023-12-20 23:01:18 --- 192.168.30.198 ping statistics ---
+2023-12-20 23:01:18 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:01:18 rtt min/avg/max/mdev = 4.293/5.146/6.826/1.190 ms
+2023-12-20 23:01:18 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-20 23:01:18 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.026 ms
+2023-12-20 23:01:18 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.015 ms
+2023-12-20 23:01:19 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.021 ms
+2023-12-20 23:01:19 
+2023-12-20 23:01:19 --- 192.168.30.200 ping statistics ---
+2023-12-20 23:01:19 3 packets transmitted, 3 received, 0% packet loss, time 1032ms
+2023-12-20 23:01:19 rtt min/avg/max/mdev = 0.015/0.020/0.026/0.006 ms
+before docker
+after docker
+header: 
+  seq: 64601
+  stamp: 
+    secs: 1703084479
+    nsecs: 837065885
+  frame_id: "yWPdHeKL4T88NvI/QNgAQAAAAAAAAAAAGy/dJAaBpb+6SQwCK4eGv/yp8dJNYlA/tFrn8i/TEUBqvHSTGASmPwEgDgAAAAAAPgrXo3A9H0AAAAAAAAAAAAAAAABQHxNB9QgAAAAAAAAAAIBwwGDZQQ=="
+meta: 
+  timestamp_us: 1703084479763020
+  seq: 64601
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.54836256295
+    lon: 2.10551787279
+    alt: 216.885
+    vel_e: -0.042
+    vel_n: -0.011
+    vel_u: 0.001
+    azi_track: 4.45623759782
+    speed: 0.043
+    status: 1
+    msg_type: 32
+    sat_num: 14
+    hdop: 7.81
+    rtk_age: 0.0
+    sec_in_gps_week: 313300.0
+    gps_week: 2293
+    utc_time: 1703084482.0
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 18, 24, 3, 37, 66, 62, 13, 57, 35, 45, 53, 9, 20, 41, 12, 30, 20, 60, 57, 46, 35, 52, 35, 14, 86, 55, 71, 43, 45, 27, 23, 50, 29, 12, 15, 45, 72, 49, 53]
+    sv_az: [41, 91, 292, 129, 265, 324, 179, 59, 351, 217, 200, 236, 139, 168, 55, 265, 280, 150, 311, 56, 245, 12, 139, 234, 199, 121, 253, 283, 225, 305, 315, 225, 53, 178, 119, 252, 305, 201, 165, 51, 142, 168]
+    sv_cno: [14, 0, 21, 10, 0, 0, 29, 11, 0, 0, 28, 0, 0, 29, 0, 0, 18, 0, 0, 16, 26, 14, 0, 0, 0, 0, 0, 16, 18, 15, 0, 14, 0, 29, 0, 18, 29, 29, 13, 0, 28, 25]
+    std_pe: 7.929
+    std_pn: 7.929
+    std_pu: 5.284
+    std_ve: 0.244
+    std_vn: 0.244
+    std_vu: 0.244
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:01:20 output: header: 
+  seq: 64601
+  stamp: 
+    secs: 1703084479
+    nsecs: 837065885
+  frame_id: "yWPdHeKL4T88NvI/QNgAQAAAAAAAAAAAGy/dJAaBpb+6SQwCK4eGv/yp8dJNYlA/tFrn8i/TEUBqvHSTGASmPwEgDgAAAAAAPgrXo3A9H0AAAAAAAAAAAAAAAABQHxNB9QgAAAAAAAAAAIBwwGDZQQ=="
+meta: 
+  timestamp_us: 1703084479763020
+  seq: 64601
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.54836256295
+    lon: 2.10551787279
+    alt: 216.885
+    vel_e: -0.042
+    vel_n: -0.011
+    vel_u: 0.001
+    azi_track: 4.45623759782
+    speed: 0.043
+    status: 1
+    msg_type: 32
+    sat_num: 14
+    hdop: 7.81
+    rtk_age: 0.0
+    sec_in_gps_week: 313300.0
+    gps_week: 2293
+    utc_time: 1703084482.0
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 18, 24, 3, 37, 66, 62, 13, 57, 35, 45, 53, 9, 20, 41, 12, 30, 20, 60, 57, 46, 35, 52, 35, 14, 86, 55, 71, 43, 45, 27, 23, 50, 29, 12, 15, 45, 72, 49, 53]
+    sv_az: [41, 91, 292, 129, 265, 324, 179, 59, 351, 217, 200, 236, 139, 168, 55, 265, 280, 150, 311, 56, 245, 12, 139, 234, 199, 121, 253, 283, 225, 305, 315, 225, 53, 178, 119, 252, 305, 201, 165, 51, 142, 168]
+    sv_cno: [14, 0, 21, 10, 0, 0, 29, 11, 0, 0, 28, 0, 0, 29, 0, 0, 18, 0, 0, 16, 26, 14, 0, 0, 0, 0, 0, 16, 18, 15, 0, 14, 0, 29, 0, 18, 29, 29, 13, 0, 28, 25]
+    std_pe: 7.929
+    std_pn: 7.929
+    std_pu: 5.284
+    std_ve: 0.244
+    std_vn: 0.244
+    std_vu: 0.244
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:01:20 lat: 0.54836256295
+2023-12-20 23:01:20 lon: 2.10551787279
+2023-12-20 23:01:21 SIM state: READY
+2023-12-20 23:01:21 Signal strength: 25
+2023-12-20 23:01:21 Network type: E-UTRA-NR dual(5G)
+2023-12-20 23:01:22 PING www.a.shifen.com (180.101.50.242) 56(84) bytes of data.
+2023-12-20 23:01:22 64 bytes from 180.101.50.242: icmp_seq=1 ttl=43 time=134 ms
+2023-12-20 23:01:22 64 bytes from 180.101.50.242: icmp_seq=2 ttl=43 time=209 ms
+2023-12-20 23:01:23 64 bytes from 180.101.50.242: icmp_seq=3 ttl=43 time=132 ms
+2023-12-20 23:01:23 
+2023-12-20 23:01:23 --- www.a.shifen.com ping statistics ---
+2023-12-20 23:01:23 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-20 23:01:23 rtt min/avg/max/mdev = 132.283/158.850/209.866/36.085 ms
+2023-12-20 23:01:23 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-20 23:01:23 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.314 ms
+2023-12-20 23:01:23 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.385 ms
+2023-12-20 23:01:24 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.229 ms
+2023-12-20 23:01:24 
+2023-12-20 23:01:24 --- 192.168.30.1 ping statistics ---
+2023-12-20 23:01:24 3 packets transmitted, 3 received, 0% packet loss, time 1031ms
+2023-12-20 23:01:24 rtt min/avg/max/mdev = 0.229/0.309/0.385/0.065 ms
+2023-12-20 23:01:24 PING 192.168.30.159 (192.168.30.159) 56(84) bytes of data.
+2023-12-20 23:01:24 64 bytes from 192.168.30.159: icmp_seq=1 ttl=64 time=144 ms
+2023-12-20 23:01:25 64 bytes from 192.168.30.159: icmp_seq=2 ttl=64 time=257 ms
+2023-12-20 23:01:25 64 bytes from 192.168.30.159: icmp_seq=3 ttl=64 time=373 ms
+2023-12-20 23:01:25 
+2023-12-20 23:01:25 --- 192.168.30.159 ping statistics ---
+2023-12-20 23:01:25 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-20 23:01:25 rtt min/avg/max/mdev = 144.887/258.704/373.304/93.252 ms
+2023-12-20 23:01:25 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-20 23:01:25 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=3.14 ms
+2023-12-20 23:01:26 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=2.83 ms
+2023-12-20 23:01:26 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=2.17 ms
+2023-12-20 23:01:26 
+2023-12-20 23:01:26 --- 192.168.30.198 ping statistics ---
+2023-12-20 23:01:26 3 packets transmitted, 3 received, 0% packet loss, time 1002ms
+2023-12-20 23:01:26 rtt min/avg/max/mdev = 2.177/2.717/3.140/0.404 ms
+2023-12-20 23:01:26 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-20 23:01:26 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.025 ms
+2023-12-20 23:01:27 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.015 ms
+2023-12-20 23:01:27 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.025 ms
+2023-12-20 23:01:27 
+2023-12-20 23:01:27 --- 192.168.30.200 ping statistics ---
+2023-12-20 23:01:27 3 packets transmitted, 3 received, 0% packet loss, time 1022ms
+2023-12-20 23:01:27 rtt min/avg/max/mdev = 0.015/0.021/0.025/0.007 ms
+before docker
+after docker
+header: 
+  seq: 64671
+  stamp: 
+    secs: 1703084488
+    nsecs: 595814637
+  frame_id: "aTac0eGL4T+tD7rcPtgAQAAAAAAAAAAAexSuR+F6dD/6fmq8dJN4vwAAAAAAAAAAdtJHYyiTA0D8qfHSTWKAPwEgDgAAAAAA7FG4HoXrMUAAAAAAAAAAAAAAAABzHxNB9QgAAAAAAAAAALBywGDZQQ=="
+meta: 
+  timestamp_us: 1703084488512880
+  seq: 64671
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548362425069
+    lon: 2.1055152321
+    alt: 220.384
+    vel_e: 0.005
+    vel_n: -0.006
+    vel_u: 0.0
+    azi_track: 2.44685437739
+    speed: 0.008
+    status: 1
+    msg_type: 32
+    sat_num: 14
+    hdop: 17.92
+    rtk_age: 0.0
+    sec_in_gps_week: 313308.75
+    gps_week: 2293
+    utc_time: 1703084490.75
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 18, 24, 3, 37, 66, 62, 13, 57, 35, 45, 53, 9, 20, 41, 12, 30, 20, 60, 57, 46, 35, 52, 35, 14, 86, 55, 72, 43, 45, 27, 23, 50, 29, 12, 15, 45, 72, 49, 53]
+    sv_az: [41, 91, 292, 129, 265, 324, 179, 59, 351, 217, 200, 236, 139, 168, 55, 265, 280, 150, 311, 56, 245, 12, 139, 234, 199, 121, 253, 279, 226, 304, 315, 225, 53, 178, 119, 252, 305, 201, 165, 51, 142, 168]
+    sv_cno: [19, 8, 18, 14, 9, 0, 29, 9, 0, 0, 27, 0, 0, 29, 0, 0, 20, 0, 0, 9, 26, 0, 0, 0, 0, 0, 0, 19, 19, 14, 0, 12, 0, 28, 0, 28, 30, 29, 19, 0, 27, 25]
+    std_pe: 10.721
+    std_pn: 10.721
+    std_pu: 7.07
+    std_ve: 0.155
+    std_vn: 0.155
+    std_vu: 0.155
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:01:28 output: header: 
+  seq: 64671
+  stamp: 
+    secs: 1703084488
+    nsecs: 595814637
+  frame_id: "aTac0eGL4T+tD7rcPtgAQAAAAAAAAAAAexSuR+F6dD/6fmq8dJN4vwAAAAAAAAAAdtJHYyiTA0D8qfHSTWKAPwEgDgAAAAAA7FG4HoXrMUAAAAAAAAAAAAAAAABzHxNB9QgAAAAAAAAAALBywGDZQQ=="
+meta: 
+  timestamp_us: 1703084488512880
+  seq: 64671
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548362425069
+    lon: 2.1055152321
+    alt: 220.384
+    vel_e: 0.005
+    vel_n: -0.006
+    vel_u: 0.0
+    azi_track: 2.44685437739
+    speed: 0.008
+    status: 1
+    msg_type: 32
+    sat_num: 14
+    hdop: 17.92
+    rtk_age: 0.0
+    sec_in_gps_week: 313308.75
+    gps_week: 2293
+    utc_time: 1703084490.75
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 18, 24, 3, 37, 66, 62, 13, 57, 35, 45, 53, 9, 20, 41, 12, 30, 20, 60, 57, 46, 35, 52, 35, 14, 86, 55, 72, 43, 45, 27, 23, 50, 29, 12, 15, 45, 72, 49, 53]
+    sv_az: [41, 91, 292, 129, 265, 324, 179, 59, 351, 217, 200, 236, 139, 168, 55, 265, 280, 150, 311, 56, 245, 12, 139, 234, 199, 121, 253, 279, 226, 304, 315, 225, 53, 178, 119, 252, 305, 201, 165, 51, 142, 168]
+    sv_cno: [19, 8, 18, 14, 9, 0, 29, 9, 0, 0, 27, 0, 0, 29, 0, 0, 20, 0, 0, 9, 26, 0, 0, 0, 0, 0, 0, 19, 19, 14, 0, 12, 0, 28, 0, 28, 30, 29, 19, 0, 27, 25]
+    std_pe: 10.721
+    std_pn: 10.721
+    std_pu: 7.07
+    std_ve: 0.155
+    std_vn: 0.155
+    std_vu: 0.155
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:01:28 lat: 0.548362425069
+2023-12-20 23:01:28 lon: 2.1055152321
+2023-12-20 23:01:30 Network type: E-UTRA-NR dual(5G)
+2023-12-20 23:01:30 SIM state: READY
+2023-12-20 23:01:30 Signal strength: 25
+2023-12-20 23:01:30 PING www.a.shifen.com (180.101.50.242) 56(84) bytes of data.
+2023-12-20 23:01:30 64 bytes from 180.101.50.242: icmp_seq=1 ttl=43 time=93.9 ms
+2023-12-20 23:01:31 64 bytes from 180.101.50.242: icmp_seq=2 ttl=43 time=152 ms
+2023-12-20 23:01:31 64 bytes from 180.101.50.242: icmp_seq=3 ttl=43 time=110 ms
+2023-12-20 23:01:31 
+2023-12-20 23:01:31 --- www.a.shifen.com ping statistics ---
+2023-12-20 23:01:31 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:01:31 rtt min/avg/max/mdev = 93.906/118.872/152.635/24.769 ms
+2023-12-20 23:01:31 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-20 23:01:31 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.310 ms
+2023-12-20 23:01:32 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.241 ms
+2023-12-20 23:01:32 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.380 ms
+2023-12-20 23:01:32 
+2023-12-20 23:01:32 --- 192.168.30.1 ping statistics ---
+2023-12-20 23:01:32 3 packets transmitted, 3 received, 0% packet loss, time 1007ms
+2023-12-20 23:01:32 rtt min/avg/max/mdev = 0.241/0.310/0.380/0.058 ms
+2023-12-20 23:01:32 PING 192.168.30.159 (192.168.30.159) 56(84) bytes of data.
+2023-12-20 23:01:32 64 bytes from 192.168.30.159: icmp_seq=1 ttl=64 time=41.5 ms
+2023-12-20 23:01:33 64 bytes from 192.168.30.159: icmp_seq=2 ttl=64 time=155 ms
+2023-12-20 23:01:33 64 bytes from 192.168.30.159: icmp_seq=3 ttl=64 time=267 ms
+2023-12-20 23:01:33 
+2023-12-20 23:01:33 --- 192.168.30.159 ping statistics ---
+2023-12-20 23:01:33 3 packets transmitted, 3 received, 0% packet loss, time 1002ms
+2023-12-20 23:01:33 rtt min/avg/max/mdev = 41.588/155.108/267.836/92.368 ms
+2023-12-20 23:01:33 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-20 23:01:33 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=6.27 ms
+2023-12-20 23:01:34 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=5.16 ms
+2023-12-20 23:01:34 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=6.94 ms
+2023-12-20 23:01:34 
+2023-12-20 23:01:34 --- 192.168.30.198 ping statistics ---
+2023-12-20 23:01:34 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:01:34 rtt min/avg/max/mdev = 5.163/6.127/6.940/0.733 ms
+2023-12-20 23:01:34 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-20 23:01:34 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.021 ms
+2023-12-20 23:01:35 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.018 ms
+2023-12-20 23:01:35 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.036 ms
+2023-12-20 23:01:35 
+2023-12-20 23:01:35 --- 192.168.30.200 ping statistics ---
+2023-12-20 23:01:35 3 packets transmitted, 3 received, 0% packet loss, time 1030ms
+2023-12-20 23:01:35 rtt min/avg/max/mdev = 0.018/0.025/0.036/0.007 ms
+before docker
+after docker
+header: 
+  seq: 64736
+  stamp: 
+    secs: 1703084496
+    nsecs: 706514056
+  frame_id: "nZ9FgOGL4T+wvIucPtgAQAAAAAAAAAAAO99PjZdukj85tMh2vp+avwAAAAAAAAAAIZJQh9NJBED8qfHSTWKgPwEgDwAAAAAAFa5H4XoUMkAAAAAAAAAAAAAAAICTHxNB9QgAAAAAAAAAALh0wGDZQQ=="
+meta: 
+  timestamp_us: 1703084496637760
+  seq: 64736
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548362276716
+    lon: 2.10551475214
+    alt: 217.29
+    vel_e: 0.018
+    vel_n: -0.026
+    vel_u: 0.0
+    azi_track: 2.53604798998
+    speed: 0.032
+    status: 1
+    msg_type: 32
+    sat_num: 15
+    hdop: 18.08
+    rtk_age: 0.0
+    sec_in_gps_week: 313316.875
+    gps_week: 2293
+    utc_time: 1703084498.88
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 18, 24, 3, 37, 66, 62, 13, 57, 35, 45, 53, 9, 20, 41, 12, 30, 20, 60, 57, 46, 35, 52, 35, 14, 86, 55, 72, 43, 45, 27, 24, 51, 29, 12, 15, 45, 72, 49, 53]
+    sv_az: [41, 91, 292, 129, 265, 324, 179, 59, 351, 217, 200, 236, 139, 168, 55, 265, 280, 150, 311, 56, 245, 12, 139, 234, 199, 121, 253, 279, 226, 304, 316, 226, 52, 178, 118, 252, 305, 201, 165, 51, 142, 168]
+    sv_cno: [18, 0, 24, 13, 14, 0, 28, 10, 0, 0, 28, 0, 0, 29, 0, 0, 21, 0, 0, 0, 25, 12, 0, 0, 0, 0, 0, 20, 18, 13, 0, 0, 0, 28, 31, 23, 29, 31, 17, 0, 27, 25]
+    std_pe: 10.184
+    std_pn: 10.184
+    std_pu: 8.553
+    std_ve: 0.156
+    std_vn: 0.156
+    std_vu: 0.156
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:01:37 output: header: 
+  seq: 64736
+  stamp: 
+    secs: 1703084496
+    nsecs: 706514056
+  frame_id: "nZ9FgOGL4T+wvIucPtgAQAAAAAAAAAAAO99PjZdukj85tMh2vp+avwAAAAAAAAAAIZJQh9NJBED8qfHSTWKgPwEgDwAAAAAAFa5H4XoUMkAAAAAAAAAAAAAAAICTHxNB9QgAAAAAAAAAALh0wGDZQQ=="
+meta: 
+  timestamp_us: 1703084496637760
+  seq: 64736
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548362276716
+    lon: 2.10551475214
+    alt: 217.29
+    vel_e: 0.018
+    vel_n: -0.026
+    vel_u: 0.0
+    azi_track: 2.53604798998
+    speed: 0.032
+    status: 1
+    msg_type: 32
+    sat_num: 15
+    hdop: 18.08
+    rtk_age: 0.0
+    sec_in_gps_week: 313316.875
+    gps_week: 2293
+    utc_time: 1703084498.88
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 18, 24, 3, 37, 66, 62, 13, 57, 35, 45, 53, 9, 20, 41, 12, 30, 20, 60, 57, 46, 35, 52, 35, 14, 86, 55, 72, 43, 45, 27, 24, 51, 29, 12, 15, 45, 72, 49, 53]
+    sv_az: [41, 91, 292, 129, 265, 324, 179, 59, 351, 217, 200, 236, 139, 168, 55, 265, 280, 150, 311, 56, 245, 12, 139, 234, 199, 121, 253, 279, 226, 304, 316, 226, 52, 178, 118, 252, 305, 201, 165, 51, 142, 168]
+    sv_cno: [18, 0, 24, 13, 14, 0, 28, 10, 0, 0, 28, 0, 0, 29, 0, 0, 21, 0, 0, 0, 25, 12, 0, 0, 0, 0, 0, 20, 18, 13, 0, 0, 0, 28, 31, 23, 29, 31, 17, 0, 27, 25]
+    std_pe: 10.184
+    std_pn: 10.184
+    std_pu: 8.553
+    std_ve: 0.156
+    std_vn: 0.156
+    std_vu: 0.156
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:01:37 lat: 0.548362276716
+2023-12-20 23:01:37 lon: 2.10551475214
+2023-12-20 23:01:38 Signal strength: 25
+2023-12-20 23:01:38 SIM state: READY
+2023-12-20 23:01:38 Network type: E-UTRA-NR dual(5G)
+2023-12-20 23:01:38 PING www.a.shifen.com (180.101.50.242) 56(84) bytes of data.
+2023-12-20 23:01:38 64 bytes from 180.101.50.242: icmp_seq=1 ttl=43 time=117 ms
+2023-12-20 23:01:39 64 bytes from 180.101.50.242: icmp_seq=2 ttl=43 time=155 ms
+2023-12-20 23:01:39 64 bytes from 180.101.50.242: icmp_seq=3 ttl=43 time=174 ms
+2023-12-20 23:01:39 
+2023-12-20 23:01:39 --- www.a.shifen.com ping statistics ---
+2023-12-20 23:01:39 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-20 23:01:39 rtt min/avg/max/mdev = 117.461/149.063/174.469/23.686 ms
+2023-12-20 23:01:39 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-20 23:01:39 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.300 ms
+2023-12-20 23:01:40 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.312 ms
+2023-12-20 23:01:40 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.262 ms
+2023-12-20 23:01:40 
+2023-12-20 23:01:40 --- 192.168.30.1 ping statistics ---
+2023-12-20 23:01:40 3 packets transmitted, 3 received, 0% packet loss, time 1007ms
+2023-12-20 23:01:40 rtt min/avg/max/mdev = 0.262/0.291/0.312/0.025 ms
+2023-12-20 23:01:40 PING 192.168.30.159 (192.168.30.159) 56(84) bytes of data.
+2023-12-20 23:01:40 64 bytes from 192.168.30.159: icmp_seq=1 ttl=64 time=227 ms
+2023-12-20 23:01:41 64 bytes from 192.168.30.159: icmp_seq=2 ttl=64 time=340 ms
+2023-12-20 23:01:41 64 bytes from 192.168.30.159: icmp_seq=3 ttl=64 time=7.30 ms
+2023-12-20 23:01:41 
+2023-12-20 23:01:41 --- 192.168.30.159 ping statistics ---
+2023-12-20 23:01:41 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:01:41 rtt min/avg/max/mdev = 7.305/191.798/340.874/138.463 ms
+2023-12-20 23:01:41 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-20 23:01:41 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=3.74 ms
+2023-12-20 23:01:42 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=4.15 ms
+2023-12-20 23:01:42 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=3.97 ms
+2023-12-20 23:01:42 
+2023-12-20 23:01:42 --- 192.168.30.198 ping statistics ---
+2023-12-20 23:01:42 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-20 23:01:42 rtt min/avg/max/mdev = 3.741/3.957/4.158/0.185 ms
+2023-12-20 23:01:42 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-20 23:01:42 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.029 ms
+2023-12-20 23:01:43 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.019 ms
+2023-12-20 23:01:43 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.020 ms
+2023-12-20 23:01:43 
+2023-12-20 23:01:43 --- 192.168.30.200 ping statistics ---
+2023-12-20 23:01:43 3 packets transmitted, 3 received, 0% packet loss, time 1023ms
+2023-12-20 23:01:43 rtt min/avg/max/mdev = 0.019/0.022/0.029/0.007 ms
+before docker
+after docker
+header: 
+  seq: 64799
+  stamp: 
+    secs: 1703084504
+    nsecs: 594192826
+  frame_id: "ctut4uCL4T8BJmt2PtgAQAAAAAAAAAAAexSuR+F6hD/6fmq8dJN4P/p+arx0k2i/qKZHaWx88D/6fmq8dJOIPwEgDgAAAAAAPgrXo3A9MkAAAAAAAAAAAAAAAACzHxNB9QgAAAAAAAAAALB2wGDZQQ=="
+meta: 
+  timestamp_us: 1703084504512620
+  seq: 64799
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.54836198001
+    lon: 2.10551446939
+    alt: 215.051
+    vel_e: 0.01
+    vel_n: 0.006
+    vel_u: -0.003
+    azi_track: 1.03037682652
+    speed: 0.012
+    status: 1
+    msg_type: 32
+    sat_num: 14
+    hdop: 18.24
+    rtk_age: 0.0
+    sec_in_gps_week: 313324.75
+    gps_week: 2293
+    utc_time: 1703084506.75
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 18, 24, 3, 37, 66, 62, 13, 57, 35, 45, 53, 9, 20, 41, 12, 30, 20, 60, 57, 46, 35, 52, 35, 14, 86, 55, 72, 43, 45, 27, 24, 51, 28, 12, 15, 44, 72, 49, 53]
+    sv_az: [41, 91, 292, 129, 265, 324, 179, 59, 351, 217, 200, 236, 139, 168, 55, 265, 280, 150, 311, 56, 245, 12, 139, 234, 199, 121, 253, 279, 226, 304, 316, 226, 52, 178, 118, 251, 305, 201, 165, 51, 142, 168]
+    sv_cno: [14, 0, 21, 15, 0, 0, 28, 0, 0, 0, 30, 0, 0, 29, 0, 0, 18, 0, 0, 8, 28, 6, 0, 0, 0, 0, 0, 18, 19, 13, 0, 0, 0, 27, 33, 27, 30, 32, 15, 0, 26, 25]
+    std_pe: 9.987
+    std_pn: 9.987
+    std_pu: 6.308
+    std_ve: 0.186
+    std_vn: 0.186
+    std_vu: 0.186
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:01:44 output: header: 
+  seq: 64799
+  stamp: 
+    secs: 1703084504
+    nsecs: 594192826
+  frame_id: "ctut4uCL4T8BJmt2PtgAQAAAAAAAAAAAexSuR+F6hD/6fmq8dJN4P/p+arx0k2i/qKZHaWx88D/6fmq8dJOIPwEgDgAAAAAAPgrXo3A9MkAAAAAAAAAAAAAAAACzHxNB9QgAAAAAAAAAALB2wGDZQQ=="
+meta: 
+  timestamp_us: 1703084504512620
+  seq: 64799
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.54836198001
+    lon: 2.10551446939
+    alt: 215.051
+    vel_e: 0.01
+    vel_n: 0.006
+    vel_u: -0.003
+    azi_track: 1.03037682652
+    speed: 0.012
+    status: 1
+    msg_type: 32
+    sat_num: 14
+    hdop: 18.24
+    rtk_age: 0.0
+    sec_in_gps_week: 313324.75
+    gps_week: 2293
+    utc_time: 1703084506.75
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 18, 24, 3, 37, 66, 62, 13, 57, 35, 45, 53, 9, 20, 41, 12, 30, 20, 60, 57, 46, 35, 52, 35, 14, 86, 55, 72, 43, 45, 27, 24, 51, 28, 12, 15, 44, 72, 49, 53]
+    sv_az: [41, 91, 292, 129, 265, 324, 179, 59, 351, 217, 200, 236, 139, 168, 55, 265, 280, 150, 311, 56, 245, 12, 139, 234, 199, 121, 253, 279, 226, 304, 316, 226, 52, 178, 118, 251, 305, 201, 165, 51, 142, 168]
+    sv_cno: [14, 0, 21, 15, 0, 0, 28, 0, 0, 0, 30, 0, 0, 29, 0, 0, 18, 0, 0, 8, 28, 6, 0, 0, 0, 0, 0, 18, 19, 13, 0, 0, 0, 27, 33, 27, 30, 32, 15, 0, 26, 25]
+    std_pe: 9.987
+    std_pn: 9.987
+    std_pu: 6.308
+    std_ve: 0.186
+    std_vn: 0.186
+    std_vu: 0.186
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:01:44 lat: 0.54836198001
+2023-12-20 23:01:44 lon: 2.10551446939
+2023-12-20 23:01:46 Network type: E-UTRA-NR dual(5G)
+2023-12-20 23:01:46 Signal strength: 26
+2023-12-20 23:01:46 SIM state: READY
+2023-12-20 23:01:46 PING www.a.shifen.com (180.101.50.242) 56(84) bytes of data.
+2023-12-20 23:01:46 64 bytes from 180.101.50.242: icmp_seq=1 ttl=43 time=117 ms
+2023-12-20 23:01:46 64 bytes from 180.101.50.242: icmp_seq=2 ttl=43 time=98.2 ms
+2023-12-20 23:01:47 64 bytes from 180.101.50.242: icmp_seq=3 ttl=43 time=133 ms
+2023-12-20 23:01:47 
+2023-12-20 23:01:47 --- www.a.shifen.com ping statistics ---
+2023-12-20 23:01:47 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:01:47 rtt min/avg/max/mdev = 98.206/116.485/133.769/14.538 ms
+2023-12-20 23:01:47 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-20 23:01:47 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.274 ms
+2023-12-20 23:01:47 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.284 ms
+2023-12-20 23:01:48 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.240 ms
+2023-12-20 23:01:48 
+2023-12-20 23:01:48 --- 192.168.30.1 ping statistics ---
+2023-12-20 23:01:48 3 packets transmitted, 3 received, 0% packet loss, time 1016ms
+2023-12-20 23:01:48 rtt min/avg/max/mdev = 0.240/0.266/0.284/0.018 ms
+2023-12-20 23:01:48 PING 192.168.30.159 (192.168.30.159) 56(84) bytes of data.
+2023-12-20 23:01:48 64 bytes from 192.168.30.159: icmp_seq=1 ttl=64 time=278 ms
+2023-12-20 23:01:49 64 bytes from 192.168.30.159: icmp_seq=2 ttl=64 time=392 ms
+2023-12-20 23:01:49 64 bytes from 192.168.30.159: icmp_seq=3 ttl=64 time=4.00 ms
+2023-12-20 23:01:49 
+2023-12-20 23:01:49 --- 192.168.30.159 ping statistics ---
+2023-12-20 23:01:49 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-20 23:01:49 rtt min/avg/max/mdev = 4.008/225.163/392.597/163.125 ms
+2023-12-20 23:01:49 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-20 23:01:49 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=2.09 ms
+2023-12-20 23:01:49 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=4.63 ms
+2023-12-20 23:01:50 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=3.90 ms
+2023-12-20 23:01:50 
+2023-12-20 23:01:50 --- 192.168.30.198 ping statistics ---
+2023-12-20 23:01:50 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:01:50 rtt min/avg/max/mdev = 2.093/3.545/4.635/1.071 ms
+2023-12-20 23:01:50 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-20 23:01:50 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.024 ms
+2023-12-20 23:01:51 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.021 ms
+2023-12-20 23:01:51 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.043 ms
+2023-12-20 23:01:51 
+2023-12-20 23:01:51 --- 192.168.30.200 ping statistics ---
+2023-12-20 23:01:51 3 packets transmitted, 3 received, 0% packet loss, time 1007ms
+2023-12-20 23:01:51 rtt min/avg/max/mdev = 0.021/0.029/0.043/0.010 ms
+before docker
+after docker
+header: 
+  seq: 64860
+  stamp: 
+    secs: 1703084512
+    nsecs: 210022030
+  frame_id: "9q02a+CL4T/M+PpqPtgAQAAAAAAAAAAAObTIdr6fij/8qfHSTWJwv3sUrkfhenS/kAgVJaLo/T956SYxCKyMPwEgDwAAAAAApHA9CtdjMkAAAAAAAAAAAAAAAIDRHxNB9QgAAAAAAAAAAJh4wGDZQQ=="
+meta: 
+  timestamp_us: 1703084512137480
+  seq: 64860
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548361756608
+    lon: 2.10551438387
+    alt: 214.542
+    vel_e: 0.013
+    vel_n: -0.004
+    vel_u: -0.005
+    azi_track: 1.86929525838
+    speed: 0.014
+    status: 1
+    msg_type: 32
+    sat_num: 15
+    hdop: 18.39
+    rtk_age: 0.0
+    sec_in_gps_week: 313332.375
+    gps_week: 2293
+    utc_time: 1703084514.38
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 18, 24, 3, 37, 66, 62, 13, 57, 35, 45, 53, 9, 20, 41, 12, 30, 20, 60, 57, 46, 35, 52, 35, 14, 86, 55, 72, 43, 45, 27, 24, 51, 28, 12, 15, 44, 72, 49, 53]
+    sv_az: [41, 91, 292, 129, 265, 324, 179, 59, 351, 217, 200, 236, 139, 168, 55, 265, 280, 150, 311, 56, 245, 12, 139, 234, 199, 121, 253, 279, 226, 304, 316, 226, 52, 178, 118, 251, 305, 201, 165, 51, 142, 168]
+    sv_cno: [18, 0, 18, 18, 13, 0, 28, 0, 0, 0, 30, 0, 0, 29, 0, 0, 9, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 17, 16, 12, 0, 0, 0, 26, 32, 27, 29, 32, 15, 0, 26, 25]
+    std_pe: 9.405
+    std_pn: 9.405
+    std_pu: 9.786
+    std_ve: 0.154
+    std_vn: 0.154
+    std_vu: 0.154
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:01:52 output: header: 
+  seq: 64860
+  stamp: 
+    secs: 1703084512
+    nsecs: 210022030
+  frame_id: "9q02a+CL4T/M+PpqPtgAQAAAAAAAAAAAObTIdr6fij/8qfHSTWJwv3sUrkfhenS/kAgVJaLo/T956SYxCKyMPwEgDwAAAAAApHA9CtdjMkAAAAAAAAAAAAAAAIDRHxNB9QgAAAAAAAAAAJh4wGDZQQ=="
+meta: 
+  timestamp_us: 1703084512137480
+  seq: 64860
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548361756608
+    lon: 2.10551438387
+    alt: 214.542
+    vel_e: 0.013
+    vel_n: -0.004
+    vel_u: -0.005
+    azi_track: 1.86929525838
+    speed: 0.014
+    status: 1
+    msg_type: 32
+    sat_num: 15
+    hdop: 18.39
+    rtk_age: 0.0
+    sec_in_gps_week: 313332.375
+    gps_week: 2293
+    utc_time: 1703084514.38
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 18, 24, 3, 37, 66, 62, 13, 57, 35, 45, 53, 9, 20, 41, 12, 30, 20, 60, 57, 46, 35, 52, 35, 14, 86, 55, 72, 43, 45, 27, 24, 51, 28, 12, 15, 44, 72, 49, 53]
+    sv_az: [41, 91, 292, 129, 265, 324, 179, 59, 351, 217, 200, 236, 139, 168, 55, 265, 280, 150, 311, 56, 245, 12, 139, 234, 199, 121, 253, 279, 226, 304, 316, 226, 52, 178, 118, 251, 305, 201, 165, 51, 142, 168]
+    sv_cno: [18, 0, 18, 18, 13, 0, 28, 0, 0, 0, 30, 0, 0, 29, 0, 0, 9, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 17, 16, 12, 0, 0, 0, 26, 32, 27, 29, 32, 15, 0, 26, 25]
+    std_pe: 9.405
+    std_pn: 9.405
+    std_pu: 9.786
+    std_ve: 0.154
+    std_vn: 0.154
+    std_vu: 0.154
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:01:52 lat: 0.548361756608
+2023-12-20 23:01:52 lon: 2.10551438387
+2023-12-20 23:01:53 SIM state: READY
+2023-12-20 23:01:53 Signal strength: 26
+2023-12-20 23:01:53 Network type: E-UTRA-NR dual(5G)
+2023-12-20 23:01:54 PING www.a.shifen.com (180.101.50.242) 56(84) bytes of data.
+2023-12-20 23:01:54 64 bytes from 180.101.50.242: icmp_seq=1 ttl=43 time=118 ms
+2023-12-20 23:01:54 64 bytes from 180.101.50.242: icmp_seq=2 ttl=43 time=98.1 ms
+2023-12-20 23:01:55 64 bytes from 180.101.50.242: icmp_seq=3 ttl=43 time=117 ms
+2023-12-20 23:01:55 
+2023-12-20 23:01:55 --- www.a.shifen.com ping statistics ---
+2023-12-20 23:01:55 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-20 23:01:55 rtt min/avg/max/mdev = 98.159/111.501/118.666/9.446 ms
+2023-12-20 23:01:55 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-20 23:01:55 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.277 ms
+2023-12-20 23:01:55 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.242 ms
+2023-12-20 23:01:56 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.242 ms
+2023-12-20 23:01:56 
+2023-12-20 23:01:56 --- 192.168.30.1 ping statistics ---
+2023-12-20 23:01:56 3 packets transmitted, 3 received, 0% packet loss, time 1016ms
+2023-12-20 23:01:56 rtt min/avg/max/mdev = 0.242/0.253/0.277/0.024 ms
+2023-12-20 23:01:56 PING 192.168.30.159 (192.168.30.159) 56(84) bytes of data.
+2023-12-20 23:01:56 64 bytes from 192.168.30.159: icmp_seq=1 ttl=64 time=181 ms
+2023-12-20 23:01:56 64 bytes from 192.168.30.159: icmp_seq=2 ttl=64 time=293 ms
+2023-12-20 23:01:57 64 bytes from 192.168.30.159: icmp_seq=3 ttl=64 time=7.90 ms
+2023-12-20 23:01:57 
+2023-12-20 23:01:57 --- 192.168.30.159 ping statistics ---
+2023-12-20 23:01:57 3 packets transmitted, 3 received, 0% packet loss, time 1002ms
+2023-12-20 23:01:57 rtt min/avg/max/mdev = 7.901/161.131/293.895/117.650 ms
+2023-12-20 23:01:57 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-20 23:01:57 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=4.21 ms
+2023-12-20 23:01:57 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=10.4 ms
+2023-12-20 23:01:58 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=2.60 ms
+2023-12-20 23:01:58 
+2023-12-20 23:01:58 --- 192.168.30.198 ping statistics ---
+2023-12-20 23:01:58 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:01:58 rtt min/avg/max/mdev = 2.605/5.742/10.410/3.366 ms
+2023-12-20 23:01:58 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-20 23:01:58 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.018 ms
+2023-12-20 23:01:58 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.023 ms
+2023-12-20 23:01:59 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.017 ms
+2023-12-20 23:01:59 
+2023-12-20 23:01:59 --- 192.168.30.200 ping statistics ---
+2023-12-20 23:01:59 3 packets transmitted, 3 received, 0% packet loss, time 1021ms
+2023-12-20 23:01:59 rtt min/avg/max/mdev = 0.017/0.019/0.023/0.004 ms
+before docker
+after docker
+header: 
+  seq: 64921
+  stamp: 
+    secs: 1703084519
+    nsecs: 834685607
+  frame_id: "xMs08d+L4T8nU0BsPtgAQAAAAAAAAAAAexSuR+F6dD8730+Nl26Cv3sUrkfhenS/jHMiq3ETBUB7FK5H4XqEPwEgDQAAAAAAzczMzMyMMkAAAAAAAAAAAAAAAADwHxNB9QgAAAAAAAAAAIB6wGDZQQ=="
+meta: 
+  timestamp_us: 1703084519762380
+  seq: 64921
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548361533206
+    lon: 2.10551439085
+    alt: 214.517
+    vel_e: 0.005
+    vel_n: -0.009
+    vel_u: -0.005
+    azi_track: 2.6344941492
+    speed: 0.01
+    status: 1
+    msg_type: 32
+    sat_num: 13
+    hdop: 18.55
+    rtk_age: 0.0
+    sec_in_gps_week: 313340.0
+    gps_week: 2293
+    utc_time: 1703084522.0
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 19, 24, 3, 37, 66, 62, 13, 57, 35, 45, 53, 9, 20, 41, 12, 30, 20, 60, 57, 46, 35, 52, 35, 14, 86, 55, 72, 43, 45, 27, 24, 51, 28, 12, 15, 44, 72, 49, 53]
+    sv_az: [41, 91, 293, 128, 265, 324, 179, 59, 351, 217, 200, 236, 139, 168, 55, 265, 280, 150, 311, 56, 245, 12, 139, 234, 199, 121, 253, 279, 226, 304, 316, 226, 52, 178, 118, 251, 305, 201, 165, 51, 142, 168]
+    sv_cno: [18, 0, 26, 17, 16, 0, 28, 0, 0, 0, 31, 0, 0, 29, 0, 0, 18, 0, 0, 0, 26, 0, 0, 0, 0, 0, 0, 14, 17, 17, 0, 0, 0, 23, 33, 22, 29, 33, 13, 0, 25, 25]
+    std_pe: 9.18
+    std_pn: 9.18
+    std_pu: 9.78
+    std_ve: 0.151
+    std_vn: 0.151
+    std_vu: 0.151
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:02:00 output: header: 
+  seq: 64921
+  stamp: 
+    secs: 1703084519
+    nsecs: 834685607
+  frame_id: "xMs08d+L4T8nU0BsPtgAQAAAAAAAAAAAexSuR+F6dD8730+Nl26Cv3sUrkfhenS/jHMiq3ETBUB7FK5H4XqEPwEgDQAAAAAAzczMzMyMMkAAAAAAAAAAAAAAAADwHxNB9QgAAAAAAAAAAIB6wGDZQQ=="
+meta: 
+  timestamp_us: 1703084519762380
+  seq: 64921
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548361533206
+    lon: 2.10551439085
+    alt: 214.517
+    vel_e: 0.005
+    vel_n: -0.009
+    vel_u: -0.005
+    azi_track: 2.6344941492
+    speed: 0.01
+    status: 1
+    msg_type: 32
+    sat_num: 13
+    hdop: 18.55
+    rtk_age: 0.0
+    sec_in_gps_week: 313340.0
+    gps_week: 2293
+    utc_time: 1703084522.0
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 19, 24, 3, 37, 66, 62, 13, 57, 35, 45, 53, 9, 20, 41, 12, 30, 20, 60, 57, 46, 35, 52, 35, 14, 86, 55, 72, 43, 45, 27, 24, 51, 28, 12, 15, 44, 72, 49, 53]
+    sv_az: [41, 91, 293, 128, 265, 324, 179, 59, 351, 217, 200, 236, 139, 168, 55, 265, 280, 150, 311, 56, 245, 12, 139, 234, 199, 121, 253, 279, 226, 304, 316, 226, 52, 178, 118, 251, 305, 201, 165, 51, 142, 168]
+    sv_cno: [18, 0, 26, 17, 16, 0, 28, 0, 0, 0, 31, 0, 0, 29, 0, 0, 18, 0, 0, 0, 26, 0, 0, 0, 0, 0, 0, 14, 17, 17, 0, 0, 0, 23, 33, 22, 29, 33, 13, 0, 25, 25]
+    std_pe: 9.18
+    std_pn: 9.18
+    std_pu: 9.78
+    std_ve: 0.151
+    std_vn: 0.151
+    std_vu: 0.151
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:02:00 lat: 0.548361533206
+2023-12-20 23:02:00 lon: 2.10551439085
+2023-12-20 23:02:01 Network type: E-UTRA-NR dual(5G)
+2023-12-20 23:02:01 Signal strength: 26
+2023-12-20 23:02:01 SIM state: READY
+2023-12-20 23:02:01 PING www.a.shifen.com (180.101.50.242) 56(84) bytes of data.
+2023-12-20 23:02:01 64 bytes from 180.101.50.242: icmp_seq=1 ttl=43 time=109 ms
+2023-12-20 23:02:02 64 bytes from 180.101.50.242: icmp_seq=2 ttl=43 time=91.3 ms
+2023-12-20 23:02:02 64 bytes from 180.101.50.242: icmp_seq=3 ttl=43 time=107 ms
+2023-12-20 23:02:02 
+2023-12-20 23:02:02 --- www.a.shifen.com ping statistics ---
+2023-12-20 23:02:02 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:02:02 rtt min/avg/max/mdev = 91.349/102.933/109.752/8.242 ms
+2023-12-20 23:02:02 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-20 23:02:02 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.286 ms
+2023-12-20 23:02:03 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.254 ms
+2023-12-20 23:02:03 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.364 ms
+2023-12-20 23:02:03 
+2023-12-20 23:02:03 --- 192.168.30.1 ping statistics ---
+2023-12-20 23:02:03 3 packets transmitted, 3 received, 0% packet loss, time 1012ms
+2023-12-20 23:02:03 rtt min/avg/max/mdev = 0.254/0.301/0.364/0.048 ms
+2023-12-20 23:02:03 PING 192.168.30.159 (192.168.30.159) 56(84) bytes of data.
+2023-12-20 23:02:03 64 bytes from 192.168.30.159: icmp_seq=1 ttl=64 time=163 ms
+2023-12-20 23:02:04 64 bytes from 192.168.30.159: icmp_seq=2 ttl=64 time=276 ms
+2023-12-20 23:02:05 64 bytes from 192.168.30.159: icmp_seq=3 ttl=64 time=391 ms
+2023-12-20 23:02:05 
+2023-12-20 23:02:05 --- 192.168.30.159 ping statistics ---
+2023-12-20 23:02:05 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:02:05 rtt min/avg/max/mdev = 163.587/277.045/391.216/92.932 ms
+2023-12-20 23:02:05 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-20 23:02:05 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=2.88 ms
+2023-12-20 23:02:05 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=2.27 ms
+2023-12-20 23:02:06 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=2.50 ms
+2023-12-20 23:02:06 
+2023-12-20 23:02:06 --- 192.168.30.198 ping statistics ---
+2023-12-20 23:02:06 3 packets transmitted, 3 received, 0% packet loss, time 1002ms
+2023-12-20 23:02:06 rtt min/avg/max/mdev = 2.273/2.555/2.884/0.254 ms
+2023-12-20 23:02:06 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-20 23:02:06 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.018 ms
+2023-12-20 23:02:06 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.025 ms
+2023-12-20 23:02:07 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.020 ms
+2023-12-20 23:02:07 
+2023-12-20 23:02:07 --- 192.168.30.200 ping statistics ---
+2023-12-20 23:02:07 3 packets transmitted, 3 received, 0% packet loss, time 1017ms
+2023-12-20 23:02:07 rtt min/avg/max/mdev = 0.018/0.021/0.025/0.003 ms
+before docker
+after docker
+header: 
+  seq: 64984
+  stamp: 
+    secs: 1703084527
+    nsecs: 834460284
+  frame_id: "dXQ8lOSL4T9rL+lWQdgAQAAAAAAAAAAA/Knx0k1ioD85tMh2vp+Kv1pkO99Pjae/4rOWoo5O/z+cxCCwcmihPwEgDQAAAAAAuB6F61G4MkAAAAAAAAAAAAAAAAAQIBNB9QgAAAAAAAAAAIB8wGDZQQ=="
+meta: 
+  timestamp_us: 1703084527762240
+  seq: 64984
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548363734066
+    lon: 2.10551994449
+    alt: 222.179
+    vel_e: 0.032
+    vel_n: -0.013
+    vel_u: -0.046
+    azi_track: 1.95667899619
+    speed: 0.034
+    status: 1
+    msg_type: 32
+    sat_num: 13
+    hdop: 18.72
+    rtk_age: 0.0
+    sec_in_gps_week: 313348.0
+    gps_week: 2293
+    utc_time: 1703084530.0
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 19, 24, 4, 36, 66, 62, 13, 57, 35, 45, 53, 9, 20, 41, 12, 30, 20, 60, 57, 46, 35, 52, 35, 14, 86, 55, 72, 43, 45, 27, 24, 51, 28, 12, 15, 44, 72, 49, 53]
+    sv_az: [41, 91, 293, 128, 265, 324, 179, 61, 351, 217, 200, 236, 139, 168, 55, 265, 280, 150, 311, 56, 245, 12, 139, 234, 199, 121, 253, 279, 226, 304, 316, 226, 52, 178, 118, 251, 305, 201, 165, 51, 142, 168]
+    sv_cno: [17, 0, 17, 18, 15, 0, 28, 0, 0, 0, 33, 0, 0, 29, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0, 0, 0, 15, 17, 16, 0, 0, 0, 23, 32, 26, 28, 34, 12, 0, 25, 25]
+    std_pe: 10.422
+    std_pn: 10.422
+    std_pu: 6.21
+    std_ve: 0.111
+    std_vn: 0.111
+    std_vu: 0.111
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:02:08 output: header: 
+  seq: 64984
+  stamp: 
+    secs: 1703084527
+    nsecs: 834460284
+  frame_id: "dXQ8lOSL4T9rL+lWQdgAQAAAAAAAAAAA/Knx0k1ioD85tMh2vp+Kv1pkO99Pjae/4rOWoo5O/z+cxCCwcmihPwEgDQAAAAAAuB6F61G4MkAAAAAAAAAAAAAAAAAQIBNB9QgAAAAAAAAAAIB8wGDZQQ=="
+meta: 
+  timestamp_us: 1703084527762240
+  seq: 64984
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548363734066
+    lon: 2.10551994449
+    alt: 222.179
+    vel_e: 0.032
+    vel_n: -0.013
+    vel_u: -0.046
+    azi_track: 1.95667899619
+    speed: 0.034
+    status: 1
+    msg_type: 32
+    sat_num: 13
+    hdop: 18.72
+    rtk_age: 0.0
+    sec_in_gps_week: 313348.0
+    gps_week: 2293
+    utc_time: 1703084530.0
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 19, 24, 4, 36, 66, 62, 13, 57, 35, 45, 53, 9, 20, 41, 12, 30, 20, 60, 57, 46, 35, 52, 35, 14, 86, 55, 72, 43, 45, 27, 24, 51, 28, 12, 15, 44, 72, 49, 53]
+    sv_az: [41, 91, 293, 128, 265, 324, 179, 61, 351, 217, 200, 236, 139, 168, 55, 265, 280, 150, 311, 56, 245, 12, 139, 234, 199, 121, 253, 279, 226, 304, 316, 226, 52, 178, 118, 251, 305, 201, 165, 51, 142, 168]
+    sv_cno: [17, 0, 17, 18, 15, 0, 28, 0, 0, 0, 33, 0, 0, 29, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0, 0, 0, 15, 17, 16, 0, 0, 0, 23, 32, 26, 28, 34, 12, 0, 25, 25]
+    std_pe: 10.422
+    std_pn: 10.422
+    std_pu: 6.21
+    std_ve: 0.111
+    std_vn: 0.111
+    std_vu: 0.111
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:02:08 lat: 0.548363734066
+2023-12-20 23:02:08 lon: 2.10551994449
+2023-12-20 23:02:09 SIM state: READY
+2023-12-20 23:02:09 Signal strength: 26
+2023-12-20 23:02:09 Network type: E-UTRA-NR dual(5G)
+2023-12-20 23:02:09 PING www.a.shifen.com (180.101.50.242) 56(84) bytes of data.
+2023-12-20 23:02:09 64 bytes from 180.101.50.242: icmp_seq=1 ttl=43 time=157 ms
+2023-12-20 23:02:10 64 bytes from 180.101.50.242: icmp_seq=2 ttl=43 time=137 ms
+2023-12-20 23:02:10 64 bytes from 180.101.50.242: icmp_seq=3 ttl=43 time=140 ms
+2023-12-20 23:02:10 
+2023-12-20 23:02:10 --- www.a.shifen.com ping statistics ---
+2023-12-20 23:02:10 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:02:10 rtt min/avg/max/mdev = 137.055/144.968/157.807/9.165 ms
+2023-12-20 23:02:10 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-20 23:02:10 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.327 ms
+2023-12-20 23:02:11 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.241 ms
+2023-12-20 23:02:11 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.452 ms
+2023-12-20 23:02:11 
+2023-12-20 23:02:11 --- 192.168.30.1 ping statistics ---
+2023-12-20 23:02:11 3 packets transmitted, 3 received, 0% packet loss, time 1022ms
+2023-12-20 23:02:11 rtt min/avg/max/mdev = 0.241/0.340/0.452/0.086 ms
+2023-12-20 23:02:11 PING 192.168.30.159 (192.168.30.159) 56(84) bytes of data.
+2023-12-20 23:02:11 64 bytes from 192.168.30.159: icmp_seq=1 ttl=64 time=185 ms
+2023-12-20 23:02:12 64 bytes from 192.168.30.159: icmp_seq=2 ttl=64 time=298 ms
+2023-12-20 23:02:12 64 bytes from 192.168.30.159: icmp_seq=3 ttl=64 time=7.74 ms
+2023-12-20 23:02:12 
+2023-12-20 23:02:12 --- 192.168.30.159 ping statistics ---
+2023-12-20 23:02:12 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:02:12 rtt min/avg/max/mdev = 7.741/163.937/298.853/119.795 ms
+2023-12-20 23:02:12 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-20 23:02:12 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=6.58 ms
+2023-12-20 23:02:13 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=2.92 ms
+2023-12-20 23:02:13 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=5.25 ms
+2023-12-20 23:02:13 
+2023-12-20 23:02:13 --- 192.168.30.198 ping statistics ---
+2023-12-20 23:02:13 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:02:13 rtt min/avg/max/mdev = 2.923/4.921/6.588/1.515 ms
+2023-12-20 23:02:13 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-20 23:02:13 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.022 ms
+2023-12-20 23:02:14 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.037 ms
+2023-12-20 23:02:14 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.016 ms
+2023-12-20 23:02:14 
+2023-12-20 23:02:14 --- 192.168.30.200 ping statistics ---
+2023-12-20 23:02:14 3 packets transmitted, 3 received, 0% packet loss, time 1024ms
+2023-12-20 23:02:14 rtt min/avg/max/mdev = 0.016/0.025/0.037/0.008 ms
+before docker
+after docker
+header: 
+  seq: 65045
+  stamp: 
+    secs: 1703084535
+    nsecs: 453192822
+  frame_id: "zPxrz+WL4T+8v9hAQ9gAQAAAAAAAAAAAexSuR+F6pD/8qfHSTWJwP1TjpZvEILC/VAAWLL2J9z97FK5H4XqkPwEgDQAAAAAAUrgehevRREAAAAAAAAAAAAAAAIAtIBNB9QgAAAAAAAAAAFh+wGDZQQ=="
+meta: 
+  timestamp_us: 1703084535137100
+  seq: 65045
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548364313515
+    lon: 2.10552359223
+    alt: 209.444
+    vel_e: 0.04
+    vel_n: 0.004
+    vel_u: -0.063
+    azi_track: 1.4711276743
+    speed: 0.04
+    status: 1
+    msg_type: 32
+    sat_num: 13
+    hdop: 41.64
+    rtk_age: 0.0
+    sec_in_gps_week: 313355.375
+    gps_week: 2293
+    utc_time: 1703084537.38
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 19, 24, 4, 36, 66, 63, 13, 56, 35, 45, 53, 9, 20, 41, 12, 30, 20, 60, 57, 46, 35, 52, 35, 14, 86, 55, 72, 43, 45, 27, 24, 51, 28, 12, 15, 44, 72, 49, 53]
+    sv_az: [41, 91, 293, 128, 265, 324, 179, 61, 352, 217, 199, 236, 139, 168, 55, 265, 280, 150, 311, 56, 245, 12, 139, 234, 199, 121, 253, 279, 226, 304, 316, 226, 52, 178, 118, 251, 305, 201, 165, 51, 142, 168]
+    sv_cno: [12, 0, 28, 17, 20, 0, 28, 0, 0, 0, 34, 0, 0, 28, 0, 0, 18, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 18, 14, 16, 0, 0, 0, 26, 33, 27, 26, 34, 13, 0, 25, 25]
+    std_pe: 9.251
+    std_pn: 9.251
+    std_pu: 5.37
+    std_ve: 0.112
+    std_vn: 0.112
+    std_vu: 0.112
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:02:16 output: header: 
+  seq: 65045
+  stamp: 
+    secs: 1703084535
+    nsecs: 453192822
+  frame_id: "zPxrz+WL4T+8v9hAQ9gAQAAAAAAAAAAAexSuR+F6pD/8qfHSTWJwP1TjpZvEILC/VAAWLL2J9z97FK5H4XqkPwEgDQAAAAAAUrgehevRREAAAAAAAAAAAAAAAIAtIBNB9QgAAAAAAAAAAFh+wGDZQQ=="
+meta: 
+  timestamp_us: 1703084535137100
+  seq: 65045
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548364313515
+    lon: 2.10552359223
+    alt: 209.444
+    vel_e: 0.04
+    vel_n: 0.004
+    vel_u: -0.063
+    azi_track: 1.4711276743
+    speed: 0.04
+    status: 1
+    msg_type: 32
+    sat_num: 13
+    hdop: 41.64
+    rtk_age: 0.0
+    sec_in_gps_week: 313355.375
+    gps_week: 2293
+    utc_time: 1703084537.38
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 19, 24, 4, 36, 66, 63, 13, 56, 35, 45, 53, 9, 20, 41, 12, 30, 20, 60, 57, 46, 35, 52, 35, 14, 86, 55, 72, 43, 45, 27, 24, 51, 28, 12, 15, 44, 72, 49, 53]
+    sv_az: [41, 91, 293, 128, 265, 324, 179, 61, 352, 217, 199, 236, 139, 168, 55, 265, 280, 150, 311, 56, 245, 12, 139, 234, 199, 121, 253, 279, 226, 304, 316, 226, 52, 178, 118, 251, 305, 201, 165, 51, 142, 168]
+    sv_cno: [12, 0, 28, 17, 20, 0, 28, 0, 0, 0, 34, 0, 0, 28, 0, 0, 18, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 18, 14, 16, 0, 0, 0, 26, 33, 27, 26, 34, 13, 0, 25, 25]
+    std_pe: 9.251
+    std_pn: 9.251
+    std_pu: 5.37
+    std_ve: 0.112
+    std_vn: 0.112
+    std_vu: 0.112
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:02:16 lat: 0.548364313515
+2023-12-20 23:02:16 lon: 2.10552359223
+2023-12-20 23:02:17 Signal strength: 26
+2023-12-20 23:02:17 Network type: E-UTRA-NR dual(5G)
+2023-12-20 23:02:17 SIM state: READY
+2023-12-20 23:02:17 PING www.a.shifen.com (180.101.50.188) 56(84) bytes of data.
+2023-12-20 23:02:17 64 bytes from 180.101.50.188: icmp_seq=1 ttl=42 time=146 ms
+2023-12-20 23:02:18 64 bytes from 180.101.50.188: icmp_seq=2 ttl=42 time=137 ms
+2023-12-20 23:02:18 64 bytes from 180.101.50.188: icmp_seq=3 ttl=42 time=139 ms
+2023-12-20 23:02:18 
+2023-12-20 23:02:18 --- www.a.shifen.com ping statistics ---
+2023-12-20 23:02:18 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:02:18 rtt min/avg/max/mdev = 137.055/141.037/146.209/3.830 ms
+2023-12-20 23:02:18 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-20 23:02:18 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.284 ms
+2023-12-20 23:02:19 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.352 ms
+2023-12-20 23:02:19 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.298 ms
+2023-12-20 23:02:19 
+2023-12-20 23:02:19 --- 192.168.30.1 ping statistics ---
+2023-12-20 23:02:19 3 packets transmitted, 3 received, 0% packet loss, time 1028ms
+2023-12-20 23:02:19 rtt min/avg/max/mdev = 0.284/0.311/0.352/0.032 ms
+2023-12-20 23:02:19 PING 192.168.30.159 (192.168.30.159) 56(84) bytes of data.
+2023-12-20 23:02:19 64 bytes from 192.168.30.159: icmp_seq=1 ttl=64 time=111 ms
+2023-12-20 23:02:20 64 bytes from 192.168.30.159: icmp_seq=2 ttl=64 time=225 ms
+2023-12-20 23:02:21 64 bytes from 192.168.30.159: icmp_seq=3 ttl=64 time=339 ms
+2023-12-20 23:02:21 
+2023-12-20 23:02:21 --- 192.168.30.159 ping statistics ---
+2023-12-20 23:02:21 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:02:21 rtt min/avg/max/mdev = 111.960/225.668/339.274/92.800 ms
+2023-12-20 23:02:21 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-20 23:02:21 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=2.18 ms
+2023-12-20 23:02:21 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=5.26 ms
+2023-12-20 23:02:22 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=7.97 ms
+2023-12-20 23:02:22 
+2023-12-20 23:02:22 --- 192.168.30.198 ping statistics ---
+2023-12-20 23:02:22 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:02:22 rtt min/avg/max/mdev = 2.189/5.143/7.975/2.363 ms
+2023-12-20 23:02:22 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-20 23:02:22 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.020 ms
+2023-12-20 23:02:22 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.017 ms
+2023-12-20 23:02:23 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.016 ms
+2023-12-20 23:02:23 
+2023-12-20 23:02:23 --- 192.168.30.200 ping statistics ---
+2023-12-20 23:02:23 3 packets transmitted, 3 received, 0% packet loss, time 1016ms
+2023-12-20 23:02:23 rtt min/avg/max/mdev = 0.016/0.017/0.020/0.005 ms
+before docker
+after docker
+header: 
+  seq: 65114
+  stamp: 
+    secs: 1703084544
+    nsecs:  80813316
+  frame_id: "vcF9m+eL4T9HsbEqRNgAQAAAAAAAAAAAukkMAiuHlj85tMh2vp+Kvzm0yHa+n4q/6KsHdwbWAECamZmZmZmZPwEgDwAAAAAAKVyPwvVoREAAAAAAAAAAAAAAAABRIBNB9QgAAAAAAAAAAJCAwGDZQQ=="
+meta: 
+  timestamp_us: 1703084544011940
+  seq: 65114
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548365173962
+    lon: 2.10552532709
+    alt: 222.626
+    vel_e: 0.022
+    vel_n: -0.013
+    vel_u: -0.013
+    azi_track: 2.10450451843
+    speed: 0.025
+    status: 1
+    msg_type: 32
+    sat_num: 15
+    hdop: 40.82
+    rtk_age: 0.0
+    sec_in_gps_week: 313364.25
+    gps_week: 2293
+    utc_time: 1703084546.25
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 19, 24, 4, 36, 66, 63, 13, 56, 35, 45, 53, 9, 20, 41, 12, 30, 20, 60, 57, 46, 35, 52, 35, 14, 86, 55, 72, 43, 45, 27, 24, 51, 28, 12, 15, 44, 72, 49, 53]
+    sv_az: [41, 91, 293, 128, 265, 324, 179, 61, 352, 217, 199, 236, 139, 168, 55, 265, 280, 150, 311, 56, 245, 12, 139, 234, 199, 121, 253, 279, 226, 304, 316, 226, 52, 178, 118, 251, 305, 201, 165, 51, 142, 168]
+    sv_cno: [17, 0, 19, 19, 17, 0, 28, 0, 0, 0, 35, 0, 0, 29, 0, 0, 10, 0, 0, 0, 27, 0, 0, 0, 0, 0, 0, 20, 17, 16, 0, 0, 0, 29, 33, 20, 26, 34, 15, 0, 24, 26]
+    std_pe: 8.345
+    std_pn: 8.345
+    std_pu: 10.16
+    std_ve: 0.155
+    std_vn: 0.155
+    std_vu: 0.155
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:02:24 output: header: 
+  seq: 65114
+  stamp: 
+    secs: 1703084544
+    nsecs:  80813316
+  frame_id: "vcF9m+eL4T9HsbEqRNgAQAAAAAAAAAAAukkMAiuHlj85tMh2vp+Kvzm0yHa+n4q/6KsHdwbWAECamZmZmZmZPwEgDwAAAAAAKVyPwvVoREAAAAAAAAAAAAAAAABRIBNB9QgAAAAAAAAAAJCAwGDZQQ=="
+meta: 
+  timestamp_us: 1703084544011940
+  seq: 65114
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548365173962
+    lon: 2.10552532709
+    alt: 222.626
+    vel_e: 0.022
+    vel_n: -0.013
+    vel_u: -0.013
+    azi_track: 2.10450451843
+    speed: 0.025
+    status: 1
+    msg_type: 32
+    sat_num: 15
+    hdop: 40.82
+    rtk_age: 0.0
+    sec_in_gps_week: 313364.25
+    gps_week: 2293
+    utc_time: 1703084546.25
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 19, 24, 4, 36, 66, 63, 13, 56, 35, 45, 53, 9, 20, 41, 12, 30, 20, 60, 57, 46, 35, 52, 35, 14, 86, 55, 72, 43, 45, 27, 24, 51, 28, 12, 15, 44, 72, 49, 53]
+    sv_az: [41, 91, 293, 128, 265, 324, 179, 61, 352, 217, 199, 236, 139, 168, 55, 265, 280, 150, 311, 56, 245, 12, 139, 234, 199, 121, 253, 279, 226, 304, 316, 226, 52, 178, 118, 251, 305, 201, 165, 51, 142, 168]
+    sv_cno: [17, 0, 19, 19, 17, 0, 28, 0, 0, 0, 35, 0, 0, 29, 0, 0, 10, 0, 0, 0, 27, 0, 0, 0, 0, 0, 0, 20, 17, 16, 0, 0, 0, 29, 33, 20, 26, 34, 15, 0, 24, 26]
+    std_pe: 8.345
+    std_pn: 8.345
+    std_pu: 10.16
+    std_ve: 0.155
+    std_vn: 0.155
+    std_vu: 0.155
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:02:24 lat: 0.548365173962
+2023-12-20 23:02:24 lon: 2.10552532709
+2023-12-20 23:02:25 Signal strength: 26
+2023-12-20 23:02:25 Network type: E-UTRA-NR dual(5G)
+2023-12-20 23:02:25 SIM state: READY
+2023-12-20 23:02:26 PING www.a.shifen.com (180.101.50.188) 56(84) bytes of data.
+2023-12-20 23:02:26 64 bytes from 180.101.50.188: icmp_seq=1 ttl=42 time=133 ms
+2023-12-20 23:02:26 64 bytes from 180.101.50.188: icmp_seq=2 ttl=42 time=136 ms
+2023-12-20 23:02:27 64 bytes from 180.101.50.188: icmp_seq=3 ttl=42 time=173 ms
+2023-12-20 23:02:27 
+2023-12-20 23:02:27 --- www.a.shifen.com ping statistics ---
+2023-12-20 23:02:27 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-20 23:02:27 rtt min/avg/max/mdev = 133.952/148.287/173.930/18.174 ms
+2023-12-20 23:02:27 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-20 23:02:27 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.314 ms
+2023-12-20 23:02:27 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.272 ms
+2023-12-20 23:02:28 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.376 ms
+2023-12-20 23:02:28 
+2023-12-20 23:02:28 --- 192.168.30.1 ping statistics ---
+2023-12-20 23:02:28 3 packets transmitted, 3 received, 0% packet loss, time 1015ms
+2023-12-20 23:02:28 rtt min/avg/max/mdev = 0.272/0.320/0.376/0.047 ms
+2023-12-20 23:02:28 PING 192.168.30.159 (192.168.30.159) 56(84) bytes of data.
+2023-12-20 23:02:28 64 bytes from 192.168.30.159: icmp_seq=1 ttl=64 time=212 ms
+2023-12-20 23:02:28 64 bytes from 192.168.30.159: icmp_seq=2 ttl=64 time=325 ms
+2023-12-20 23:02:29 64 bytes from 192.168.30.159: icmp_seq=3 ttl=64 time=7.41 ms
+2023-12-20 23:02:29 
+2023-12-20 23:02:29 --- 192.168.30.159 ping statistics ---
+2023-12-20 23:02:29 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-20 23:02:29 rtt min/avg/max/mdev = 7.412/181.579/325.062/131.482 ms
+2023-12-20 23:02:29 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-20 23:02:29 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=3.98 ms
+2023-12-20 23:02:29 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=7.50 ms
+2023-12-20 23:02:30 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=17.8 ms
+2023-12-20 23:02:30 
+2023-12-20 23:02:30 --- 192.168.30.198 ping statistics ---
+2023-12-20 23:02:30 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:02:30 rtt min/avg/max/mdev = 3.981/9.783/17.866/5.894 ms
+2023-12-20 23:02:30 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-20 23:02:30 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.019 ms
+2023-12-20 23:02:30 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.022 ms
+2023-12-20 23:02:31 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.019 ms
+2023-12-20 23:02:31 
+2023-12-20 23:02:31 --- 192.168.30.200 ping statistics ---
+2023-12-20 23:02:31 3 packets transmitted, 3 received, 0% packet loss, time 1030ms
+2023-12-20 23:02:31 rtt min/avg/max/mdev = 0.019/0.020/0.022/0.001 ms
+before docker
+after docker
+header: 
+  seq: 65177
+  stamp: 
+    secs: 1703084551
+    nsecs: 947814647
+  frame_id: "KyqtG+aL4T837jU9RdgAQAAAAAAAAAAAObTIdr6fir+6SQwCK4eWP/p+arx0k2i/amLR7Xb/FkA5tMh2vp+aPwEgDwAAAAAAcT0K16MQREAAAAAAAAAAAAAAAIBwIBNB9QgAAAAAAAAAAIiCwGDZQQ=="
+meta: 
+  timestamp_us: 1703084551886840
+  seq: 65177
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548364453141
+    lon: 2.10552737261
+    alt: 211.45
+    vel_e: -0.013
+    vel_n: 0.022
+    vel_u: -0.003
+    azi_track: 5.74947711554
+    speed: 0.026
+    status: 1
+    msg_type: 32
+    sat_num: 15
+    hdop: 40.13
+    rtk_age: 0.0
+    sec_in_gps_week: 313372.125
+    gps_week: 2293
+    utc_time: 1703084554.12
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 19, 24, 4, 36, 66, 63, 13, 56, 35, 45, 53, 9, 20, 41, 12, 30, 20, 60, 57, 46, 35, 52, 35, 14, 86, 55, 72, 43, 45, 27, 24, 51, 28, 12, 15, 44, 72, 49, 53]
+    sv_az: [41, 91, 293, 128, 265, 324, 179, 61, 352, 217, 199, 236, 139, 168, 55, 265, 280, 150, 311, 56, 245, 12, 139, 234, 199, 121, 253, 279, 226, 304, 316, 226, 52, 178, 118, 251, 305, 201, 165, 51, 142, 168]
+    sv_cno: [17, 0, 29, 19, 22, 0, 28, 0, 15, 0, 35, 0, 0, 29, 0, 0, 15, 0, 0, 0, 26, 7, 0, 0, 0, 0, 0, 20, 15, 12, 0, 0, 0, 30, 34, 27, 25, 34, 12, 0, 24, 25]
+    std_pe: 8.34
+    std_pn: 8.34
+    std_pu: 4.394
+    std_ve: 0.166
+    std_vn: 0.166
+    std_vu: 0.166
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:02:32 output: header: 
+  seq: 65177
+  stamp: 
+    secs: 1703084551
+    nsecs: 947814647
+  frame_id: "KyqtG+aL4T837jU9RdgAQAAAAAAAAAAAObTIdr6fir+6SQwCK4eWP/p+arx0k2i/amLR7Xb/FkA5tMh2vp+aPwEgDwAAAAAAcT0K16MQREAAAAAAAAAAAAAAAIBwIBNB9QgAAAAAAAAAAIiCwGDZQQ=="
+meta: 
+  timestamp_us: 1703084551886840
+  seq: 65177
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548364453141
+    lon: 2.10552737261
+    alt: 211.45
+    vel_e: -0.013
+    vel_n: 0.022
+    vel_u: -0.003
+    azi_track: 5.74947711554
+    speed: 0.026
+    status: 1
+    msg_type: 32
+    sat_num: 15
+    hdop: 40.13
+    rtk_age: 0.0
+    sec_in_gps_week: 313372.125
+    gps_week: 2293
+    utc_time: 1703084554.12
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 19, 24, 4, 36, 66, 63, 13, 56, 35, 45, 53, 9, 20, 41, 12, 30, 20, 60, 57, 46, 35, 52, 35, 14, 86, 55, 72, 43, 45, 27, 24, 51, 28, 12, 15, 44, 72, 49, 53]
+    sv_az: [41, 91, 293, 128, 265, 324, 179, 61, 352, 217, 199, 236, 139, 168, 55, 265, 280, 150, 311, 56, 245, 12, 139, 234, 199, 121, 253, 279, 226, 304, 316, 226, 52, 178, 118, 251, 305, 201, 165, 51, 142, 168]
+    sv_cno: [17, 0, 29, 19, 22, 0, 28, 0, 15, 0, 35, 0, 0, 29, 0, 0, 15, 0, 0, 0, 26, 7, 0, 0, 0, 0, 0, 20, 15, 12, 0, 0, 0, 30, 34, 27, 25, 34, 12, 0, 24, 25]
+    std_pe: 8.34
+    std_pn: 8.34
+    std_pu: 4.394
+    std_ve: 0.166
+    std_vn: 0.166
+    std_vu: 0.166
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:02:32 lat: 0.548364453141
+2023-12-20 23:02:32 lon: 2.10552737261
+2023-12-20 23:02:33 Signal strength: 26
+2023-12-20 23:02:33 SIM state: READY
+2023-12-20 23:02:33 Network type: E-UTRA-NR dual(5G)
+2023-12-20 23:02:34 PING www.a.shifen.com (180.101.50.188) 56(84) bytes of data.
+2023-12-20 23:02:34 64 bytes from 180.101.50.188: icmp_seq=1 ttl=42 time=157 ms
+2023-12-20 23:02:34 64 bytes from 180.101.50.188: icmp_seq=2 ttl=42 time=120 ms
+2023-12-20 23:02:34 64 bytes from 180.101.50.188: icmp_seq=3 ttl=42 time=104 ms
+2023-12-20 23:02:34 
+2023-12-20 23:02:34 --- www.a.shifen.com ping statistics ---
+2023-12-20 23:02:34 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:02:34 rtt min/avg/max/mdev = 104.673/127.669/157.508/22.107 ms
+2023-12-20 23:02:34 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-20 23:02:34 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.278 ms
+2023-12-20 23:02:35 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.231 ms
+2023-12-20 23:02:35 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.257 ms
+2023-12-20 23:02:35 
+2023-12-20 23:02:35 --- 192.168.30.1 ping statistics ---
+2023-12-20 23:02:35 3 packets transmitted, 3 received, 0% packet loss, time 1026ms
+2023-12-20 23:02:35 rtt min/avg/max/mdev = 0.231/0.255/0.278/0.023 ms
+2023-12-20 23:02:35 PING 192.168.30.159 (192.168.30.159) 56(84) bytes of data.
+2023-12-20 23:02:35 64 bytes from 192.168.30.159: icmp_seq=1 ttl=64 time=123 ms
+2023-12-20 23:02:36 64 bytes from 192.168.30.159: icmp_seq=2 ttl=64 time=239 ms
+2023-12-20 23:02:37 64 bytes from 192.168.30.159: icmp_seq=3 ttl=64 time=352 ms
+2023-12-20 23:02:37 
+2023-12-20 23:02:37 --- 192.168.30.159 ping statistics ---
+2023-12-20 23:02:37 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-20 23:02:37 rtt min/avg/max/mdev = 123.137/238.303/352.343/93.576 ms
+2023-12-20 23:02:37 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-20 23:02:37 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=2.39 ms
+2023-12-20 23:02:37 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=2.73 ms
+2023-12-20 23:02:38 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=27.4 ms
+2023-12-20 23:02:38 
+2023-12-20 23:02:38 --- 192.168.30.198 ping statistics ---
+2023-12-20 23:02:38 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:02:38 rtt min/avg/max/mdev = 2.392/10.848/27.415/11.715 ms
+2023-12-20 23:02:38 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-20 23:02:38 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.017 ms
+2023-12-20 23:02:38 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.021 ms
+2023-12-20 23:02:39 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.022 ms
+2023-12-20 23:02:39 
+2023-12-20 23:02:39 --- 192.168.30.200 ping statistics ---
+2023-12-20 23:02:39 3 packets transmitted, 3 received, 0% packet loss, time 1014ms
+2023-12-20 23:02:39 rtt min/avg/max/mdev = 0.017/0.020/0.022/0.002 ms
+before docker
+after docker
+header: 
+  seq: 65242
+  stamp: 
+    secs: 1703084560
+    nsecs:  78357473
+  frame_id: "RqJVjeWL4T+wDHjGRdgAQAAAAAAAAAAAeekmMQisjD9aZDvfT42Xv5zEILByaJE//K1YgCjCBEDZzvdT46WbPwEgDwAAAAAAuB6F61G4Q0AAAAAAAAAAAAAAAACRIBNB9QgAAAAAAAAAAJCEwGDZQQ=="
+meta: 
+  timestamp_us: 1703084560011700
+  seq: 65242
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548364187851
+    lon: 2.10552839712
+    alt: 222.054
+    vel_e: 0.014
+    vel_n: -0.023
+    vel_u: 0.017
+    azi_track: 2.5948038127
+    speed: 0.027
+    status: 1
+    msg_type: 32
+    sat_num: 15
+    hdop: 39.44
+    rtk_age: 0.0
+    sec_in_gps_week: 313380.25
+    gps_week: 2293
+    utc_time: 1703084562.25
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 19, 24, 4, 36, 66, 63, 13, 56, 35, 45, 53, 9, 20, 41, 12, 30, 20, 60, 57, 46, 35, 52, 35, 14, 86, 55, 72, 43, 45, 27, 24, 51, 28, 12, 15, 44, 72, 49, 53]
+    sv_az: [41, 91, 293, 128, 265, 324, 179, 61, 352, 217, 199, 236, 139, 168, 55, 266, 280, 150, 311, 56, 245, 12, 139, 234, 199, 121, 253, 279, 226, 304, 316, 226, 52, 178, 118, 251, 305, 201, 165, 51, 142, 168]
+    sv_cno: [16, 0, 29, 19, 16, 0, 28, 0, 14, 0, 36, 0, 0, 29, 0, 0, 11, 0, 0, 0, 27, 0, 0, 0, 0, 0, 0, 20, 16, 14, 0, 0, 0, 31, 34, 23, 24, 34, 14, 0, 24, 26]
+    std_pe: 7.971
+    std_pn: 7.971
+    std_pu: 11.103
+    std_ve: 0.166
+    std_vn: 0.166
+    std_vu: 0.166
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:02:40 output: header: 
+  seq: 65242
+  stamp: 
+    secs: 1703084560
+    nsecs:  78357473
+  frame_id: "RqJVjeWL4T+wDHjGRdgAQAAAAAAAAAAAeekmMQisjD9aZDvfT42Xv5zEILByaJE//K1YgCjCBEDZzvdT46WbPwEgDwAAAAAAuB6F61G4Q0AAAAAAAAAAAAAAAACRIBNB9QgAAAAAAAAAAJCEwGDZQQ=="
+meta: 
+  timestamp_us: 1703084560011700
+  seq: 65242
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548364187851
+    lon: 2.10552839712
+    alt: 222.054
+    vel_e: 0.014
+    vel_n: -0.023
+    vel_u: 0.017
+    azi_track: 2.5948038127
+    speed: 0.027
+    status: 1
+    msg_type: 32
+    sat_num: 15
+    hdop: 39.44
+    rtk_age: 0.0
+    sec_in_gps_week: 313380.25
+    gps_week: 2293
+    utc_time: 1703084562.25
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 19, 24, 4, 36, 66, 63, 13, 56, 35, 45, 53, 9, 20, 41, 12, 30, 20, 60, 57, 46, 35, 52, 35, 14, 86, 55, 72, 43, 45, 27, 24, 51, 28, 12, 15, 44, 72, 49, 53]
+    sv_az: [41, 91, 293, 128, 265, 324, 179, 61, 352, 217, 199, 236, 139, 168, 55, 266, 280, 150, 311, 56, 245, 12, 139, 234, 199, 121, 253, 279, 226, 304, 316, 226, 52, 178, 118, 251, 305, 201, 165, 51, 142, 168]
+    sv_cno: [16, 0, 29, 19, 16, 0, 28, 0, 14, 0, 36, 0, 0, 29, 0, 0, 11, 0, 0, 0, 27, 0, 0, 0, 0, 0, 0, 20, 16, 14, 0, 0, 0, 31, 34, 23, 24, 34, 14, 0, 24, 26]
+    std_pe: 7.971
+    std_pn: 7.971
+    std_pu: 11.103
+    std_ve: 0.166
+    std_vn: 0.166
+    std_vu: 0.166
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:02:40 lat: 0.548364187851
+2023-12-20 23:02:40 lon: 2.10552839712
+2023-12-20 23:02:42 Network type: E-UTRA-NR dual(5G)
+2023-12-20 23:02:42 SIM state: READY
+2023-12-20 23:02:42 Signal strength: 26
+2023-12-20 23:02:42 PING www.a.shifen.com (180.101.50.242) 56(84) bytes of data.
+2023-12-20 23:02:42 64 bytes from 180.101.50.242: icmp_seq=1 ttl=43 time=117 ms
+2023-12-20 23:02:42 64 bytes from 180.101.50.242: icmp_seq=2 ttl=43 time=234 ms
+2023-12-20 23:02:43 64 bytes from 180.101.50.242: icmp_seq=3 ttl=43 time=116 ms
+2023-12-20 23:02:43 
+2023-12-20 23:02:43 --- www.a.shifen.com ping statistics ---
+2023-12-20 23:02:43 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:02:43 rtt min/avg/max/mdev = 116.580/156.102/234.386/55.357 ms
+2023-12-20 23:02:43 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-20 23:02:43 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.300 ms
+2023-12-20 23:02:43 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.369 ms
+2023-12-20 23:02:44 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.441 ms
+2023-12-20 23:02:44 
+2023-12-20 23:02:44 --- 192.168.30.1 ping statistics ---
+2023-12-20 23:02:44 3 packets transmitted, 3 received, 0% packet loss, time 1014ms
+2023-12-20 23:02:44 rtt min/avg/max/mdev = 0.300/0.370/0.441/0.057 ms
+2023-12-20 23:02:44 PING 192.168.30.159 (192.168.30.159) 56(84) bytes of data.
+2023-12-20 23:02:44 64 bytes from 192.168.30.159: icmp_seq=1 ttl=64 time=69.2 ms
+2023-12-20 23:02:45 64 bytes from 192.168.30.159: icmp_seq=2 ttl=64 time=181 ms
+2023-12-20 23:02:45 64 bytes from 192.168.30.159: icmp_seq=3 ttl=64 time=296 ms
+2023-12-20 23:02:45 
+2023-12-20 23:02:45 --- 192.168.30.159 ping statistics ---
+2023-12-20 23:02:45 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-20 23:02:45 rtt min/avg/max/mdev = 69.298/182.397/296.127/92.603 ms
+2023-12-20 23:02:45 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-20 23:02:45 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=5.31 ms
+2023-12-20 23:02:46 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=4.53 ms
+2023-12-20 23:02:46 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=2.90 ms
+2023-12-20 23:02:46 
+2023-12-20 23:02:46 --- 192.168.30.198 ping statistics ---
+2023-12-20 23:02:46 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-20 23:02:46 rtt min/avg/max/mdev = 2.908/4.251/5.310/1.002 ms
+2023-12-20 23:02:46 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-20 23:02:46 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.025 ms
+2023-12-20 23:02:47 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.018 ms
+2023-12-20 23:02:47 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.025 ms
+2023-12-20 23:02:47 
+2023-12-20 23:02:47 --- 192.168.30.200 ping statistics ---
+2023-12-20 23:02:47 3 packets transmitted, 3 received, 0% packet loss, time 1030ms
+2023-12-20 23:02:47 rtt min/avg/max/mdev = 0.018/0.022/0.025/0.006 ms
+before docker
+after docker
+header: 
+  seq: 65309
+  stamp: 
+    secs: 1703084568
+    nsecs: 454112550
+  frame_id: "y3TeFeWL4T9ZSfVsRtgAQAAAAAAAAAAAnMQgsHJooT9aZDvfT42nv+kmMQisHKo/op6wtWkKBEDJdr6fGi+tPwEgDgAAAAAAAAAAAABgQ0AAAAAAAAAAAAAAAICyIBNB9QgAAAAAAAAAAKiGwGDZQQ=="
+meta: 
+  timestamp_us: 1703084568386520
+  seq: 65309
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548363959213
+    lon: 2.10552963281
+    alt: 222.652
+    vel_e: 0.034
+    vel_n: -0.046
+    vel_u: 0.051
+    azi_track: 2.5050844378
+    speed: 0.057
+    status: 1
+    msg_type: 32
+    sat_num: 14
+    hdop: 38.75
+    rtk_age: 0.0
+    sec_in_gps_week: 313388.625
+    gps_week: 2293
+    utc_time: 1703084570.62
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 19, 24, 4, 36, 66, 63, 13, 56, 35, 45, 53, 9, 20, 41, 13, 30, 20, 60, 57, 46, 35, 52, 35, 14, 86, 55, 72, 43, 45, 27, 24, 51, 28, 12, 15, 44, 72, 49, 53]
+    sv_az: [41, 91, 293, 128, 265, 324, 179, 61, 352, 217, 199, 236, 139, 168, 55, 266, 281, 150, 310, 56, 245, 12, 139, 234, 199, 121, 253, 279, 226, 304, 316, 226, 52, 178, 118, 251, 305, 201, 165, 51, 142, 168]
+    sv_cno: [14, 0, 25, 21, 14, 0, 30, 12, 13, 0, 36, 0, 0, 29, 0, 0, 10, 0, 0, 0, 27, 0, 0, 0, 0, 0, 0, 19, 17, 13, 0, 0, 0, 32, 34, 25, 22, 34, 0, 0, 24, 25]
+    std_pe: 7.697
+    std_pn: 7.697
+    std_pu: 11.09
+    std_ve: 0.15
+    std_vn: 0.15
+    std_vu: 0.15
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:02:48 output: header: 
+  seq: 65309
+  stamp: 
+    secs: 1703084568
+    nsecs: 454112550
+  frame_id: "y3TeFeWL4T9ZSfVsRtgAQAAAAAAAAAAAnMQgsHJooT9aZDvfT42nv+kmMQisHKo/op6wtWkKBEDJdr6fGi+tPwEgDgAAAAAAAAAAAABgQ0AAAAAAAAAAAAAAAICyIBNB9QgAAAAAAAAAAKiGwGDZQQ=="
+meta: 
+  timestamp_us: 1703084568386520
+  seq: 65309
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548363959213
+    lon: 2.10552963281
+    alt: 222.652
+    vel_e: 0.034
+    vel_n: -0.046
+    vel_u: 0.051
+    azi_track: 2.5050844378
+    speed: 0.057
+    status: 1
+    msg_type: 32
+    sat_num: 14
+    hdop: 38.75
+    rtk_age: 0.0
+    sec_in_gps_week: 313388.625
+    gps_week: 2293
+    utc_time: 1703084570.62
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 19, 24, 4, 36, 66, 63, 13, 56, 35, 45, 53, 9, 20, 41, 13, 30, 20, 60, 57, 46, 35, 52, 35, 14, 86, 55, 72, 43, 45, 27, 24, 51, 28, 12, 15, 44, 72, 49, 53]
+    sv_az: [41, 91, 293, 128, 265, 324, 179, 61, 352, 217, 199, 236, 139, 168, 55, 266, 281, 150, 310, 56, 245, 12, 139, 234, 199, 121, 253, 279, 226, 304, 316, 226, 52, 178, 118, 251, 305, 201, 165, 51, 142, 168]
+    sv_cno: [14, 0, 25, 21, 14, 0, 30, 12, 13, 0, 36, 0, 0, 29, 0, 0, 10, 0, 0, 0, 27, 0, 0, 0, 0, 0, 0, 19, 17, 13, 0, 0, 0, 32, 34, 25, 22, 34, 0, 0, 24, 25]
+    std_pe: 7.697
+    std_pn: 7.697
+    std_pu: 11.09
+    std_ve: 0.15
+    std_vn: 0.15
+    std_vu: 0.15
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:02:48 lat: 0.548363959213
+2023-12-20 23:02:48 lon: 2.10552963281
+2023-12-20 23:02:50 Signal strength: 25
+2023-12-20 23:02:50 Network type: E-UTRA-NR dual(5G)
+2023-12-20 23:02:50 SIM state: READY
+2023-12-20 23:02:50 PING www.a.shifen.com (180.101.50.242) 56(84) bytes of data.
+2023-12-20 23:02:50 64 bytes from 180.101.50.242: icmp_seq=1 ttl=43 time=116 ms
+2023-12-20 23:02:50 64 bytes from 180.101.50.242: icmp_seq=2 ttl=43 time=137 ms
+2023-12-20 23:02:51 64 bytes from 180.101.50.242: icmp_seq=3 ttl=43 time=116 ms
+2023-12-20 23:02:51 
+2023-12-20 23:02:51 --- www.a.shifen.com ping statistics ---
+2023-12-20 23:02:51 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:02:51 rtt min/avg/max/mdev = 116.277/123.606/137.655/9.945 ms
+2023-12-20 23:02:51 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-20 23:02:51 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.279 ms
+2023-12-20 23:02:51 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.334 ms
+2023-12-20 23:02:52 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.243 ms
+2023-12-20 23:02:52 
+2023-12-20 23:02:52 --- 192.168.30.1 ping statistics ---
+2023-12-20 23:02:52 3 packets transmitted, 3 received, 0% packet loss, time 1026ms
+2023-12-20 23:02:52 rtt min/avg/max/mdev = 0.243/0.285/0.334/0.039 ms
+2023-12-20 23:02:52 PING 192.168.30.159 (192.168.30.159) 56(84) bytes of data.
+2023-12-20 23:02:52 64 bytes from 192.168.30.159: icmp_seq=1 ttl=64 time=116 ms
+2023-12-20 23:02:53 64 bytes from 192.168.30.159: icmp_seq=2 ttl=64 time=214 ms
+2023-12-20 23:02:53 64 bytes from 192.168.30.159: icmp_seq=3 ttl=64 time=329 ms
+2023-12-20 23:02:53 
+2023-12-20 23:02:53 --- 192.168.30.159 ping statistics ---
+2023-12-20 23:02:53 3 packets transmitted, 3 received, 0% packet loss, time 999ms
+2023-12-20 23:02:53 rtt min/avg/max/mdev = 116.171/219.955/329.526/87.198 ms
+2023-12-20 23:02:53 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-20 23:02:53 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=4.20 ms
+2023-12-20 23:02:54 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=7.12 ms
+2023-12-20 23:02:55 
+2023-12-20 23:02:55 --- 192.168.30.198 ping statistics ---
+2023-12-20 23:02:55 3 packets transmitted, 2 received, 33% packet loss, time 1001ms
+2023-12-20 23:02:55 rtt min/avg/max/mdev = 4.208/5.665/7.122/1.457 ms
+2023-12-20 23:02:55 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-20 23:02:55 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.024 ms
+2023-12-20 23:02:55 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.020 ms
+2023-12-20 23:02:56 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.044 ms
+2023-12-20 23:02:56 
+2023-12-20 23:02:56 --- 192.168.30.200 ping statistics ---
+2023-12-20 23:02:56 3 packets transmitted, 3 received, 0% packet loss, time 1009ms
+2023-12-20 23:02:56 rtt min/avg/max/mdev = 0.020/0.029/0.044/0.011 ms
+before docker
+after docker
+header: 
+  seq: 65376
+  stamp: 
+    secs: 1703084576
+    nsecs: 831692518
+  frame_id: "F8+IAeWL4T8Cwqu2RtgAQAAAAAAAAAAAeekmMQisfL8730+Nl26Cv1pkO99Pjac/4tZ/VMxrDkD6fmq8dJOIPwEgDwAAAAAA7FG4HoULQ0AAAAAAAAAAAAAAAADUIBNB9QgAAAAAAAAAAMCIwGDZQQ=="
+meta: 
+  timestamp_us: 1703084576761380
+  seq: 65376
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548363920816
+    lon: 2.10553018085
+    alt: 223.036
+    vel_e: -0.007
+    vel_n: -0.009
+    vel_u: 0.046
+    azi_track: 3.80263582244
+    speed: 0.012
+    status: 1
+    msg_type: 32
+    sat_num: 15
+    hdop: 38.09
+    rtk_age: 0.0
+    sec_in_gps_week: 313397.0
+    gps_week: 2293
+    utc_time: 1703084579.0
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 19, 24, 4, 36, 66, 63, 13, 56, 35, 45, 53, 9, 20, 41, 13, 30, 20, 60, 57, 46, 35, 52, 35, 14, 86, 55, 72, 43, 45, 27, 24, 51, 28, 12, 15, 44, 72, 49, 53]
+    sv_az: [41, 91, 293, 128, 265, 324, 179, 61, 352, 217, 199, 236, 139, 168, 55, 266, 281, 150, 310, 56, 244, 13, 139, 234, 199, 121, 253, 279, 226, 304, 316, 226, 52, 178, 118, 251, 305, 201, 165, 51, 142, 168]
+    sv_cno: [17, 0, 27, 20, 20, 0, 31, 15, 0, 0, 37, 0, 0, 29, 0, 0, 17, 0, 0, 0, 26, 9, 0, 0, 0, 0, 0, 20, 17, 16, 0, 0, 0, 33, 34, 27, 22, 34, 12, 0, 24, 26]
+    std_pe: 7.624
+    std_pn: 7.624
+    std_pu: 11.082
+    std_ve: 0.077
+    std_vn: 0.077
+    std_vu: 0.077
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:02:57 output: header: 
+  seq: 65376
+  stamp: 
+    secs: 1703084576
+    nsecs: 831692518
+  frame_id: "F8+IAeWL4T8Cwqu2RtgAQAAAAAAAAAAAeekmMQisfL8730+Nl26Cv1pkO99Pjac/4tZ/VMxrDkD6fmq8dJOIPwEgDwAAAAAA7FG4HoULQ0AAAAAAAAAAAAAAAADUIBNB9QgAAAAAAAAAAMCIwGDZQQ=="
+meta: 
+  timestamp_us: 1703084576761380
+  seq: 65376
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548363920816
+    lon: 2.10553018085
+    alt: 223.036
+    vel_e: -0.007
+    vel_n: -0.009
+    vel_u: 0.046
+    azi_track: 3.80263582244
+    speed: 0.012
+    status: 1
+    msg_type: 32
+    sat_num: 15
+    hdop: 38.09
+    rtk_age: 0.0
+    sec_in_gps_week: 313397.0
+    gps_week: 2293
+    utc_time: 1703084579.0
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 19, 24, 4, 36, 66, 63, 13, 56, 35, 45, 53, 9, 20, 41, 13, 30, 20, 60, 57, 46, 35, 52, 35, 14, 86, 55, 72, 43, 45, 27, 24, 51, 28, 12, 15, 44, 72, 49, 53]
+    sv_az: [41, 91, 293, 128, 265, 324, 179, 61, 352, 217, 199, 236, 139, 168, 55, 266, 281, 150, 310, 56, 244, 13, 139, 234, 199, 121, 253, 279, 226, 304, 316, 226, 52, 178, 118, 251, 305, 201, 165, 51, 142, 168]
+    sv_cno: [17, 0, 27, 20, 20, 0, 31, 15, 0, 0, 37, 0, 0, 29, 0, 0, 17, 0, 0, 0, 26, 9, 0, 0, 0, 0, 0, 20, 17, 16, 0, 0, 0, 33, 34, 27, 22, 34, 12, 0, 24, 26]
+    std_pe: 7.624
+    std_pn: 7.624
+    std_pu: 11.082
+    std_ve: 0.077
+    std_vn: 0.077
+    std_vu: 0.077
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:02:57 lat: 0.548363920816
+2023-12-20 23:02:57 lon: 2.10553018085
+2023-12-20 23:02:58 SIM state: READY
+2023-12-20 23:02:58 Signal strength: 25
+2023-12-20 23:02:58 Network type: E-UTRA-NR dual(5G)
+2023-12-20 23:02:59 PING www.a.shifen.com (180.101.50.242) 56(84) bytes of data.
+2023-12-20 23:02:59 64 bytes from 180.101.50.242: icmp_seq=1 ttl=43 time=157 ms
+2023-12-20 23:02:59 64 bytes from 180.101.50.242: icmp_seq=2 ttl=43 time=137 ms
+2023-12-20 23:03:00 64 bytes from 180.101.50.242: icmp_seq=3 ttl=43 time=139 ms
+2023-12-20 23:03:00 
+2023-12-20 23:03:00 --- www.a.shifen.com ping statistics ---
+2023-12-20 23:03:00 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-20 23:03:00 rtt min/avg/max/mdev = 137.897/144.843/157.108/8.703 ms
+2023-12-20 23:03:00 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-20 23:03:00 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.285 ms
+2023-12-20 23:03:00 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.236 ms
+2023-12-20 23:03:01 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.456 ms
+2023-12-20 23:03:01 
+2023-12-20 23:03:01 --- 192.168.30.1 ping statistics ---
+2023-12-20 23:03:01 3 packets transmitted, 3 received, 0% packet loss, time 1016ms
+2023-12-20 23:03:01 rtt min/avg/max/mdev = 0.236/0.325/0.456/0.096 ms
+2023-12-20 23:03:01 PING 192.168.30.159 (192.168.30.159) 56(84) bytes of data.
+2023-12-20 23:03:01 64 bytes from 192.168.30.159: icmp_seq=1 ttl=64 time=111 ms
+2023-12-20 23:03:01 64 bytes from 192.168.30.159: icmp_seq=2 ttl=64 time=225 ms
+2023-12-20 23:03:02 64 bytes from 192.168.30.159: icmp_seq=3 ttl=64 time=339 ms
+2023-12-20 23:03:02 
+2023-12-20 23:03:02 --- 192.168.30.159 ping statistics ---
+2023-12-20 23:03:02 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:03:02 rtt min/avg/max/mdev = 111.195/225.306/339.047/93.022 ms
+2023-12-20 23:03:02 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-20 23:03:02 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=2.40 ms
+2023-12-20 23:03:02 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=4.02 ms
+2023-12-20 23:03:03 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=3.10 ms
+2023-12-20 23:03:03 
+2023-12-20 23:03:03 --- 192.168.30.198 ping statistics ---
+2023-12-20 23:03:03 3 packets transmitted, 3 received, 0% packet loss, time 1000ms
+2023-12-20 23:03:03 rtt min/avg/max/mdev = 2.400/3.175/4.025/0.665 ms
+2023-12-20 23:03:03 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-20 23:03:03 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.018 ms
+2023-12-20 23:03:04 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.024 ms
+2023-12-20 23:03:04 64 bytes from 192.168.30.200: icmp_seq=3 ttl=64 time=0.036 ms
+2023-12-20 23:03:04 
+2023-12-20 23:03:04 --- 192.168.30.200 ping statistics ---
+2023-12-20 23:03:04 3 packets transmitted, 3 received, 0% packet loss, time 1026ms
+2023-12-20 23:03:04 rtt min/avg/max/mdev = 0.018/0.026/0.036/0.007 ms
+before docker
+after docker
+header: 
+  seq: 65443
+  stamp: 
+    secs: 1703084585
+    nsecs: 204425403
+  frame_id: "9jeQLuSL4T/8BaUIR9gAQAAAAAAAAAAApHA9CtejsD9KDAIrhxa5v7gehetRuK4/ux1rJZVyBEDByqFFtvO9PwEgDgAAAAAAmpmZmZm5QkAAAAAAAAAAAAAAAID1IBNB9QgAAAAAAAAAANiKwGDZQQ=="
+meta: 
+  timestamp_us: 1703084585136240
+  seq: 65443
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548363531608
+    lon: 2.10553079346
+    alt: 223.192
+    vel_e: 0.065
+    vel_n: -0.098
+    vel_u: 0.06
+    azi_track: 2.55594853624
+    speed: 0.117
+    status: 1
+    msg_type: 32
+    sat_num: 14
+    hdop: 37.45
+    rtk_age: 0.0
+    sec_in_gps_week: 313405.375
+    gps_week: 2293
+    utc_time: 1703084587.38
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 19, 24, 4, 36, 66, 63, 13, 56, 35, 45, 53, 9, 20, 41, 13, 30, 20, 60, 57, 46, 35, 52, 35, 14, 86, 55, 72, 43, 45, 27, 24, 51, 28, 12, 15, 44, 72, 49, 53]
+    sv_az: [41, 91, 293, 128, 265, 324, 179, 61, 352, 217, 199, 236, 139, 168, 55, 266, 281, 150, 310, 56, 244, 13, 139, 234, 199, 121, 253, 275, 226, 304, 316, 226, 52, 178, 118, 251, 305, 201, 165, 51, 142, 168]
+    sv_cno: [13, 0, 20, 20, 21, 0, 31, 16, 0, 0, 36, 0, 0, 29, 0, 0, 13, 0, 0, 0, 27, 0, 0, 0, 0, 0, 0, 20, 13, 12, 0, 0, 0, 34, 33, 16, 20, 33, 8, 0, 24, 25]
+    std_pe: 7.613
+    std_pn: 7.613
+    std_pu: 11.086
+    std_ve: 0.202
+    std_vn: 0.202
+    std_vu: 0.202
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:03:05 output: header: 
+  seq: 65443
+  stamp: 
+    secs: 1703084585
+    nsecs: 204425403
+  frame_id: "9jeQLuSL4T/8BaUIR9gAQAAAAAAAAAAApHA9CtejsD9KDAIrhxa5v7gehetRuK4/ux1rJZVyBEDByqFFtvO9PwEgDgAAAAAAmpmZmZm5QkAAAAAAAAAAAAAAAID1IBNB9QgAAAAAAAAAANiKwGDZQQ=="
+meta: 
+  timestamp_us: 1703084585136240
+  seq: 65443
+info: 
+  available: 3
+  gnss_data_basic: 
+    lat: 0.548363531608
+    lon: 2.10553079346
+    alt: 223.192
+    vel_e: 0.065
+    vel_n: -0.098
+    vel_u: 0.06
+    azi_track: 2.55594853624
+    speed: 0.117
+    status: 1
+    msg_type: 32
+    sat_num: 14
+    hdop: 37.45
+    rtk_age: 0.0
+    sec_in_gps_week: 313405.375
+    gps_week: 2293
+    utc_time: 1703084587.38
+  gnss_data_extend: 
+    sv_num: 42
+    sv_id: [3, 4, 6, 9, 11, 12, 14, 17, 19, 20, 22, 128, 129, 137, 7, 10, 12, 19, 24, 26, 31, 33, 1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 19, 21, 22, 24, 25, 26, 2, 3, 4, 7]
+    sv_elv: [24, 17, 50, 19, 24, 4, 36, 66, 63, 13, 56, 35, 45, 53, 9, 20, 41, 13, 30, 20, 60, 57, 46, 35, 52, 35, 14, 86, 55, 72, 43, 45, 27, 24, 51, 28, 12, 15, 44, 72, 49, 53]
+    sv_az: [41, 91, 293, 128, 265, 324, 179, 61, 352, 217, 199, 236, 139, 168, 55, 266, 281, 150, 310, 56, 244, 13, 139, 234, 199, 121, 253, 275, 226, 304, 316, 226, 52, 178, 118, 251, 305, 201, 165, 51, 142, 168]
+    sv_cno: [13, 0, 20, 20, 21, 0, 31, 16, 0, 0, 36, 0, 0, 29, 0, 0, 13, 0, 0, 0, 27, 0, 0, 0, 0, 0, 0, 20, 13, 12, 0, 0, 0, 34, 33, 16, 20, 33, 8, 0, 24, 25]
+    std_pe: 7.613
+    std_pn: 7.613
+    std_pu: 11.086
+    std_ve: 0.202
+    std_vn: 0.202
+    std_vu: 0.202
+    dual_antenna_azimuth: 0.0
+    pdop: 0.0
+    vdop: 0.0
+    fix_type: 0
+    alt_msl: 0.0
+---
+2023-12-20 23:03:05 lat: 0.548363531608
+2023-12-20 23:03:05 lon: 2.10553079346
+2023-12-20 23:03:06 SIM state: READY
+2023-12-20 23:03:06 Signal strength: 25
+2023-12-20 23:03:06 Network type: E-UTRA-NR dual(5G)
+2023-12-20 23:03:07 PING www.a.shifen.com (180.101.50.242) 56(84) bytes of data.
+2023-12-20 23:03:07 64 bytes from 180.101.50.242: icmp_seq=1 ttl=43 time=117 ms
+2023-12-20 23:03:07 64 bytes from 180.101.50.242: icmp_seq=2 ttl=43 time=140 ms
+2023-12-20 23:03:08 64 bytes from 180.101.50.242: icmp_seq=3 ttl=43 time=118 ms
+2023-12-20 23:03:08 
+2023-12-20 23:03:08 --- www.a.shifen.com ping statistics ---
+2023-12-20 23:03:08 3 packets transmitted, 3 received, 0% packet loss, time 999ms
+2023-12-20 23:03:08 rtt min/avg/max/mdev = 117.888/125.321/140.023/10.396 ms
+2023-12-20 23:03:08 PING 192.168.30.1 (192.168.30.1) 56(84) bytes of data.
+2023-12-20 23:03:08 64 bytes from 192.168.30.1: icmp_seq=1 ttl=64 time=0.308 ms
+2023-12-20 23:03:08 64 bytes from 192.168.30.1: icmp_seq=2 ttl=64 time=0.286 ms
+2023-12-20 23:03:09 64 bytes from 192.168.30.1: icmp_seq=3 ttl=64 time=0.250 ms
+2023-12-20 23:03:09 
+2023-12-20 23:03:09 --- 192.168.30.1 ping statistics ---
+2023-12-20 23:03:09 3 packets transmitted, 3 received, 0% packet loss, time 1036ms
+2023-12-20 23:03:09 rtt min/avg/max/mdev = 0.250/0.281/0.308/0.027 ms
+2023-12-20 23:03:09 PING 192.168.30.159 (192.168.30.159) 56(84) bytes of data.
+2023-12-20 23:03:09 64 bytes from 192.168.30.159: icmp_seq=1 ttl=64 time=324 ms
+2023-12-20 23:03:09 64 bytes from 192.168.30.159: icmp_seq=2 ttl=64 time=7.85 ms
+2023-12-20 23:03:10 64 bytes from 192.168.30.159: icmp_seq=3 ttl=64 time=39.0 ms
+2023-12-20 23:03:10 
+2023-12-20 23:03:10 --- 192.168.30.159 ping statistics ---
+2023-12-20 23:03:10 3 packets transmitted, 3 received, 0% packet loss, time 1002ms
+2023-12-20 23:03:10 rtt min/avg/max/mdev = 7.856/123.859/324.636/142.542 ms
+2023-12-20 23:03:10 PING 192.168.30.198 (192.168.30.198) 56(84) bytes of data.
+2023-12-20 23:03:10 64 bytes from 192.168.30.198: icmp_seq=1 ttl=128 time=2.42 ms
+2023-12-20 23:03:10 64 bytes from 192.168.30.198: icmp_seq=2 ttl=128 time=3.94 ms
+2023-12-20 23:03:11 64 bytes from 192.168.30.198: icmp_seq=3 ttl=128 time=6.27 ms
+2023-12-20 23:03:11 
+2023-12-20 23:03:11 --- 192.168.30.198 ping statistics ---
+2023-12-20 23:03:11 3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+2023-12-20 23:03:11 rtt min/avg/max/mdev = 2.426/4.216/6.279/1.585 ms
+2023-12-20 23:03:11 PING 192.168.30.200 (192.168.30.200) 56(84) bytes of data.
+2023-12-20 23:03:11 64 bytes from 192.168.30.200: icmp_seq=1 ttl=64 time=0.027 ms
+2023-12-20 23:03:11 64 bytes from 192.168.30.200: icmp_seq=2 ttl=64 time=0.040 ms
