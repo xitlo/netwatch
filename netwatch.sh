@@ -7,9 +7,9 @@ temp_file="${log_dir}/nmap_results.txt"
 # 删除最后一次修改在十天之前的日志文件
 find ${log_dir} -type f -name "netwatch_*" -mtime +10 -delete
 
-# 延迟
-#sleep 300
-scan_count=5  # 设置你想要进行nmap扫描的次数
+# 延迟,确保所有环境已经起来
+sleep 300
+scan_count=10  # 设置你想要进行nmap扫描的次数，还是会有nmap不到的可能，增大循环次数
 
 
 # 提取默认网关的IP地址，并只取前三部分作为网段
