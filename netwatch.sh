@@ -8,7 +8,7 @@ temp_file="${log_dir}/nmap_results.txt"
 find ${log_dir} -type f -name "netwatch_*" -mtime +10 -delete
 
 # 延迟,确保所有环境已经起来
-sleep 300
+sleep 60
 scan_count=10  # 设置你想要进行nmap扫描的次数，还是会有nmap不到的可能，增大循环次数
 
 
@@ -28,7 +28,7 @@ done
 sort -u "${temp_file}" -o "${temp_file}"
 
 
-nmap -sn "${network_segment}.0/24" | grep 'Nmap scan report for' | awk '{print $5}' > "${temp_file}"
+# nmap -sn "${network_segment}.0/24" | grep 'Nmap scan report for' | awk '{print $5}' > "${temp_file}"
 
 
 # 为每个IP执行 ping 操作，并将输出追加到文件中
