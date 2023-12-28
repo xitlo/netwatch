@@ -96,23 +96,20 @@ class UsrClient:
 
         body_text = resp.text.replace("\n", "")
         body_text_utf8 = body_text.encode('latin1').decode('utf-8')  # Assuming the original encoding is latin1, then convert to utf-8
-
         # Updated pattern to match the provided HTML structure
         #pattern = r'<td width="50%">.*?</td><td>(.*?)(?:<tr>|</table>)'
         pattern = r'<td width="50%">.*?</td><td>(.*?)(?:</td><td><tr>|<tr>|</table>)'
         matches = re.findall(pattern, body_text_utf8)
-        #print(matches)
-        #mlen=len(matches)
-        #print(mlen)
-        #if len(matches) < 13:
-            # Log info and raise exception if not enough data is found
-         #   raise Exception("Failed to read SIM card information")
+
+        sim_state_match =re.findall(r"SIM卡状态:</td><td>(.+?)<tr>", body_text_utf8)
+        network_type_match = re.findall(r"网络类型:</td><td>(.+?)<tr>", body_text_utf8)
+        signal_strength_match = re.findall(r"信号强度:</td><td>(.+?)<tr>", body_text_utf8)
 
         # Assigning values to the report dictionary based on the order in the matches list
         report = {
-            'SIM state': matches[3],
-            'Network type': matches[9],
-            'Signal strength': matches[10],
+            'SIM state': sim_state_match[0],
+            'Network type': network_type_match[0],
+            'Signal strength': signal_strength_match[0],
         }
 
         return report

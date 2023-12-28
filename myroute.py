@@ -94,37 +94,59 @@ class UsrClient:
 
         body_text = resp.text.replace("\n", "")
         body_text_utf8 = body_text.encode('latin1').decode('utf-8')  # Assuming the original encoding is latin1, then convert to utf-8
-
-        # Updated pattern to match the provided HTML structure
-        #pattern = r'<td width="50%">.*?</td><td>(.*?)(?:<tr>|</table>)'
         pattern = r'<td width="50%">.*?</td><td>(.*?)(?:</td><td><tr>|<tr>|</table>)'
         matches = re.findall(pattern, body_text_utf8)
-        #print(matches)
-        #mlen=len(matches)
-        #print(mlen)
-        #if len(matches) < 13:
-            # Log info and raise exception if not enough data is found
-         #   raise Exception("Failed to read SIM card information")
 
+        sim_state_match =re.findall(r"SIM卡状态:</td><td>(.+?)<tr>", body_text_utf8)
+        network_type_match = re.findall(r"网络类型:</td><td>(.+?)<tr>", body_text_utf8)
+        signal_strength_match = re.findall(r"信号强度:</td><td>(.+?)<tr>", body_text_utf8)
+        version_match =re.findall(r"版本号:</td><td>(.+?)<tr>", body_text_utf8)
+        series_match = re.findall(r"工厂序列号:</td><td>(.+?)<tr>", body_text_utf8)
+        imei_match = re.findall(r"IMEI号:</td><td>(.+?)<tr>", body_text_utf8)
+        cimi_match =re.findall(r"CIMI号:</td><td>(.+?)<tr>", body_text_utf8)
+        iccid_match = re.findall(r"SIM卡ICCID:</td><td>(.+?)<tr>", body_text_utf8)
+        attach_match = re.findall(r"附着状态:</td><td>(.+?)<tr>", body_text_utf8)
+        ip_match =re.findall(r"IP地址:</td><td>(.+?)<tr>", body_text_utf8)
+        operation_match = re.findall(r"运营商信息:</td><td>(.+?)<tr>", body_text_utf8)
+        location_match = re.findall(r"位置区号:</td><td>(.+?)<tr>", body_text_utf8)
+        cell_id_match = re.findall(r"小区ID:</td><td>(.+?)<tr>", body_text_utf8)
+    
         # Assigning values to the report dictionary based on the order in the matches list
+        # report = {
+        #     'Version': matches[0],
+        #     'SerialNumber': matches[1],
+        #     'IMEI': matches[2],
+        #     'SIM state': sim_state_match[0],
+        #     'CIMI': matches[4],
+        #     'ICCID': matches[5],
+        #     'Attachment status': matches[6],
+        #     'OperationsInfo': matches[8],
+        #     'IP address': matches[7],
+        #     'Network type': network_type_match[0],
+        #     'Signal strength': signal_strength_match[0],
+        #     'Location area code': matches[11],
+        #     'Cell ID': matches[12],
+        #     'RouterType': "usr",
+        #     'SimValid': True,  # Assuming SIM validity needs to be set as True
+        # }
+
         report = {
             'Version': matches[0],
-            'SerialNumber': matches[1],
-            'IMEI': matches[2],
-            'SIM state': matches[3],
-            'CIMI': matches[4],
-            'ICCID': matches[5],
-            'Attachment status': matches[6],
-            'OperationsInfo': matches[8],
-            'IP address': matches[7],
-            'Network type': matches[9],
-            'Signal strength': matches[10],
-            'Location area code': matches[11],
+            'SerialNumber': series_match[0],
+            'IMEI': imei_match[0],
+            'SIM state': sim_state_match[0],
+            'CIMI': cimi_match[0],
+            'ICCID': iccid_match[0],
+            'Attachment status': attach_match[0],
+            'OperationsInfo': operation_match[0],
+            'IP address': ip_match[0],
+            'Network type': network_type_match[0],
+            'Signal strength': signal_strength_match[0],
+            'Location area code': location_match[0],
             'Cell ID': matches[12],
             'RouterType': "usr",
             'SimValid': True,  # Assuming SIM validity needs to be set as True
         }
-
         return report
 
 if __name__ == "__main__":
