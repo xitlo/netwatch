@@ -15,7 +15,7 @@ GNSS_TOPIC="/mb/sensor/gnss_rtk"
 # Number of messages to echo from the ROS topic.
 MESSAGE_COUNT=1
 # Execute a command in the Docker container to retrieve the full GNSS RTK topic data (removing -it for non-interactive mode).
-OUTPUT=$(docker exec -i $CONTAINER_NAME bash -c "source /root/catkin_ws/install/setup.bash && rostopic echo -n $MESSAGE_COUNT $GNSS_TOPIC")
+OUTPUT=$(docker exec $CONTAINER_NAME bash -c "source /root/catkin_ws/install/setup.bash && rostopic echo -n $MESSAGE_COUNT $GNSS_TOPIC")
 # Print the full output for debugging purposes.
 
 # Parse the output to extract the latitude and longitude fields.
