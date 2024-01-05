@@ -1,8 +1,4 @@
 
-
-
-
-
 import subprocess
 import os
 import sys
@@ -110,25 +106,6 @@ class UsrClient:
         operation_match = re.findall(r"运营商信息:</td><td>(.+?)<tr>", body_text_utf8)
         location_match = re.findall(r"位置区号:</td><td>(.+?)<tr>", body_text_utf8)
         cell_id_match = re.findall(r"小区ID:</td><td>(.+?)<tr>", body_text_utf8)
-    
-        # Assigning values to the report dictionary based on the order in the matches list
-        # report = {
-        #     'Version': matches[0],
-        #     'SerialNumber': matches[1],
-        #     'IMEI': matches[2],
-        #     'SIM state': sim_state_match[0],
-        #     'CIMI': matches[4],
-        #     'ICCID': matches[5],
-        #     'Attachment status': matches[6],
-        #     'OperationsInfo': matches[8],
-        #     'IP address': matches[7],
-        #     'Network type': network_type_match[0],
-        #     'Signal strength': signal_strength_match[0],
-        #     'Location area code': matches[11],
-        #     'Cell ID': matches[12],
-        #     'RouterType': "usr",
-        #     'SimValid': True,  # Assuming SIM validity needs to be set as True
-        # }
 
         report = {
             'Version': matches[0],
@@ -151,6 +128,7 @@ class UsrClient:
 
 if __name__ == "__main__":
     ip = get_default_gateway()
+    # ip = '192.168.1.1'
     if ip is None:
         sys.exit(1)
 
@@ -170,12 +148,6 @@ if __name__ == "__main__":
     except Exception as e:
         print(str(e))
         sys.exit(1)
-    # You need to implement the report logic here
-    # if rp.ICCID == "":
-    #     print("无法获取ICCID")
-    #     sys.exit(1)
-    # err = rp.Report()
-    # if err is not None:
-    #     print(err)
-    #     sys.exit(1)
+
+
 

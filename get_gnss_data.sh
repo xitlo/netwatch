@@ -1,8 +1,5 @@
 
 
-
-
-
 #!/bin/bash
 #this script enters a Docker container and retrieves latitude and longitude data from a GNSS RTK topic.
 
@@ -28,3 +25,5 @@ TIMESTAMP=$(date +"%Y-%m-%d %H:%M:%S")
 # Print the extracted latitude, longitude, and timestamp values.
 echo "$(date +"%Y-%m-%d %H:%M:%S") lat: $LATITUDE"
 echo "$(date +"%Y-%m-%d %H:%M:%S") lon: $LONGITUDE"
+echo "$(date +"%Y-%m-%d %H:%M:%S"), $LATITUDE, $LONGITUDE"
+#echo "$(date +"%Y-%m-%d %H:%M:%S") lon: $LONGITUDE"

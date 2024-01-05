@@ -1,7 +1,4 @@
 
-
-
-
 import subprocess
 import os
 import sys
@@ -96,14 +93,22 @@ class UsrClient:
 
         body_text = resp.text.replace("\n", "")
         body_text_utf8 = body_text.encode('latin1').decode('utf-8')  # Assuming the original encoding is latin1, then convert to utf-8
-        # Updated pattern to match the provided HTML structure
-        #pattern = r'<td width="50%">.*?</td><td>(.*?)(?:<tr>|</table>)'
         pattern = r'<td width="50%">.*?</td><td>(.*?)(?:</td><td><tr>|<tr>|</table>)'
         matches = re.findall(pattern, body_text_utf8)
 
         sim_state_match =re.findall(r"SIM卡状态:</td><td>(.+?)<tr>", body_text_utf8)
         network_type_match = re.findall(r"网络类型:</td><td>(.+?)<tr>", body_text_utf8)
         signal_strength_match = re.findall(r"信号强度:</td><td>(.+?)<tr>", body_text_utf8)
+        version_match =re.findall(r"版本号:</td><td>(.+?)<tr>", body_text_utf8)
+        series_match = re.findall(r"工厂序列号:</td><td>(.+?)<tr>", body_text_utf8)
+        imei_match = re.findall(r"IMEI号:</td><td>(.+?)<tr>", body_text_utf8)
+        cimi_match =re.findall(r"CIMI号:</td><td>(.+?)<tr>", body_text_utf8)
+        iccid_match = re.findall(r"SIM卡ICCID:</td><td>(.+?)<tr>", body_text_utf8)
+        attach_match = re.findall(r"附着状态:</td><td>(.+?)<tr>", body_text_utf8)
+        ip_match =re.findall(r"IP地址:</td><td>(.+?)<tr>", body_text_utf8)
+        operation_match = re.findall(r"运营商信息:</td><td>(.+?)<tr>", body_text_utf8)
+        location_match = re.findall(r"位置区号:</td><td>(.+?)<tr>", body_text_utf8)
+        cell_id_match = re.findall(r"小区ID:</td><td>(.+?)<tr>", body_text_utf8)
 
         # Assigning values to the report dictionary based on the order in the matches list
         report = {
@@ -117,6 +122,7 @@ class UsrClient:
 
 if __name__ == "__main__":
     ip = get_default_gateway()
+    # ip = '192.168.1.1'
     if ip is None:
         sys.exit(1)
 
@@ -132,7 +138,8 @@ if __name__ == "__main__":
         print("{0} router ip : {1}".format(timestamp, ip))
         for key, value in router_report.items():
             print("{0} {1}: {2}".format(timestamp, key, value))
-            sys.stdout.flush()
+        print("%s, %s, %s"%(router_report['SIM state'], router_report['Network type'], router_report['Signal strength']))
+        sys.stdout.flush()
     except Exception as e:
         print(str(e))
         sys.exit(1)
